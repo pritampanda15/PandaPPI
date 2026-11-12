@@ -1,0 +1,64 @@
+======================================================================
+PandaPPI interaction report
+======================================================================
+Structure          : 1BJ1.pdb
+Total interactions : 2862
+Residues involved  : 264
+
+Interactions by type (count, distance in Å)
+----------------------------------------------------------------------
+                     size  mean   min   max
+Interaction_Type                           
+Van der Waals        2500  4.13  2.56  4.89
+Hydrophobic           101  3.93  3.43  4.50
+Hydrogen bond          85  3.12  2.56  3.49
+Amide-amide            54  3.59  2.76  4.50
+CH-pi                  49  4.01  3.27  4.50
+Water-mediated         42   NaN   NaN   NaN
+Amide-aromatic         14  4.17  3.91  4.50
+Cation-pi               9  4.10  3.91  4.47
+Salt bridge / ionic     6  3.46  2.69  4.24
+Sulfur-aromatic         2  4.34  4.31  4.36
+
+Interactions by chain pair
+----------------------------------------------------------------------
+Interaction_Type  Amide-amide  Amide-aromatic  CH-pi  Cation-pi  Hydrogen bond  Hydrophobic  Salt bridge / ionic  Sulfur-aromatic  Van der Waals  Water-mediated  Total
+row_0                                                                                                                                                                  
+H-L                         5               1     21          2             18           31                    2                0            535              20    635
+J-K                         7               1     23          2             15           35                    0                0            521               8    612
+V-W                        12               0      2          0             15           26                    4                0            518               3    580
+K-V                        15               6      0          3             20            5                    0                1            444               5    499
+H-W                        13               6      3          2             17            4                    0                1            431               0    477
+L-W                         1               0      0          0              0            0                    0                0             24               3     28
+J-V                         1               0      0          0              0            0                    0                0             18               2     21
+H-V                         0               0      0          0              0            0                    0                0              5               1      6
+K-W                         0               0      0          0              0            0                    0                0              4               0      4
+
+Top hotspot residues
+----------------------------------------------------------------------
+Chain Residue  Total
+    K TYR 102    121
+    H TYR 102    117
+    V  GLN 89    102
+    W  GLN 89    101
+    H TRP 108    101
+    K TRP 108     97
+    V  ILE 91     74
+    L  TRP 96     70
+    W  ILE 91     70
+    J  TRP 96     68
+    V  HIS 90     68
+    W  HIS 90     67
+    V  GLN 79     65
+    W  PHE 17     65
+    K  TRP 47     62
+    H  TRP 47     60
+    V  PHE 17     58
+    H PHE 176     56
+    J PHE 118     56
+    W  GLN 79     56
+    K PHE 176     56
+    H HIS 107     54
+    K  TRP 50     54
+    L  TYR 91     53
+    W  GLN 87     53

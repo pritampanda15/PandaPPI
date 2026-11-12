@@ -1,36 +1,36 @@
-# PandaProt
+# PandaPPI
 
 A comprehensive Python application for mapping and visualizing molecular interactions at protein/nucleic acid interfaces. A tool for mapping protein-protein, protein-nucleic acid, and antigen-antibody interactions.
 
 <p align="center">
-  <img src="https://github.com/pritampanda15/PandaProt/blob/main/logo/logo.png" alt="PandaProt Logo" width="400"> 
+  <img src="https://github.com/pritampanda15/PandaPPI/blob/main/logo/logo.png" alt="PandaPPI Logo" width="400"> 
 </p>
 <p align="center">
-  <a href="https://pypi.org/project/pandaprot/">
-    <img src="https://img.shields.io/pypi/v/pandaprot.svg" alt="PyPI Version">
+  <a href="https://pypi.org/project/pandappi/">
+    <img src="https://img.shields.io/pypi/v/pandappi.svg" alt="PyPI Version">
   </a>
-  <a href="https://github.com/pritampanda15/PandaProt/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/pritampanda15/PandaProt" alt="License">
+  <a href="https://github.com/pritampanda15/PandaPPI/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/pritampanda15/PandaPPI" alt="License">
   </a>
-  <a href="https://github.com/pritampanda15/PandaProt/stargazers">
-    <img src="https://img.shields.io/github/stars/pritampanda15/PandaProt?style=social" alt="GitHub Stars">
+  <a href="https://github.com/pritampanda15/PandaPPI/stargazers">
+    <img src="https://img.shields.io/github/stars/pritampanda15/PandaPPI?style=social" alt="GitHub Stars">
   </a>
-  <a href="https://github.com/pritampanda15/PandaProt/issues">
-    <img src="https://img.shields.io/github/issues/pritampanda15/PandaProt" alt="GitHub Issues">
+  <a href="https://github.com/pritampanda15/PandaPPI/issues">
+    <img src="https://img.shields.io/github/issues/pritampanda15/PandaPPI" alt="GitHub Issues">
   </a>
-  <a href="https://github.com/pritampanda15/PandaProt/network/members">
-    <img src="https://img.shields.io/github/forks/pritampanda15/PandaProt?style=social" alt="GitHub Forks">
+  <a href="https://github.com/pritampanda15/PandaPPI/network/members">
+    <img src="https://img.shields.io/github/forks/pritampanda15/PandaPPI?style=social" alt="GitHub Forks">
   </a>
-  <a href="https://libraries.io/pypi/pandaprot">
-    <img src="https://img.shields.io/librariesio/release/pypi/pandaprot" alt="Libraries.io dependency status">
+  <a href="https://libraries.io/pypi/pandappi">
+    <img src="https://img.shields.io/librariesio/release/pypi/pandappi" alt="Libraries.io dependency status">
   </a>
   <!-- Custom Project Badge -->
-  <a href="https://github.com/pritampanda15/PandaProt">
+  <a href="https://github.com/pritampanda15/PandaPPI">
     <img src="https://img.shields.io/badge/made%20with-%F0%9F%90%BC%20PandaDock-green" alt="Made with PandaDock">
   </a>
   <!-- Custom Install Count (Mocked) -->
-    <a href="https://pepy.tech/project/pandaprot">
-    <img src="https://static.pepy.tech/badge/pandaprot" alt="Downloads">
+    <a href="https://pepy.tech/project/pandappi">
+    <img src="https://static.pepy.tech/badge/pandappi" alt="Downloads">
   </a>
 
 </a>
@@ -38,9 +38,74 @@ A comprehensive Python application for mapping and visualizing molecular interac
   </a>
 </p>
 
+## What you get
+
+One command turns a PDB file into a full interface analysis:
+
+```bash
+pandappi 1BJ1.pdb --chains L H V W J K --all-outputs -o antigen_antibody
+```
+
+| Output | File |
+|--------|------|
+| Interface report per chain pair (map, contact types, distances, residue profile, buried surface) | `<prefix>_interface_<A>-<B>.png` |
+| Atom-level 3D contacts per chain pair | `<prefix>_contacts3d_<A>-<B>.png` |
+| Contact map only (`--map`) | `<prefix>_map_<A>-<B>.png` |
+| Summary dashboard | `<prefix>_dashboard.png` |
+| Self-contained HTML report (figures + tables) | `<prefix>_report.html` |
+| Text report | `<prefix>_report.txt` |
+| Interaction table / per-residue counts | `<prefix>_report.csv`, `<prefix>_residue_summary.csv` |
+| Residue interaction network | `<prefix>_network.png`, `<prefix>_network.gml` |
+| Interactive 3D view | `<prefix>_3d.html` |
+| PyMOL / Chimera / VMD / Mol* scripts | `<prefix>.pml`, `.cmd`, `.tcl`, `.molj` |
+
+### Interface reports
+
+Every chain pair gets a one-page figure: (a) residue contact map with a badge per interaction type, (b) contacts by type, (c) contact distances, (d) which residue makes which kind of contact, and (e) the residues that bury the most surface on binding. The header gives contact counts, the closest hydrogen bond and the buried surface area of the interface.
+
+<p align="center">
+  <img src="test/antigen_antibody/antigen_antibody_interface_H-W.png" alt="Interface report for antibody heavy chain H and antigen chain W in 1BJ1: contact map, contacts by type, distances, residue profile and buried residues" width="860">
+</p>
+
+### Peptides and oligonucleotides
+
+When one chain of a pair has 30 residues or fewer, the map switches to a PandaMap-style layout: the short chain is drawn as a backbone in the centre and its partner's residues are arranged around it.
+
+<p align="center">
+  <img src="test/protein-nucleicacid/protein_DNA_interface_A-N.png" alt="Interface report for protein chain A and DNA strand N in 3L1P, with the DNA strand drawn in the centre" width="860">
+</p>
+
+The same layout for a peptide (`--map` output; here a 16-residue antigen loop cut out of 1BJ1 and treated as a peptide bound to the antibody heavy chain):
+
+<p align="center">
+  <img src="docs/peptide_map_example.png" alt="Radial peptide map: a 16-residue peptide backbone in the centre with antibody heavy-chain residues arranged around it" width="760">
+</p>
+
+### 3D contacts view
+
+The atom-level picture of the same interface: real side-chain geometry projected along the interface, the contacting atoms named, and each contact drawn with its true distance.
+
+<p align="center">
+  <img src="test/antigen_antibody/antigen_antibody_contacts3d_H-W.png" alt="Atom-level 3D contacts between antibody heavy chain H and antigen chain W: side chains as sticks, contacting atoms as labelled dots, contact lines with distances" width="820">
+</p>
+
+### Summary dashboard
+
+<p align="center">
+  <img src="test/antigen_antibody/antigen_antibody_dashboard.png" alt="Dashboard with interaction counts, chain contact matrix, distance distributions and hotspot residues" width="820">
+</p>
+
+### Residue interaction network
+
+<p align="center">
+  <img src="test/antigen_antibody/antigen_antibody_network.png" alt="Residue interaction network coloured by chain and interaction type" width="720">
+</p>
+
+Complete example outputs for an antibody-antigen complex, a protein-DNA complex and a protein-DNA-ligand complex are in [`test/`](test/).
+
 ### Comprehensive Interaction Mapping
 
-PandaProt can detect and analyze a comprehensive set of molecular interactions that occur in protein/DNA structures:
+PandaPPI can detect and analyze a comprehensive set of molecular interactions that occur in protein/DNA structures:
 
 **Standard Interactions:**
 - **Hydrogen Bonds**: Between hydrogen donors and acceptors (N-H···O, O-H···O, etc.)
@@ -65,28 +130,35 @@ PandaProt can detect and analyze a comprehensive set of molecular interactions t
 ### Intuitive Visualization
 
 - **Interactive 3D Visualization**: Color-coded display of interactions in the 3D structure
+- **Interface Reports**: Contact map, contact types, distances, residue profile and buried surface area for every chain pair
+- **3D Contacts View**: Side chains, contacting atoms and true distances for every chain pair
+- **Peptide Maps**: PandaMap-style radial diagrams when one partner is a peptide or oligonucleotide
+- **Summary Dashboard**: Interaction counts, chain contact matrix, distance distributions, hotspots
+- **HTML Report**: One self-contained page with all figures and tables
 - **Network Analysis**: Graph representation of interaction networks
 - **Detailed Reports**: Comprehensive interaction statistics and measurements
 
 ## Installation
 
 ```bash
-pip install pandaprot
+pip install pandappi
 ```
 
 ## Usage
 
 ### Command Line Interface
 ```bash
-pandaprot -h
-usage: pandaprot [-h] [--chains CHAINS [CHAINS ...]] [--3d-plot] [--export-vis] [--report] [--network] [--output OUTPUT]
-                 [--distance-cutoff DISTANCE_CUTOFF] [--include-intrachain] [--all-interactions] [--standard-only]
-                 [--hydrogen-bonds] [--ionic] [--hydrophobic] [--pi-stacking] [--pi-cation] [--salt-bridges] [--cation-pi]
-                 [--ch-pi] [--disulfide] [--sulfur-aromatic] [--water-mediated] [--metal-coordination] [--halogen-bonds]
-                 [--amide-aromatic] [--van-der-waals] [--amide-amide] [--statistics] [--residue-summary]
-                 pdb_file
+pandappi -h
+usage: pandappi [-h] [--chains CHAINS [CHAINS ...]] [--output OUTPUT] [--all-outputs] [--map]
+               [--interface-report] [--contacts-3d] [--dashboard] [--html-report] [--report]
+               [--residue-summary] [--statistics] [--network] [--3d-plot] [--export-vis]
+               [--distance-cutoff DISTANCE_CUTOFF] [--include-intrachain] [--all-interactions]
+               [--standard-only] [--hydrogen-bonds] [--ionic] [--hydrophobic] [--pi-stacking] [--pi-cation]
+               [--salt-bridges] [--cation-pi] [--ch-pi] [--disulfide] [--sulfur-aromatic] [--water-mediated]
+               [--metal-coordination] [--halogen-bonds] [--amide-aromatic] [--van-der-waals] [--amide-amide]
+               pdb_file
 
-PandaProt: Comprehensive Protein Interaction Mapper
+PandaPPI: Comprehensive Protein Interaction Mapper
 
 positional arguments:
   pdb_file              Path to PDB file
@@ -95,18 +167,32 @@ options:
   -h, --help            show this help message and exit
   --chains CHAINS [CHAINS ...]
                         Chains to analyze (e.g., A B)
-  --3d-plot             Generate 3D visualization
-  --export-vis          Export visualization files for PyMOL, Chimera, VMD, and Molstar
-  --report              Generate detailed interaction report
-  --network             Generate interaction network visualization
-  --output, -o OUTPUT   Output file prefix
+  --output, -o OUTPUT   Output file prefix (default: pandappi)
+  --all-outputs         Generate everything: reports, interface maps, dashboard, network, 3D view, viewer
+                        scripts
   --distance-cutoff DISTANCE_CUTOFF
                         Distance cutoff for interaction detection (default: 4.5Å)
   --include-intrachain  Include intra-chain interactions
 
-Interaction Types:
+Outputs:
+  --map                 2D interface map (PNG) for every chain pair
+  --interface-report    Multi-panel report figure per chain pair: map, contact types, distances, residue
+                        profile, buried surface area
+  --contacts-3d         Atom-level 3D contacts figure per chain pair (side chains, contacting atoms,
+                        distances)
+  --dashboard           Summary dashboard figure (PNG)
+  --html-report         Full report: HTML page, text report, CSVs, dashboard and interface reports
+  --report              Interaction table (CSV)
+  --residue-summary     Per-residue interaction counts (CSV)
+  --statistics          Print interaction statistics and save them as text
+  --network             Residue interaction network (PNG + GML)
+  --3d-plot             Interactive 3D visualization (HTML)
+  --export-vis          Export visualization files for PyMOL, Chimera, VMD, and Molstar
+
+Interaction Types (default: all):
   --all-interactions    Map all interaction types (default)
-  --standard-only       Map only standard interactions (H-bonds, ionic, hydrophobic, pi-stacking, salt bridges)
+  --standard-only       Only standard interactions (H-bonds, ionic, hydrophobic, pi-stacking, pi-cation,
+                        salt bridges)
   --hydrogen-bonds      Map hydrogen bonds
   --ionic               Map ionic interactions
   --hydrophobic         Map hydrophobic interactions
@@ -123,63 +209,65 @@ Interaction Types:
   --amide-aromatic      Map amide-aromatic interactions
   --van-der-waals       Map van der Waals interactions
   --amide-amide         Map amide-amide hydrogen bonds
-
-Analysis Options:
-  --statistics          Generate interaction statistics
-  --residue-summary     Generate residue interaction summary
-
 ```
 
 # Full command
 ```bash
-pandaprot 4kpy.pdb --export-vis  --3d-plot --report --network --statistics --residue-summary --chains A B C D E F --output protein-dna-ligand
+pandappi 4kpy.pdb --chains A B C D E F --all-outputs --output protein-dna-ligand
 ```
 ```bash
-pandaprot 1BJ1.pdb --3d-plot --export-vis  --report --network --statistics --residue-summary --chains L H V W J K  --output antigen_antibody
+pandappi 1BJ1.pdb --chains L H V W J K --all-outputs --output antigen_antibody
 ```
 
 ```bash
 # Basic usage - map all interactions
-pandaprot example.pdb
+pandappi example.pdb
 
 # Analyze specific chains
-pandaprot example.pdb --chains A B
+pandappi example.pdb --chains A B
+
+# Interface reports, contact maps, dashboard and full HTML report
+pandappi example.pdb --interface-report
+pandappi example.pdb --contacts-3d
+pandappi example.pdb --map
+pandappi example.pdb --dashboard
+pandappi example.pdb --html-report
 
 # Generate 3D visualization
-pandaprot example.pdb --3d-plot
+pandappi example.pdb --3d-plot
 
 # Generate detailed report
-pandaprot example.pdb --report
+pandappi example.pdb --report
 
 # Generate interaction network
-pandaprot example.pdb --network
+pandappi example.pdb --network
 
 # Map specific interaction types
-pandaprot example.pdb --hydrogen-bonds --ionic --salt-bridges
+pandappi example.pdb --hydrogen-bonds --ionic --salt-bridges
 
 # Map only standard interactions
-pandaprot example.pdb --standard-only
+pandappi example.pdb --standard-only
 
 # Include water-mediated and metal-coordinated interactions
-pandaprot example.pdb --water-mediated --metal-coordination
+pandappi example.pdb --water-mediated --metal-coordination
 
 # Generate interaction statistics
-pandaprot example.pdb --statistics
+pandappi example.pdb --statistics
 
 # Specify output file prefix
-pandaprot example.pdb --3d-plot --report --network --output myresults
+pandappi example.pdb --3d-plot --report --network --output myresults
 
 # Include intra-chain interactions
-pandaprot example.pdb --include-intrachain
+pandappi example.pdb --include-intrachain
 ```
 
 ### Python API
 
 ```python
-from pandaprot import PandaProt
+from pandappi import PandaPPI
 
 # Initialize with PDB file
-analyzer = PandaProt("example.pdb", chains=["A", "B"])
+analyzer = PandaPPI("example.pdb", chains=["A", "B"])
 
 # Map all interactions
 interactions = analyzer.map_interactions()
@@ -215,8 +303,16 @@ report = analyzer.generate_report(
     interaction_types=["ionic_interactions", "salt_bridges"]
 )
 
-# Create interaction network
-graph, fig = analyzer.create_interaction_network("network.png")
+# Interface reports and contact maps (one PNG per chain pair), dashboard, and the full report
+reports = analyzer.create_interface_reports("myresults")
+views = analyzer.create_contact_views("myresults")  # atom-level 3D contacts
+maps = analyzer.create_interaction_maps("myresults")
+buried = analyzer.buried_surface("A", "B")  # {(chain, residue): Å² buried on binding}
+analyzer.create_dashboard("myresults_dashboard.png")
+files = analyzer.generate_full_report("myresults")  # HTML + text + CSVs + figures
+
+# Create interaction network (PNG + GML)
+graph = analyzer.create_interaction_network("network.png")
 
 # Get interaction statistics
 stats = analyzer.get_interaction_statistics()
@@ -230,7 +326,7 @@ print(f"Most interactive residue: {list(stats['residue_frequencies'].keys())[0]}
 
 ```python
 # Analyze an antibody-antigen complex
-analyzer = PandaProt("antibody_complex.pdb", chains=["H", "L", "A"])
+analyzer = PandaPPI("antibody_complex.pdb", chains=["H", "L", "A"])
 
 # Map all interactions
 interactions = analyzer.map_interactions()
@@ -262,7 +358,7 @@ print(f"Epitope residues: {', '.join(epitope_residues)}")
 
 ```python
 # Analyze a protein-protein complex
-analyzer = PandaProt("protein_complex.pdb", chains=["A", "B"])
+analyzer = PandaPPI("protein_complex.pdb", chains=["A", "B"])
 
 # Map all interactions
 interactions = analyzer.map_interactions()
@@ -292,7 +388,7 @@ for interaction_type, count in stats['by_type'].items():
 
 ```python
 # Analyze a protein-ligand complex
-analyzer = PandaProt("protein_ligand.pdb", chains=["A", "L"])
+analyzer = PandaPPI("protein_ligand.pdb", chains=["A", "L"])
 
 # Map interactions with focus on drug binding
 interactions = analyzer.map_interactions()
@@ -341,7 +437,7 @@ for feature_type, residues in pharmacophore_features.items():
 
 ## Detailed Interaction Types
 
-PandaProt detects and analyzes the following interaction types:
+PandaPPI detects and analyzes the following interaction types:
 
 ### Standard Interactions
 
@@ -451,7 +547,7 @@ PandaProt detects and analyzes the following interaction types:
 
 ### Distance Criteria
 
-PandaProt uses carefully calibrated distance criteria for each interaction type:
+PandaPPI uses carefully calibrated distance criteria for each interaction type:
 
 | Interaction Type | Default Distance Cutoff (Å) |
 |------------------|------------------------------|
@@ -486,11 +582,11 @@ These distance cutoffs can be customized using the `distance_cutoff` parameter.
 
 ## Citation
 
-If you use PandaProt in your research, please cite:
+If you use PandaPPI in your research, please cite:
 
 ```
 Pritam Kumar Panda. (2025). 
-A comprehensive Python application for mapping and visualizing molecular interactions at protein/nucleic acid interfaces and  tool for mapping protein-protein, protein-nucleic acid, and antigen-antibody interactions. GitHub repository https://github.com/pritampanda15/PandaProt
+A comprehensive Python application for mapping and visualizing molecular interactions at protein/nucleic acid interfaces and  tool for mapping protein-protein, protein-nucleic acid, and antigen-antibody interactions. GitHub repository https://github.com/pritampanda15/PandaPPI
 ```
 
 ## License

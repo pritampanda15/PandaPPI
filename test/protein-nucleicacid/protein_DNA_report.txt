@@ -1,0 +1,54 @@
+======================================================================
+PandaPPI interaction report
+======================================================================
+Structure          : 3l1p.pdb
+Total interactions : 1844
+Residues involved  : 123
+
+Interactions by type (count, distance in Å)
+----------------------------------------------------------------------
+                  size  mean   min   max
+Interaction_Type                        
+Van der Waals     1651  3.91  2.15  4.86
+Hydrogen bond      190  3.04  2.15  3.50
+Amide-amide          3  4.46  4.43  4.49
+
+Interactions by chain pair
+----------------------------------------------------------------------
+Interaction_Type  Amide-amide  Hydrogen bond  Van der Waals  Total
+row_0                                                             
+M-N                         0            117            745    862
+B-M                         0             18            251    269
+A-N                         0             22            231    253
+A-M                         0             15            203    218
+B-N                         0             18            195    213
+A-B                         3              0             26     29
+
+Top hotspot residues
+----------------------------------------------------------------------
+Chain Residue  Total
+    M    DG 9    163
+    N   DG 10    144
+    B  ARG 97     96
+    N   DA 18     92
+    M   DC 11     89
+    M   DA 18     86
+    M   DA 17     84
+    N    DA 4     82
+    N   DA 19     81
+    N   DA 12     81
+    M    DA 5     79
+    N    DA 6     79
+    M   DG 20     75
+    A  ARG 97     71
+    M   DT 12     71
+    M    DT 8     69
+    N   DG 15     68
+    N   DA 17     67
+    N   DG 21     66
+    N    DT 8     66
+    N    DT 9     65
+    M    DT 7     63
+    M   DC 10     61
+    N   DA 13     59
+    M   DT 13     59

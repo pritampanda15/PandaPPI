@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pandaprot"
-version = "1.1.0"
+name = "pandappi"
+version = "2.0.0"
 description = "A tool for mapping protein-protein, protein-nucleic acid, and antigen-antibody interactions"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -32,17 +32,16 @@ dependencies = [
 ]
 
 [project.scripts]
-pandaprot = "pandaprot.main:main"
+pandappi = "pandappi.main:main"
 
 [project.urls]
-"Homepage" = "https://github.com/pritampanda15/PandaProt"
-"Bug Tracker" = "https://github.com/pritampanda15/PandaProt/issues"
+"Homepage" = "https://github.com/pritampanda15/PandaPPI"
+"Bug Tracker" = "https://github.com/pritampanda15/PandaPPI/issues"
 
 
 [tool.long_description]
 long-description = "file:README.md"
 long-description-content-type = "text/markdown"
 
-[tool.setuptools]
-packages = ["pandaprot"]
-include-package-data = true
+[tool.setuptools.packages.find]
+include = ["pandappi*"]

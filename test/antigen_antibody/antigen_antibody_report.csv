@@ -1,415 +1,2863 @@
-Interaction_Type,Chain1,Residue1,Atom1,Chain2,Residue2,Atom2,Distance_Å,Ring,Cationic_Atom
-Hydrogen Bond,L,ASN 34,ND2,H,TRP 108,O,3.42,,
-Hydrogen Bond,L,TYR 36,OH,H,PHE 110,N,3.06,,
-Hydrogen Bond,L,GLN 38,OE1,H,GLN 39,NE2,2.96,,
-Hydrogen Bond,L,GLN 38,NE2,H,GLN 39,OE1,3.03,,
-Hydrogen Bond,L,PRO 44,O,H,TRP 113,NE1,3.35,,
-Hydrogen Bond,L,TYR 87,OH,H,GLN 39,NE2,3.29,,
-Hydrogen Bond,L,GLN 89,NE2,H,TRP 108,O,3.08,,
-Hydrogen Bond,L,TYR 91,OH,H,HIS 107,ND1,2.59,,
-Hydrogen Bond,L,TRP 96,NE1,H,TYR 99,OH,2.89,,
-Hydrogen Bond,L,ASP 122,OD2,H,LYS 224,NZ,2.69,,
-Hydrogen Bond,L,GLU 123,OE1,H,VAL 131,O,3.4,,
-Hydrogen Bond,L,GLU 123,OE1,H,LYS 219,NZ,2.95,,
-Hydrogen Bond,L,ASN 137,OD1,H,HIS 174,NE2,3.49,,
-Hydrogen Bond,L,ASN 138,OD1,H,HIS 174,NE2,3.43,,
-Hydrogen Bond,L,GLN 160,OE1,H,LEU 180,O,3.09,,
-Hydrogen Bond,L,SER 162,OG,H,PRO 177,N,3.36,,
-Hydrogen Bond,L,SER 162,OG,H,PRO 177,O,2.67,,
-Hydrogen Bond,L,SER 174,OG,H,HIS 174,NE2,3.43,,
-Hydrogen Bond,H,GLN 39,OE1,L,GLN 38,NE2,3.03,,
-Hydrogen Bond,H,GLN 39,NE2,L,GLN 38,OE1,2.96,,
-Hydrogen Bond,H,GLN 39,NE2,L,TYR 87,OH,3.29,,
-Hydrogen Bond,H,TYR 99,OH,L,TRP 96,NE1,2.89,,
-Hydrogen Bond,H,HIS 107,ND1,L,TYR 91,OH,2.59,,
-Hydrogen Bond,H,TRP 108,O,L,ASN 34,ND2,3.42,,
-Hydrogen Bond,H,TRP 108,O,L,GLN 89,NE2,3.08,,
-Hydrogen Bond,H,PHE 110,N,L,TYR 36,OH,3.06,,
-Hydrogen Bond,H,TRP 113,NE1,L,PRO 44,O,3.35,,
-Hydrogen Bond,H,VAL 131,O,L,GLU 123,OE1,3.4,,
-Hydrogen Bond,H,HIS 174,NE2,L,ASN 137,OD1,3.49,,
-Hydrogen Bond,H,HIS 174,NE2,L,ASN 138,OD1,3.43,,
-Hydrogen Bond,H,HIS 174,NE2,L,SER 174,OG,3.43,,
-Hydrogen Bond,H,PRO 177,N,L,SER 162,OG,3.36,,
-Hydrogen Bond,H,PRO 177,O,L,SER 162,OG,2.67,,
-Hydrogen Bond,H,LEU 180,O,L,GLN 160,OE1,3.09,,
-Hydrogen Bond,H,LYS 219,NZ,L,GLU 123,OE1,2.95,,
-Hydrogen Bond,H,LYS 224,NZ,L,ASP 122,OD2,2.69,,
-Hydrogen Bond,H,THR 30,O,W,GLN 89,OE1,3.09,,
-Hydrogen Bond,H,ASN 31,O,W,ILE 91,N,3.23,,
-Hydrogen Bond,H,GLY 33,N,W,GLN 89,O,2.9,,
-Hydrogen Bond,H,GLY 33,N,W,GLN 89,NE2,3.4,,
-Hydrogen Bond,H,TRP 50,NE1,W,HIS 86,O,3.32,,
-Hydrogen Bond,H,ASN 52,OD1,W,GLN 89,NE2,3.2,,
-Hydrogen Bond,H,THR 53,N,W,GLN 89,NE2,2.97,,
-Hydrogen Bond,H,THR 53,OG1,W,GLN 89,OE1,3.46,,
-Hydrogen Bond,H,TYR 99,OH,W,GLN 87,O,2.63,,
-Hydrogen Bond,H,PRO 100,O,W,HIS 90,ND1,2.68,,
-Hydrogen Bond,H,TYR 102,N,W,ILE 91,O,3.4,,
-Hydrogen Bond,H,TYR 102,O,W,GLU 93,N,3.07,,
-Hydrogen Bond,H,TYR 102,OH,W,ILE 80,O,2.85,,
-Hydrogen Bond,H,TYR 102,OH,W,ARG 82,NE,3.39,,
-Hydrogen Bond,H,GLY 104,N,W,GLU 93,O,3.13,,
-Hydrogen Bond,H,GLY 104,O,W,ARG 82,NH2,3.18,,
-Hydrogen Bond,H,SER 106,OG,W,HIS 90,NE2,2.63,,
-Hydrogen Bond,V,VAL 15,N,W,THR 77,O,3.06,,
-Hydrogen Bond,V,VAL 15,O,W,GLN 79,N,3.04,,
-Hydrogen Bond,V,PHE 17,N,W,GLN 79,OE1,3.15,,
-Hydrogen Bond,V,ARG 23,NH1,W,GLU 30,OE1,3.31,,
-Hydrogen Bond,V,SER 24,OG,W,CYS 51,O,2.96,,
-Hydrogen Bond,V,GLU 30,OE1,W,ARG 23,NH1,3.35,,
-Hydrogen Bond,V,SER 50,N,W,ASN 62,OD1,2.86,,
-Hydrogen Bond,V,CYS 51,O,W,SER 24,OG,2.9,,
-Hydrogen Bond,V,CYS 60,SG,W,CYS 51,SG,3.17,,
-Hydrogen Bond,V,ASN 62,OD1,W,SER 50,N,2.91,,
-Hydrogen Bond,V,ASN 62,OD1,W,SER 50,OG,3.39,,
-Hydrogen Bond,V,THR 77,O,W,VAL 15,N,2.94,,
-Hydrogen Bond,V,GLN 79,N,W,VAL 15,O,2.87,,
-Hydrogen Bond,V,GLN 79,OE1,W,PHE 17,N,3.17,,
-Hydrogen Bond,V,GLN 79,NE2,W,LYS 16,NZ,3.25,,
-Hydrogen Bond,V,ILE 80,O,K,TYR 102,OH,2.8,,
-Hydrogen Bond,V,ARG 82,NE,K,TYR 102,OH,3.15,,
-Hydrogen Bond,V,ARG 82,NH1,K,SER 106,OG,3.47,,
-Hydrogen Bond,V,ARG 82,NH2,K,GLY 104,O,2.71,,
-Hydrogen Bond,V,HIS 86,O,K,TRP 50,NE1,3.36,,
-Hydrogen Bond,V,GLN 87,O,K,TRP 50,NE1,3.49,,
-Hydrogen Bond,V,GLN 87,O,K,TYR 99,OH,2.79,,
-Hydrogen Bond,V,GLN 89,O,K,GLY 33,N,2.92,,
-Hydrogen Bond,V,GLN 89,OE1,K,THR 30,O,3.09,,
-Hydrogen Bond,V,GLN 89,OE1,K,THR 53,OG1,3.2,,
-Hydrogen Bond,V,GLN 89,NE2,K,GLY 33,N,3.36,,
-Hydrogen Bond,V,GLN 89,NE2,K,ASN 52,OD1,3.21,,
-Hydrogen Bond,V,GLN 89,NE2,K,THR 53,N,2.94,,
-Hydrogen Bond,V,GLN 89,NE2,K,THR 53,OG1,3.45,,
-Hydrogen Bond,V,HIS 90,ND1,K,PRO 100,O,2.56,,
-Hydrogen Bond,V,HIS 90,NE2,K,SER 106,OG,2.93,,
-Hydrogen Bond,V,ILE 91,N,K,ASN 31,O,3.3,,
-Hydrogen Bond,V,ILE 91,O,K,TYR 102,N,3.46,,
-Hydrogen Bond,V,GLU 93,N,K,TYR 102,O,3.05,,
-Hydrogen Bond,V,GLU 93,O,K,GLY 104,N,2.76,,
-Hydrogen Bond,W,ILE 80,O,H,TYR 102,OH,2.85,,
-Hydrogen Bond,W,ARG 82,NE,H,TYR 102,OH,3.39,,
-Hydrogen Bond,W,ARG 82,NH2,H,GLY 104,O,3.18,,
-Hydrogen Bond,W,HIS 86,O,H,TRP 50,NE1,3.32,,
-Hydrogen Bond,W,GLN 87,O,H,TYR 99,OH,2.63,,
-Hydrogen Bond,W,GLN 89,O,H,GLY 33,N,2.9,,
-Hydrogen Bond,W,GLN 89,OE1,H,THR 30,O,3.09,,
-Hydrogen Bond,W,GLN 89,OE1,H,THR 53,OG1,3.46,,
-Hydrogen Bond,W,GLN 89,NE2,H,GLY 33,N,3.4,,
-Hydrogen Bond,W,GLN 89,NE2,H,ASN 52,OD1,3.2,,
-Hydrogen Bond,W,GLN 89,NE2,H,THR 53,N,2.97,,
-Hydrogen Bond,W,HIS 90,ND1,H,PRO 100,O,2.68,,
-Hydrogen Bond,W,HIS 90,NE2,H,SER 106,OG,2.63,,
-Hydrogen Bond,W,ILE 91,N,H,ASN 31,O,3.23,,
-Hydrogen Bond,W,ILE 91,O,H,TYR 102,N,3.4,,
-Hydrogen Bond,W,GLU 93,N,H,TYR 102,O,3.07,,
-Hydrogen Bond,W,GLU 93,O,H,GLY 104,N,3.13,,
-Hydrogen Bond,W,VAL 15,N,V,THR 77,O,2.94,,
-Hydrogen Bond,W,VAL 15,O,V,GLN 79,N,2.87,,
-Hydrogen Bond,W,LYS 16,NZ,V,GLN 79,NE2,3.25,,
-Hydrogen Bond,W,PHE 17,N,V,GLN 79,OE1,3.17,,
-Hydrogen Bond,W,ARG 23,NH1,V,GLU 30,OE1,3.35,,
-Hydrogen Bond,W,SER 24,OG,V,CYS 51,O,2.9,,
-Hydrogen Bond,W,GLU 30,OE1,V,ARG 23,NH1,3.31,,
-Hydrogen Bond,W,SER 50,N,V,ASN 62,OD1,2.91,,
-Hydrogen Bond,W,SER 50,OG,V,ASN 62,OD1,3.39,,
-Hydrogen Bond,W,CYS 51,O,V,SER 24,OG,2.96,,
-Hydrogen Bond,W,CYS 51,SG,V,CYS 60,SG,3.17,,
-Hydrogen Bond,W,ASN 62,OD1,V,SER 50,N,2.86,,
-Hydrogen Bond,W,THR 77,O,V,VAL 15,N,3.06,,
-Hydrogen Bond,W,GLN 79,N,V,VAL 15,O,3.04,,
-Hydrogen Bond,W,GLN 79,OE1,V,PHE 17,N,3.15,,
-Hydrogen Bond,J,ASN 34,ND2,K,TRP 108,O,3.49,,
-Hydrogen Bond,J,TYR 36,OH,K,PHE 110,N,3.11,,
-Hydrogen Bond,J,GLN 38,OE1,K,GLN 39,NE2,3.09,,
-Hydrogen Bond,J,GLN 38,NE2,K,GLN 39,OE1,3.04,,
-Hydrogen Bond,J,PRO 44,O,K,TRP 113,NE1,3.19,,
-Hydrogen Bond,J,HIS 55,NE2,K,TYR 109,OH,3.41,,
-Hydrogen Bond,J,TYR 87,OH,K,GLN 39,NE2,3.38,,
-Hydrogen Bond,J,GLN 89,NE2,K,TRP 108,O,3.17,,
-Hydrogen Bond,J,TYR 91,OH,K,HIS 107,ND1,2.67,,
-Hydrogen Bond,J,TRP 96,NE1,K,TYR 99,OH,2.96,,
-Hydrogen Bond,J,SER 131,OG,K,LYS 153,NZ,3.46,,
-Hydrogen Bond,J,ASN 137,OD1,K,HIS 174,NE2,3.42,,
-Hydrogen Bond,J,ASN 138,OD1,K,HIS 174,NE2,3.24,,
-Hydrogen Bond,J,SER 162,OG,K,PRO 177,O,3.13,,
-Hydrogen Bond,J,SER 174,OG,K,HIS 174,NE2,3.14,,
-Hydrogen Bond,K,THR 30,O,V,GLN 89,OE1,3.09,,
-Hydrogen Bond,K,ASN 31,O,V,ILE 91,N,3.3,,
-Hydrogen Bond,K,GLY 33,N,V,GLN 89,O,2.92,,
-Hydrogen Bond,K,GLY 33,N,V,GLN 89,NE2,3.36,,
-Hydrogen Bond,K,TRP 50,NE1,V,HIS 86,O,3.36,,
-Hydrogen Bond,K,TRP 50,NE1,V,GLN 87,O,3.49,,
-Hydrogen Bond,K,ASN 52,OD1,V,GLN 89,NE2,3.21,,
-Hydrogen Bond,K,THR 53,N,V,GLN 89,NE2,2.94,,
-Hydrogen Bond,K,THR 53,OG1,V,GLN 89,OE1,3.2,,
-Hydrogen Bond,K,THR 53,OG1,V,GLN 89,NE2,3.45,,
-Hydrogen Bond,K,TYR 99,OH,V,GLN 87,O,2.79,,
-Hydrogen Bond,K,PRO 100,O,V,HIS 90,ND1,2.56,,
-Hydrogen Bond,K,TYR 102,N,V,ILE 91,O,3.46,,
-Hydrogen Bond,K,TYR 102,O,V,GLU 93,N,3.05,,
-Hydrogen Bond,K,TYR 102,OH,V,ILE 80,O,2.8,,
-Hydrogen Bond,K,TYR 102,OH,V,ARG 82,NE,3.15,,
-Hydrogen Bond,K,GLY 104,N,V,GLU 93,O,2.76,,
-Hydrogen Bond,K,GLY 104,O,V,ARG 82,NH2,2.71,,
-Hydrogen Bond,K,SER 106,OG,V,ARG 82,NH1,3.47,,
-Hydrogen Bond,K,SER 106,OG,V,HIS 90,NE2,2.93,,
-Hydrogen Bond,K,GLN 39,OE1,J,GLN 38,NE2,3.04,,
-Hydrogen Bond,K,GLN 39,NE2,J,GLN 38,OE1,3.09,,
-Hydrogen Bond,K,GLN 39,NE2,J,TYR 87,OH,3.38,,
-Hydrogen Bond,K,TYR 99,OH,J,TRP 96,NE1,2.96,,
-Hydrogen Bond,K,HIS 107,ND1,J,TYR 91,OH,2.67,,
-Hydrogen Bond,K,TRP 108,O,J,ASN 34,ND2,3.49,,
-Hydrogen Bond,K,TRP 108,O,J,GLN 89,NE2,3.17,,
-Hydrogen Bond,K,TYR 109,OH,J,HIS 55,NE2,3.41,,
-Hydrogen Bond,K,PHE 110,N,J,TYR 36,OH,3.11,,
-Hydrogen Bond,K,TRP 113,NE1,J,PRO 44,O,3.19,,
-Hydrogen Bond,K,LYS 153,NZ,J,SER 131,OG,3.46,,
-Hydrogen Bond,K,HIS 174,NE2,J,ASN 137,OD1,3.42,,
-Hydrogen Bond,K,HIS 174,NE2,J,ASN 138,OD1,3.24,,
-Hydrogen Bond,K,HIS 174,NE2,J,SER 174,OG,3.14,,
-Hydrogen Bond,K,PRO 177,O,J,SER 162,OG,3.13,,
-Ionic Interaction,H,LYS 224,NZ,L,ASP 122,OD2,2.69,,
-Ionic Interaction,H,LYS 219,NZ,L,GLU 123,OE1,2.95,,
-Ionic Interaction,H,LYS 219,NZ,L,GLU 123,OE1,2.95,,
-Ionic Interaction,H,LYS 224,NZ,L,ASP 122,OD2,2.69,,
-Ionic Interaction,V,ARG 23,NH1,W,GLU 30,OE1,3.31,,
-Ionic Interaction,V,ARG 23,NH1,W,GLU 30,OE2,4.21,,
-Ionic Interaction,W,ARG 23,NH1,V,GLU 30,OE1,3.35,,
-Ionic Interaction,W,ARG 23,NH1,V,GLU 30,OE2,4.24,,
-Ionic Interaction,W,ARG 23,NH1,V,GLU 30,OE1,3.35,,
-Ionic Interaction,W,ARG 23,NH1,V,GLU 30,OE2,4.24,,
-Ionic Interaction,V,ARG 23,NH1,W,GLU 30,OE1,3.31,,
-Ionic Interaction,V,ARG 23,NH1,W,GLU 30,OE2,4.21,,
-Hydrophobic,L,TYR 36,CZ,H,TYR 109,CB,4.47,,
-Hydrophobic,L,TYR 36,CZ,H,PHE 110,CD2,4.0,,
-Hydrophobic,L,TYR 36,CE2,H,TRP 113,CZ2,4.07,,
-Hydrophobic,L,ALA 43,CB,H,TYR 95,CE1,3.71,,
-Hydrophobic,L,ALA 43,CB,H,TRP 113,CB,3.77,,
-Hydrophobic,L,PRO 44,CG,H,LEU 45,CD1,3.56,,
-Hydrophobic,L,PRO 44,CD,H,TRP 113,CZ3,3.66,,
-Hydrophobic,L,VAL 46,CG1,H,TYR 109,CD2,3.8,,
-Hydrophobic,L,TYR 49,CG,H,TYR 109,CE1,3.53,,
-Hydrophobic,L,TYR 87,CD2,H,LEU 45,CD1,3.84,,
-Hydrophobic,L,TYR 91,CD2,H,TRP 108,CD1,3.86,,
-Hydrophobic,L,PRO 95,CA,H,TRP 47,CZ3,3.67,,
-Hydrophobic,L,PRO 95,CB,H,ALA 61,CB,4.14,,
-Hydrophobic,L,TRP 96,CD1,H,TRP 47,CE2,3.44,,
-Hydrophobic,L,TRP 96,CZ2,H,TRP 108,CD1,3.81,,
-Hydrophobic,L,TRP 96,CD1,H,PHE 110,CZ,3.74,,
-Hydrophobic,L,PHE 98,CE2,H,LEU 45,CD1,3.86,,
-Hydrophobic,L,PHE 98,CE1,H,TRP 47,CB,4.36,,
-Hydrophobic,L,PHE 98,CZ,H,PHE 110,CE2,3.67,,
-Hydrophobic,L,PHE 116,CE2,H,ALA 146,C,4.31,,
-Hydrophobic,L,PHE 116,CD2,H,ALA 147,CB,3.61,,
-Hydrophobic,L,PHE 118,CD1,H,LEU 134,CB,3.92,,
-Hydrophobic,L,PHE 118,CE1,H,ALA 135,C,4.32,,
-Hydrophobic,L,PHE 118,CZ,H,ALA 147,C,4.03,,
-Hydrophobic,L,PHE 118,CE1,H,LEU 148,CA,4.19,,
-Hydrophobic,L,VAL 133,CG2,H,LEU 134,CD2,3.8,,
-Hydrophobic,L,LEU 135,CD2,H,ALA 147,CB,4.22,,
-Hydrophobic,L,LEU 135,CD1,H,PHE 176,CZ,3.69,,
-Hydrophobic,L,LEU 135,CD2,H,VAL 191,CG1,3.57,,
-Hydrophobic,L,VAL 163,C,H,PRO 177,CD,4.12,,
-Hydrophobic,L,LEU 175,CA,H,PHE 176,CE1,3.64,,
-Hydrophobic,H,LEU 45,CD1,L,PRO 44,CG,3.56,,
-Hydrophobic,H,LEU 45,CD1,L,TYR 87,CD2,3.84,,
-Hydrophobic,H,LEU 45,CD1,L,PHE 98,CE2,3.86,,
-Hydrophobic,H,TRP 47,CZ3,L,PRO 95,CA,3.67,,
-Hydrophobic,H,TRP 47,CE2,L,TRP 96,CD1,3.44,,
-Hydrophobic,H,TRP 47,CB,L,PHE 98,CE1,4.36,,
-Hydrophobic,H,ALA 61,CB,L,PRO 95,CB,4.14,,
-Hydrophobic,H,TYR 95,CE1,L,ALA 43,CB,3.71,,
-Hydrophobic,H,TRP 108,CD1,L,TYR 91,CD2,3.86,,
-Hydrophobic,H,TRP 108,CD1,L,TRP 96,CZ2,3.81,,
-Hydrophobic,H,TYR 109,CB,L,TYR 36,CZ,4.47,,
-Hydrophobic,H,TYR 109,CD2,L,VAL 46,CG1,3.8,,
-Hydrophobic,H,TYR 109,CE1,L,TYR 49,CG,3.53,,
-Hydrophobic,H,PHE 110,CD2,L,TYR 36,CZ,4.0,,
-Hydrophobic,H,PHE 110,CZ,L,TRP 96,CD1,3.74,,
-Hydrophobic,H,PHE 110,CE2,L,PHE 98,CZ,3.67,,
-Hydrophobic,H,TRP 113,CZ2,L,TYR 36,CE2,4.07,,
-Hydrophobic,H,TRP 113,CB,L,ALA 43,CB,3.77,,
-Hydrophobic,H,TRP 113,CZ3,L,PRO 44,CD,3.66,,
-Hydrophobic,H,LEU 134,CB,L,PHE 118,CD1,3.92,,
-Hydrophobic,H,LEU 134,CD2,L,VAL 133,CG2,3.8,,
-Hydrophobic,H,ALA 135,C,L,PHE 118,CE1,4.32,,
-Hydrophobic,H,ALA 146,C,L,PHE 116,CE2,4.31,,
-Hydrophobic,H,ALA 147,CB,L,PHE 116,CD2,3.61,,
-Hydrophobic,H,ALA 147,C,L,PHE 118,CZ,4.03,,
-Hydrophobic,H,ALA 147,CB,L,LEU 135,CD2,4.22,,
-Hydrophobic,H,LEU 148,CA,L,PHE 118,CE1,4.19,,
-Hydrophobic,H,PHE 176,CZ,L,LEU 135,CD1,3.69,,
-Hydrophobic,H,PHE 176,CE1,L,LEU 175,CA,3.64,,
-Hydrophobic,H,PRO 177,CD,L,VAL 163,C,4.12,,
-Hydrophobic,H,VAL 191,CG1,L,LEU 135,CD2,3.57,,
-Hydrophobic,H,TYR 32,CZ,W,ILE 91,CG1,3.79,,
-Hydrophobic,H,TYR 54,CD1,W,MET 81,CE,3.84,,
-Hydrophobic,H,TYR 102,CE1,W,ILE 91,C,3.47,,
-Hydrophobic,H,TYR 102,CE2,W,MET 94,CG,4.23,,
-Hydrophobic,V,VAL 15,CG2,W,ILE 76,CD1,4.36,,
-Hydrophobic,V,VAL 15,CG2,W,MET 78,CE,3.62,,
-Hydrophobic,V,PHE 17,CE1,W,PRO 49,CD,4.14,,
-Hydrophobic,V,PHE 17,CZ,W,MET 81,CE,3.94,,
-Hydrophobic,V,PHE 17,CD1,W,ILE 91,CG2,3.95,,
-Hydrophobic,V,VAL 20,CG1,W,PRO 49,CG,3.98,,
-Hydrophobic,V,VAL 20,CG1,W,VAL 52,CG1,3.9,,
-Hydrophobic,V,VAL 20,CG1,W,PRO 53,CD,4.23,,
-Hydrophobic,V,VAL 20,CG2,W,MET 78,CB,4.08,,
-Hydrophobic,V,VAL 20,CG1,W,ILE 80,CD1,4.17,,
-Hydrophobic,V,TYR 21,CD2,W,PRO 49,CD,4.04,,
-Hydrophobic,V,ILE 29,CD1,W,LEU 32,CD1,4.14,,
-Hydrophobic,V,LEU 32,CD1,W,ILE 29,CD1,3.87,,
-Hydrophobic,V,PRO 49,CD,W,PHE 17,CE1,3.9,,
-Hydrophobic,V,PRO 49,CG,W,VAL 20,CG1,3.98,,
-Hydrophobic,V,PRO 49,CD,W,TYR 21,CD2,4.06,,
-Hydrophobic,V,VAL 52,CG1,W,VAL 20,CG1,3.65,,
-Hydrophobic,V,PRO 53,CD,W,VAL 20,CG1,4.15,,
-Hydrophobic,V,ILE 76,CD1,W,VAL 15,CG2,4.25,,
-Hydrophobic,V,MET 78,C,W,VAL 14,CG1,4.39,,
-Hydrophobic,V,MET 78,CE,W,VAL 15,CG2,3.55,,
-Hydrophobic,V,MET 78,CB,W,VAL 20,CG2,3.89,,
-Hydrophobic,V,ILE 80,CA,W,PHE 17,CD1,4.32,,
-Hydrophobic,V,ILE 80,CD1,W,VAL 20,CG1,4.03,,
-Hydrophobic,V,MET 81,CB,W,PHE 17,CE1,3.85,,
-Hydrophobic,V,ILE 91,CG2,W,PHE 17,CG,3.91,,
-Hydrophobic,V,TYR 45,CE1,K,TRP 108,CZ2,4.4,,
-Hydrophobic,V,MET 81,CE,K,TYR 54,CD1,3.88,,
-Hydrophobic,V,ILE 91,CG1,K,TYR 32,CZ,3.66,,
-Hydrophobic,V,ILE 91,C,K,TYR 102,CE1,3.59,,
-Hydrophobic,V,MET 94,CG,K,TYR 102,CE2,4.16,,
-Hydrophobic,W,MET 81,CE,H,TYR 54,CD1,3.84,,
-Hydrophobic,W,ILE 91,CG1,H,TYR 32,CZ,3.79,,
-Hydrophobic,W,ILE 91,C,H,TYR 102,CE1,3.47,,
-Hydrophobic,W,MET 94,CG,H,TYR 102,CE2,4.23,,
-Hydrophobic,W,VAL 14,CG1,V,MET 78,C,4.39,,
-Hydrophobic,W,VAL 15,CG2,V,ILE 76,CD1,4.25,,
-Hydrophobic,W,VAL 15,CG2,V,MET 78,CE,3.55,,
-Hydrophobic,W,PHE 17,CE1,V,PRO 49,CD,3.9,,
-Hydrophobic,W,PHE 17,CD1,V,ILE 80,CA,4.32,,
-Hydrophobic,W,PHE 17,CE1,V,MET 81,CB,3.85,,
-Hydrophobic,W,PHE 17,CG,V,ILE 91,CG2,3.91,,
-Hydrophobic,W,VAL 20,CG1,V,PRO 49,CG,3.98,,
-Hydrophobic,W,VAL 20,CG1,V,VAL 52,CG1,3.65,,
-Hydrophobic,W,VAL 20,CG1,V,PRO 53,CD,4.15,,
-Hydrophobic,W,VAL 20,CG2,V,MET 78,CB,3.89,,
-Hydrophobic,W,VAL 20,CG1,V,ILE 80,CD1,4.03,,
-Hydrophobic,W,TYR 21,CD2,V,PRO 49,CD,4.06,,
-Hydrophobic,W,ILE 29,CD1,V,LEU 32,CD1,3.87,,
-Hydrophobic,W,LEU 32,CD1,V,ILE 29,CD1,4.14,,
-Hydrophobic,W,PRO 49,CD,V,PHE 17,CE1,4.14,,
-Hydrophobic,W,PRO 49,CG,V,VAL 20,CG1,3.98,,
-Hydrophobic,W,PRO 49,CD,V,TYR 21,CD2,4.04,,
-Hydrophobic,W,VAL 52,CG1,V,VAL 20,CG1,3.9,,
-Hydrophobic,W,PRO 53,CD,V,VAL 20,CG1,4.23,,
-Hydrophobic,W,ILE 76,CD1,V,VAL 15,CG2,4.36,,
-Hydrophobic,W,MET 78,CE,V,VAL 15,CG2,3.62,,
-Hydrophobic,W,MET 78,CB,V,VAL 20,CG2,4.08,,
-Hydrophobic,W,ILE 80,CD1,V,VAL 20,CG1,4.17,,
-Hydrophobic,W,MET 81,CE,V,PHE 17,CZ,3.94,,
-Hydrophobic,W,ILE 91,CG2,V,PHE 17,CD1,3.95,,
-Hydrophobic,J,TYR 36,CZ,K,TYR 109,CB,4.47,,
-Hydrophobic,J,TYR 36,CZ,K,PHE 110,CD2,4.22,,
-Hydrophobic,J,TYR 36,CE2,K,TRP 113,CZ2,4.14,,
-Hydrophobic,J,ALA 43,CB,K,TYR 95,CE1,3.59,,
-Hydrophobic,J,ALA 43,CB,K,TRP 113,CB,3.79,,
-Hydrophobic,J,PRO 44,CG,K,LEU 45,CD1,3.64,,
-Hydrophobic,J,PRO 44,CD,K,TYR 95,CZ,4.47,,
-Hydrophobic,J,PRO 44,CD,K,TRP 113,CZ3,3.65,,
-Hydrophobic,J,VAL 46,CG1,K,TYR 109,CD1,3.97,,
-Hydrophobic,J,TYR 49,CG,K,TYR 109,CE2,3.7,,
-Hydrophobic,J,TYR 87,CD2,K,LEU 45,CD1,3.72,,
-Hydrophobic,J,TYR 91,CD2,K,TRP 108,CD1,3.91,,
-Hydrophobic,J,VAL 94,CG1,K,TRP 47,CH2,4.02,,
-Hydrophobic,J,PRO 95,CA,K,TRP 47,CZ3,3.71,,
-Hydrophobic,J,PRO 95,CB,K,ALA 61,CB,3.92,,
-Hydrophobic,J,TRP 96,CD1,K,TRP 47,CE2,3.54,,
-Hydrophobic,J,TRP 96,CZ2,K,TRP 108,CD1,3.78,,
-Hydrophobic,J,TRP 96,CD1,K,PHE 110,CZ,3.88,,
-Hydrophobic,J,PHE 98,CE1,K,VAL 37,CG1,4.5,,
-Hydrophobic,J,PHE 98,CD1,K,LEU 45,C,3.69,,
-Hydrophobic,J,PHE 98,CE1,K,TRP 47,CB,4.41,,
-Hydrophobic,J,PHE 98,CZ,K,PHE 110,CE2,3.59,,
-Hydrophobic,J,PHE 116,CD2,K,ALA 147,CB,3.76,,
-Hydrophobic,J,PHE 118,CD1,K,LEU 134,C,3.61,,
-Hydrophobic,J,PHE 118,CE1,K,ALA 135,C,3.83,,
-Hydrophobic,J,PHE 118,CE1,K,PRO 136,CA,4.17,,
-Hydrophobic,J,PHE 118,CZ,K,ALA 147,C,3.56,,
-Hydrophobic,J,PHE 118,CZ,K,LEU 148,CA,3.74,,
-Hydrophobic,J,VAL 133,CG2,K,LEU 134,CD2,3.86,,
-Hydrophobic,J,VAL 133,CG2,K,LEU 151,CD1,4.4,,
-Hydrophobic,J,LEU 135,CD1,K,PHE 176,CZ,3.45,,
-Hydrophobic,J,LEU 135,CD2,K,VAL 191,CG1,3.43,,
-Hydrophobic,J,VAL 163,C,K,PHE 176,CD1,4.41,,
-Hydrophobic,J,VAL 163,C,K,PRO 177,CD,4.35,,
-Hydrophobic,J,LEU 175,C,K,PHE 176,CE1,3.89,,
-Hydrophobic,K,TYR 32,CZ,V,ILE 91,CG1,3.66,,
-Hydrophobic,K,TYR 54,CD1,V,MET 81,CE,3.88,,
-Hydrophobic,K,TYR 102,CE1,V,ILE 91,C,3.59,,
-Hydrophobic,K,TYR 102,CE2,V,MET 94,CG,4.16,,
-Hydrophobic,K,TRP 108,CZ2,V,TYR 45,CE1,4.4,,
-Hydrophobic,K,VAL 37,CG1,J,PHE 98,CE1,4.5,,
-Hydrophobic,K,LEU 45,CD1,J,PRO 44,CG,3.64,,
-Hydrophobic,K,LEU 45,CD1,J,TYR 87,CD2,3.72,,
-Hydrophobic,K,LEU 45,C,J,PHE 98,CD1,3.69,,
-Hydrophobic,K,TRP 47,CH2,J,VAL 94,CG1,4.02,,
-Hydrophobic,K,TRP 47,CZ3,J,PRO 95,CA,3.71,,
-Hydrophobic,K,TRP 47,CE2,J,TRP 96,CD1,3.54,,
-Hydrophobic,K,TRP 47,CB,J,PHE 98,CE1,4.41,,
-Hydrophobic,K,ALA 61,CB,J,PRO 95,CB,3.92,,
-Hydrophobic,K,TYR 95,CE1,J,ALA 43,CB,3.59,,
-Hydrophobic,K,TYR 95,CZ,J,PRO 44,CD,4.47,,
-Hydrophobic,K,TRP 108,CD1,J,TYR 91,CD2,3.91,,
-Hydrophobic,K,TRP 108,CD1,J,TRP 96,CZ2,3.78,,
-Hydrophobic,K,TYR 109,CB,J,TYR 36,CZ,4.47,,
-Hydrophobic,K,TYR 109,CD1,J,VAL 46,CG1,3.97,,
-Hydrophobic,K,TYR 109,CE2,J,TYR 49,CG,3.7,,
-Hydrophobic,K,PHE 110,CD2,J,TYR 36,CZ,4.22,,
-Hydrophobic,K,PHE 110,CZ,J,TRP 96,CD1,3.88,,
-Hydrophobic,K,PHE 110,CE2,J,PHE 98,CZ,3.59,,
-Hydrophobic,K,TRP 113,CZ2,J,TYR 36,CE2,4.14,,
-Hydrophobic,K,TRP 113,CB,J,ALA 43,CB,3.79,,
-Hydrophobic,K,TRP 113,CZ3,J,PRO 44,CD,3.65,,
-Hydrophobic,K,LEU 134,C,J,PHE 118,CD1,3.61,,
-Hydrophobic,K,LEU 134,CD2,J,VAL 133,CG2,3.86,,
-Hydrophobic,K,ALA 135,C,J,PHE 118,CE1,3.83,,
-Hydrophobic,K,PRO 136,CA,J,PHE 118,CE1,4.17,,
-Hydrophobic,K,ALA 147,CB,J,PHE 116,CD2,3.76,,
-Hydrophobic,K,ALA 147,C,J,PHE 118,CZ,3.56,,
-Hydrophobic,K,LEU 148,CA,J,PHE 118,CZ,3.74,,
-Hydrophobic,K,LEU 151,CD1,J,VAL 133,CG2,4.4,,
-Hydrophobic,K,PHE 176,CZ,J,LEU 135,CD1,3.45,,
-Hydrophobic,K,PHE 176,CD1,J,VAL 163,C,4.41,,
-Hydrophobic,K,PHE 176,CE1,J,LEU 175,C,3.89,,
-Hydrophobic,K,PRO 177,CD,J,VAL 163,C,4.35,,
-Hydrophobic,K,VAL 191,CG1,J,LEU 135,CD2,3.43,,
-Pi-Cation,L,PHE 50,,H,HIS 107,,4.03,CG-CD1-CD2-CE1-CE2-CZ,ND1
-Pi-Cation,L,PHE 50,,H,HIS 107,,3.95,CG-CD1-CD2-CE1-CE2-CZ,NE2
-Pi-Cation,L,PHE 50,,H,HIS 107,,4.03,CG-CD1-CD2-CE1-CE2-CZ,ND1
-Pi-Cation,L,PHE 50,,H,HIS 107,,3.95,CG-CD1-CD2-CE1-CE2-CZ,NE2
-Pi-Cation,H,TYR 102,,W,ARG 82,,4.08,CG-CD1-CD2-CE1-CE2-CZ,NE
-Pi-Cation,H,TRP 108,,W,HIS 90,,4.12,CE2-CD2-CE3-CZ3-CH2-CZ2,NE2
-Pi-Cation,K,TYR 102,,V,ARG 82,,3.91,CG-CD1-CD2-CE1-CE2-CZ,NE
-Pi-Cation,K,TYR 102,,V,HIS 90,,4.47,CG-CD1-CD2-CE1-CE2-CZ,NE2
-Pi-Cation,K,TRP 108,,V,HIS 90,,4.16,CE2-CD2-CE3-CZ3-CH2-CZ2,NE2
-Pi-Cation,H,TYR 102,,W,ARG 82,,4.08,CG-CD1-CD2-CE1-CE2-CZ,NE
-Pi-Cation,H,TRP 108,,W,HIS 90,,4.12,CE2-CD2-CE3-CZ3-CH2-CZ2,NE2
-Pi-Cation,J,PHE 50,,K,HIS 107,,4.1,CG-CD1-CD2-CE1-CE2-CZ,ND1
-Pi-Cation,J,PHE 50,,K,HIS 107,,4.05,CG-CD1-CD2-CE1-CE2-CZ,NE2
-Pi-Cation,K,TYR 102,,V,ARG 82,,3.91,CG-CD1-CD2-CE1-CE2-CZ,NE
-Pi-Cation,K,TYR 102,,V,HIS 90,,4.47,CG-CD1-CD2-CE1-CE2-CZ,NE2
-Pi-Cation,K,TRP 108,,V,HIS 90,,4.16,CE2-CD2-CE3-CZ3-CH2-CZ2,NE2
-Pi-Cation,J,PHE 50,,K,HIS 107,,4.1,CG-CD1-CD2-CE1-CE2-CZ,ND1
-Pi-Cation,J,PHE 50,,K,HIS 107,,4.05,CG-CD1-CD2-CE1-CE2-CZ,NE2
-Salt Bridge,L,ASP 122,OD2,H,LYS 224,NZ,2.69,,
-Salt Bridge,L,GLU 123,OE1,H,LYS 219,NZ,2.95,,
-Salt Bridge,L,GLU 123,OE1,H,LYS 219,NZ,2.95,,
-Salt Bridge,L,ASP 122,OD2,H,LYS 224,NZ,2.69,,
-Salt Bridge,W,GLU 30,OE1,V,ARG 23,NH1,3.31,,
-Salt Bridge,W,GLU 30,OE2,V,ARG 23,NH1,4.21,,
-Salt Bridge,V,GLU 30,OE1,W,ARG 23,NH1,3.35,,
-Salt Bridge,V,GLU 30,OE2,W,ARG 23,NH1,4.24,,
-Salt Bridge,V,GLU 30,OE1,W,ARG 23,NH1,3.35,,
-Salt Bridge,V,GLU 30,OE2,W,ARG 23,NH1,4.24,,
-Salt Bridge,W,GLU 30,OE1,V,ARG 23,NH1,3.31,,
-Salt Bridge,W,GLU 30,OE2,V,ARG 23,NH1,4.21,,
+Interaction_Type,Chain1,Residue1,Atom1,Chain2,Residue2,Atom2,Distance_Å
+Hydrogen bond,L,ASN 34,ND2,H,TRP 108,O,3.42
+Hydrogen bond,L,TYR 36,OH,H,PHE 110,N,3.06
+Hydrogen bond,L,GLN 38,OE1,H,GLN 39,NE2,2.96
+Hydrogen bond,L,GLN 38,NE2,H,GLN 39,OE1,3.03
+Hydrogen bond,L,PRO 44,O,H,TRP 113,NE1,3.35
+Hydrogen bond,L,TYR 87,OH,H,GLN 39,NE2,3.29
+Hydrogen bond,L,GLN 89,NE2,H,TRP 108,O,3.08
+Hydrogen bond,L,TYR 91,OH,H,HIS 107,ND1,2.59
+Hydrogen bond,L,TRP 96,NE1,H,TYR 99,OH,2.89
+Hydrogen bond,L,ASP 122,OD2,H,LYS 224,NZ,2.69
+Hydrogen bond,L,GLU 123,OE1,H,VAL 131,O,3.4
+Hydrogen bond,L,GLU 123,OE1,H,LYS 219,NZ,2.95
+Hydrogen bond,L,ASN 137,OD1,H,HIS 174,NE2,3.49
+Hydrogen bond,L,ASN 138,OD1,H,HIS 174,NE2,3.43
+Hydrogen bond,L,GLN 160,OE1,H,LEU 180,O,3.09
+Hydrogen bond,L,SER 162,OG,H,PRO 177,N,3.36
+Hydrogen bond,L,SER 162,OG,H,PRO 177,O,2.67
+Hydrogen bond,L,SER 174,OG,H,HIS 174,NE2,3.43
+Hydrogen bond,H,THR 30,O,W,GLN 89,OE1,3.09
+Hydrogen bond,H,ASN 31,O,W,ILE 91,N,3.23
+Hydrogen bond,H,GLY 33,N,W,GLN 89,O,2.9
+Hydrogen bond,H,GLY 33,N,W,GLN 89,NE2,3.4
+Hydrogen bond,H,TRP 50,NE1,W,HIS 86,O,3.32
+Hydrogen bond,H,ASN 52,OD1,W,GLN 89,NE2,3.2
+Hydrogen bond,H,THR 53,N,W,GLN 89,NE2,2.97
+Hydrogen bond,H,THR 53,OG1,W,GLN 89,OE1,3.46
+Hydrogen bond,H,TYR 99,OH,W,GLN 87,O,2.63
+Hydrogen bond,H,PRO 100,O,W,HIS 90,ND1,2.68
+Hydrogen bond,H,TYR 102,N,W,ILE 91,O,3.4
+Hydrogen bond,H,TYR 102,O,W,GLU 93,N,3.07
+Hydrogen bond,H,TYR 102,OH,W,ILE 80,O,2.85
+Hydrogen bond,H,TYR 102,OH,W,ARG 82,NE,3.39
+Hydrogen bond,H,GLY 104,N,W,GLU 93,O,3.13
+Hydrogen bond,H,GLY 104,O,W,ARG 82,NH2,3.18
+Hydrogen bond,H,SER 106,OG,W,HIS 90,NE2,2.63
+Hydrogen bond,V,VAL 15,N,W,THR 77,O,3.06
+Hydrogen bond,V,VAL 15,O,W,GLN 79,N,3.04
+Hydrogen bond,V,PHE 17,N,W,GLN 79,OE1,3.15
+Hydrogen bond,V,ARG 23,NH1,W,GLU 30,OE1,3.31
+Hydrogen bond,V,SER 24,OG,W,CYS 51,O,2.96
+Hydrogen bond,V,GLU 30,OE1,W,ARG 23,NH1,3.35
+Hydrogen bond,V,SER 50,N,W,ASN 62,OD1,2.86
+Hydrogen bond,V,CYS 51,O,W,SER 24,OG,2.89
+Hydrogen bond,V,CYS 60,SG,W,CYS 51,SG,3.17
+Hydrogen bond,V,ASN 62,OD1,W,SER 50,N,2.91
+Hydrogen bond,V,ASN 62,OD1,W,SER 50,OG,3.39
+Hydrogen bond,V,THR 77,O,W,VAL 15,N,2.94
+Hydrogen bond,V,GLN 79,N,W,VAL 15,O,2.87
+Hydrogen bond,V,GLN 79,OE1,W,PHE 17,N,3.17
+Hydrogen bond,V,GLN 79,NE2,W,LYS 16,NZ,3.25
+Hydrogen bond,V,ILE 80,O,K,TYR 102,OH,2.8
+Hydrogen bond,V,ARG 82,NE,K,TYR 102,OH,3.15
+Hydrogen bond,V,ARG 82,NH1,K,SER 106,OG,3.47
+Hydrogen bond,V,ARG 82,NH2,K,GLY 104,O,2.71
+Hydrogen bond,V,HIS 86,O,K,TRP 50,NE1,3.36
+Hydrogen bond,V,GLN 87,O,K,TRP 50,NE1,3.49
+Hydrogen bond,V,GLN 87,O,K,TYR 99,OH,2.79
+Hydrogen bond,V,GLN 89,O,K,GLY 33,N,2.92
+Hydrogen bond,V,GLN 89,OE1,K,THR 30,O,3.09
+Hydrogen bond,V,GLN 89,OE1,K,THR 53,OG1,3.2
+Hydrogen bond,V,GLN 89,NE2,K,GLY 33,N,3.36
+Hydrogen bond,V,GLN 89,NE2,K,ASN 52,OD1,3.21
+Hydrogen bond,V,GLN 89,NE2,K,THR 53,N,2.94
+Hydrogen bond,V,GLN 89,NE2,K,THR 53,OG1,3.45
+Hydrogen bond,V,HIS 90,ND1,K,PRO 100,O,2.56
+Hydrogen bond,V,HIS 90,NE2,K,SER 106,OG,2.93
+Hydrogen bond,V,ILE 91,N,K,ASN 31,O,3.3
+Hydrogen bond,V,ILE 91,O,K,TYR 102,N,3.46
+Hydrogen bond,V,GLU 93,N,K,TYR 102,O,3.05
+Hydrogen bond,V,GLU 93,O,K,GLY 104,N,2.76
+Hydrogen bond,J,ASN 34,ND2,K,TRP 108,O,3.49
+Hydrogen bond,J,TYR 36,OH,K,PHE 110,N,3.11
+Hydrogen bond,J,GLN 38,OE1,K,GLN 39,NE2,3.09
+Hydrogen bond,J,GLN 38,NE2,K,GLN 39,OE1,3.04
+Hydrogen bond,J,PRO 44,O,K,TRP 113,NE1,3.19
+Hydrogen bond,J,HIS 55,NE2,K,TYR 109,OH,3.41
+Hydrogen bond,J,TYR 87,OH,K,GLN 39,NE2,3.38
+Hydrogen bond,J,GLN 89,NE2,K,TRP 108,O,3.17
+Hydrogen bond,J,TYR 91,OH,K,HIS 107,ND1,2.67
+Hydrogen bond,J,TRP 96,NE1,K,TYR 99,OH,2.96
+Hydrogen bond,J,SER 131,OG,K,LYS 153,NZ,3.46
+Hydrogen bond,J,ASN 137,OD1,K,HIS 174,NE2,3.42
+Hydrogen bond,J,ASN 138,OD1,K,HIS 174,NE2,3.24
+Hydrogen bond,J,SER 162,OG,K,PRO 177,O,3.13
+Hydrogen bond,J,SER 174,OG,K,HIS 174,NE2,3.14
+Salt bridge / ionic,H,LYS 224,NZ,L,ASP 122,OD2,2.69
+Salt bridge / ionic,H,LYS 219,NZ,L,GLU 123,OE1,2.95
+Salt bridge / ionic,V,ARG 23,NH1,W,GLU 30,OE1,3.31
+Salt bridge / ionic,V,ARG 23,NH1,W,GLU 30,OE2,4.21
+Salt bridge / ionic,W,ARG 23,NH1,V,GLU 30,OE1,3.35
+Salt bridge / ionic,W,ARG 23,NH1,V,GLU 30,OE2,4.24
+Hydrophobic,L,TYR 36,CZ,H,TYR 109,CB,4.47
+Hydrophobic,L,TYR 36,CZ,H,PHE 110,CD2,4.0
+Hydrophobic,L,TYR 36,CE2,H,TRP 113,CZ2,4.07
+Hydrophobic,L,ALA 43,CB,H,TYR 95,CE1,3.71
+Hydrophobic,L,ALA 43,CB,H,TRP 113,CB,3.77
+Hydrophobic,L,PRO 44,CG,H,LEU 45,CD1,3.56
+Hydrophobic,L,PRO 44,CD,H,TRP 113,CZ3,3.66
+Hydrophobic,L,VAL 46,CG1,H,TYR 109,CD2,3.8
+Hydrophobic,L,TYR 49,CG,H,TYR 109,CE1,3.53
+Hydrophobic,L,TYR 87,CD2,H,LEU 45,CD1,3.84
+Hydrophobic,L,TYR 91,CD2,H,TRP 108,CD1,3.86
+Hydrophobic,L,PRO 95,CA,H,TRP 47,CZ3,3.67
+Hydrophobic,L,PRO 95,CB,H,ALA 61,CB,4.14
+Hydrophobic,L,TRP 96,CD1,H,TRP 47,CE2,3.44
+Hydrophobic,L,TRP 96,CZ2,H,TRP 108,CD1,3.81
+Hydrophobic,L,TRP 96,CD1,H,PHE 110,CZ,3.74
+Hydrophobic,L,PHE 98,CE2,H,LEU 45,CD1,3.86
+Hydrophobic,L,PHE 98,CE1,H,TRP 47,CB,4.36
+Hydrophobic,L,PHE 98,CZ,H,PHE 110,CE2,3.67
+Hydrophobic,L,PHE 116,CE2,H,ALA 146,C,4.31
+Hydrophobic,L,PHE 116,CD2,H,ALA 147,CB,3.61
+Hydrophobic,L,PHE 118,CD1,H,LEU 134,CB,3.92
+Hydrophobic,L,PHE 118,CE1,H,ALA 135,C,4.32
+Hydrophobic,L,PHE 118,CZ,H,ALA 147,C,4.03
+Hydrophobic,L,PHE 118,CE1,H,LEU 148,CA,4.19
+Hydrophobic,L,VAL 133,CG2,H,LEU 134,CD2,3.8
+Hydrophobic,L,LEU 135,CD2,H,ALA 147,CB,4.22
+Hydrophobic,L,LEU 135,CD1,H,PHE 176,CZ,3.69
+Hydrophobic,L,LEU 135,CD2,H,VAL 191,CG1,3.57
+Hydrophobic,L,VAL 163,C,H,PRO 177,CD,4.12
+Hydrophobic,L,LEU 175,CA,H,PHE 176,CE1,3.64
+Hydrophobic,H,TYR 32,CZ,W,ILE 91,CG1,3.79
+Hydrophobic,H,TYR 54,CD1,W,MET 81,CE,3.84
+Hydrophobic,H,TYR 102,CE1,W,ILE 91,C,3.47
+Hydrophobic,H,TYR 102,CE2,W,MET 94,CG,4.23
+Hydrophobic,V,VAL 15,CG2,W,ILE 76,CD1,4.36
+Hydrophobic,V,VAL 15,CG2,W,MET 78,CE,3.62
+Hydrophobic,V,PHE 17,CE1,W,PRO 49,CD,4.14
+Hydrophobic,V,PHE 17,CZ,W,MET 81,CE,3.94
+Hydrophobic,V,PHE 17,CD1,W,ILE 91,CG2,3.95
+Hydrophobic,V,VAL 20,CG1,W,PRO 49,CG,3.98
+Hydrophobic,V,VAL 20,CG1,W,VAL 52,CG1,3.9
+Hydrophobic,V,VAL 20,CG1,W,PRO 53,CD,4.23
+Hydrophobic,V,VAL 20,CG2,W,MET 78,CB,4.08
+Hydrophobic,V,VAL 20,CG1,W,ILE 80,CD1,4.17
+Hydrophobic,V,TYR 21,CD2,W,PRO 49,CD,4.04
+Hydrophobic,V,ILE 29,CD1,W,LEU 32,CD1,4.14
+Hydrophobic,V,LEU 32,CD1,W,ILE 29,CD1,3.87
+Hydrophobic,V,PRO 49,CD,W,PHE 17,CE1,3.9
+Hydrophobic,V,PRO 49,CG,W,VAL 20,CG1,3.98
+Hydrophobic,V,PRO 49,CD,W,TYR 21,CD2,4.06
+Hydrophobic,V,VAL 52,CG1,W,VAL 20,CG1,3.65
+Hydrophobic,V,PRO 53,CD,W,VAL 20,CG1,4.15
+Hydrophobic,V,ILE 76,CD1,W,VAL 15,CG2,4.25
+Hydrophobic,V,MET 78,C,W,VAL 14,CG1,4.39
+Hydrophobic,V,MET 78,CE,W,VAL 15,CG2,3.55
+Hydrophobic,V,MET 78,CB,W,VAL 20,CG2,3.89
+Hydrophobic,V,ILE 80,CA,W,PHE 17,CD1,4.32
+Hydrophobic,V,ILE 80,CD1,W,VAL 20,CG1,4.03
+Hydrophobic,V,MET 81,CB,W,PHE 17,CE1,3.85
+Hydrophobic,V,ILE 91,CG2,W,PHE 17,CG,3.91
+Hydrophobic,V,TYR 45,CE1,K,TRP 108,CZ2,4.4
+Hydrophobic,V,MET 81,CE,K,TYR 54,CD1,3.88
+Hydrophobic,V,ILE 91,CG1,K,TYR 32,CZ,3.66
+Hydrophobic,V,ILE 91,C,K,TYR 102,CE1,3.59
+Hydrophobic,V,MET 94,CG,K,TYR 102,CE2,4.16
+Hydrophobic,J,TYR 36,CZ,K,TYR 109,CB,4.47
+Hydrophobic,J,TYR 36,CZ,K,PHE 110,CD2,4.22
+Hydrophobic,J,TYR 36,CE2,K,TRP 113,CZ2,4.14
+Hydrophobic,J,ALA 43,CB,K,TYR 95,CE1,3.59
+Hydrophobic,J,ALA 43,CB,K,TRP 113,CB,3.79
+Hydrophobic,J,PRO 44,CG,K,LEU 45,CD1,3.64
+Hydrophobic,J,PRO 44,CD,K,TYR 95,CZ,4.47
+Hydrophobic,J,PRO 44,CD,K,TRP 113,CZ3,3.65
+Hydrophobic,J,VAL 46,CG1,K,TYR 109,CD1,3.97
+Hydrophobic,J,TYR 49,CG,K,TYR 109,CE2,3.7
+Hydrophobic,J,TYR 87,CD2,K,LEU 45,CD1,3.72
+Hydrophobic,J,TYR 91,CD2,K,TRP 108,CD1,3.91
+Hydrophobic,J,VAL 94,CG1,K,TRP 47,CH2,4.02
+Hydrophobic,J,PRO 95,CA,K,TRP 47,CZ3,3.71
+Hydrophobic,J,PRO 95,CB,K,ALA 61,CB,3.92
+Hydrophobic,J,TRP 96,CD1,K,TRP 47,CE2,3.54
+Hydrophobic,J,TRP 96,CZ2,K,TRP 108,CD1,3.78
+Hydrophobic,J,TRP 96,CD1,K,PHE 110,CZ,3.88
+Hydrophobic,J,PHE 98,CE1,K,VAL 37,CG1,4.5
+Hydrophobic,J,PHE 98,CD1,K,LEU 45,C,3.69
+Hydrophobic,J,PHE 98,CE1,K,TRP 47,CB,4.41
+Hydrophobic,J,PHE 98,CZ,K,PHE 110,CE2,3.59
+Hydrophobic,J,PHE 116,CD2,K,ALA 147,CB,3.76
+Hydrophobic,J,PHE 118,CD1,K,LEU 134,C,3.61
+Hydrophobic,J,PHE 118,CE1,K,ALA 135,C,3.83
+Hydrophobic,J,PHE 118,CE1,K,PRO 136,CA,4.17
+Hydrophobic,J,PHE 118,CZ,K,ALA 147,C,3.56
+Hydrophobic,J,PHE 118,CZ,K,LEU 148,CA,3.74
+Hydrophobic,J,VAL 133,CG2,K,LEU 134,CD2,3.86
+Hydrophobic,J,VAL 133,CG2,K,LEU 151,CD1,4.4
+Hydrophobic,J,LEU 135,CD1,K,PHE 176,CZ,3.45
+Hydrophobic,J,LEU 135,CD2,K,VAL 191,CG1,3.43
+Hydrophobic,J,VAL 163,C,K,PHE 176,CD1,4.41
+Hydrophobic,J,VAL 163,C,K,PRO 177,CD,4.35
+Hydrophobic,J,LEU 175,C,K,PHE 176,CE1,3.89
+Cation-pi,L,PHE 50,,H,HIS 107,ND1,4.03
+Cation-pi,L,PHE 50,,H,HIS 107,NE2,3.95
+Cation-pi,H,TYR 102,,W,ARG 82,NE,4.08
+Cation-pi,H,TRP 108,,W,HIS 90,NE2,4.12
+Cation-pi,K,TYR 102,,V,ARG 82,NE,3.91
+Cation-pi,K,TYR 102,,V,HIS 90,NE2,4.47
+Cation-pi,K,TRP 108,,V,HIS 90,NE2,4.16
+Cation-pi,J,PHE 50,,K,HIS 107,ND1,4.1
+Cation-pi,J,PHE 50,,K,HIS 107,NE2,4.05
+CH-pi,L,PRO 44,C,H,TRP 113,,4.5
+CH-pi,L,PRO 44,CB,H,TRP 113,,4.1
+CH-pi,L,PRO 44,CG,H,TRP 113,,4.06
+CH-pi,L,PRO 44,CD,H,TRP 113,,3.76
+CH-pi,L,TRP 96,CB,H,TRP 47,,4.29
+CH-pi,L,TRP 96,CG,H,TRP 47,,4.24
+CH-pi,L,TRP 96,CD1,H,TRP 47,,3.68
+CH-pi,L,TRP 96,CG,H,TRP 47,,4.21
+CH-pi,L,TRP 96,CD1,H,TRP 47,,3.9
+CH-pi,L,GLN 124,CA,H,PHE 132,,4.02
+CH-pi,L,GLN 124,CB,H,PHE 132,,3.68
+CH-pi,L,GLN 124,CG,H,PHE 132,,3.96
+CH-pi,L,SER 176,CB,H,PHE 176,,4.03
+CH-pi,H,TYR 109,CE1,L,TYR 49,,3.7
+CH-pi,H,TYR 109,CZ,L,TYR 49,,4.25
+CH-pi,H,HIS 107,CE1,L,PHE 50,,3.27
+CH-pi,H,LEU 45,CG,L,TYR 87,,4.27
+CH-pi,H,LEU 45,CD1,L,TYR 87,,4.01
+CH-pi,H,LEU 45,CB,L,PHE 98,,3.91
+CH-pi,H,ALA 147,CB,L,PHE 116,,3.62
+CH-pi,H,LEU 134,CB,L,PHE 118,,4.12
+CH-pi,W,MET 81,CE,H,TYR 54,,4.27
+CH-pi,W,ARG 82,CD,H,TYR 102,,3.81
+CH-pi,W,GLN 87,C,H,TRP 108,,4.49
+CH-pi,V,ILE 91,CG2,W,PHE 17,,4.11
+CH-pi,W,ILE 91,CG2,V,PHE 17,,4.11
+CH-pi,J,PRO 44,C,K,TRP 113,,4.37
+CH-pi,J,PRO 44,CB,K,TRP 113,,4.14
+CH-pi,J,PRO 44,CG,K,TRP 113,,4.1
+CH-pi,J,PRO 44,CD,K,TRP 113,,3.71
+CH-pi,J,TYR 49,CD1,K,TYR 109,,4.37
+CH-pi,J,TRP 96,CB,K,TRP 47,,4.12
+CH-pi,J,TRP 96,CG,K,TRP 47,,4.16
+CH-pi,J,TRP 96,CD1,K,TRP 47,,3.74
+CH-pi,J,TRP 96,CB,K,TRP 47,,4.47
+CH-pi,J,TRP 96,CG,K,TRP 47,,4.21
+CH-pi,J,GLN 124,CA,K,PHE 132,,4.02
+CH-pi,J,GLN 124,CB,K,PHE 132,,3.63
+CH-pi,J,GLN 124,CG,K,PHE 132,,4.0
+CH-pi,J,SER 176,CB,K,PHE 176,,3.73
+CH-pi,K,TYR 109,CE2,J,TYR 49,,3.81
+CH-pi,K,TYR 109,CZ,J,TYR 49,,4.4
+CH-pi,K,HIS 107,CE1,J,PHE 50,,3.36
+CH-pi,K,LEU 45,CG,J,TYR 87,,4.32
+CH-pi,K,LEU 45,CD1,J,TYR 87,,3.8
+CH-pi,K,TRP 47,CZ2,J,TRP 96,,4.17
+CH-pi,K,LEU 45,CB,J,PHE 98,,3.81
+CH-pi,K,ALA 147,CB,J,PHE 116,,3.83
+CH-pi,K,LEU 134,CB,J,PHE 118,,4.0
+Sulfur-aromatic,W,MET 81,SD,H,TYR 54,,4.36
+Sulfur-aromatic,V,MET 81,SD,K,TYR 54,,4.31
+Water-mediated,L,TRP 96,O,H,TRP 47,N,
+Water-mediated,L,TYR 91,O,W,LYS 84,NZ,
+Water-mediated,L,TYR 91,O,W,GLN 87,OE1,
+Water-mediated,L,GLY 99,O,H,LEU 45,N,
+Water-mediated,L,GLY 99,O,H,LEU 45,O,
+Water-mediated,L,GLY 41,O,H,GLN 115,O,
+Water-mediated,L,GLN 38,OE1,H,GLN 39,NE2,
+Water-mediated,L,TYR 87,OH,H,GLN 39,NE2,
+Water-mediated,L,PHE 98,N,H,LEU 45,O,
+Water-mediated,L,PRO 119,O,H,PRO 133,O,
+Water-mediated,L,PRO 119,O,H,ALA 135,N,
+Water-mediated,L,SER 131,OG,H,LYS 153,NZ,
+Water-mediated,L,THR 180,OG1,H,LYS 153,NZ,
+Water-mediated,L,GLY 41,O,H,TYR 95,OH,
+Water-mediated,L,GLY 41,O,H,GLN 115,O,
+Water-mediated,L,THR 164,OG1,H,HIS 174,ND1,
+Water-mediated,L,GLN 160,NE2,H,SER 182,N,
+Water-mediated,L,GLN 160,NE2,H,SER 182,OG,
+Water-mediated,L,ASN 137,ND2,H,GLY 172,O,
+Water-mediated,L,ASN 137,ND2,H,HIS 174,NE2,
+Water-mediated,L,ASN 138,ND2,H,GLY 172,O,
+Water-mediated,L,ASN 138,ND2,H,HIS 174,NE2,
+Water-mediated,V,GLN 79,NE2,K,HIS 101,NE2,
+Water-mediated,V,GLU 93,OE2,K,HIS 101,NE2,
+Water-mediated,V,GLN 87,NE2,J,SER 92,O,
+Water-mediated,V,GLU 30,O,W,GLU 30,O,
+Water-mediated,H,TYR 54,OH,V,TYR 21,OH,
+Water-mediated,V,THR 77,N,W,VAL 14,N,
+Water-mediated,V,GLU 30,O,W,GLU 30,O,
+Water-mediated,L,VAL 94,N,W,GLN 87,NE2,
+Water-mediated,J,GLY 99,O,K,LEU 45,N,
+Water-mediated,J,PHE 98,N,K,LEU 45,O,
+Water-mediated,J,GLN 38,OE1,K,GLN 39,NE2,
+Water-mediated,J,TYR 87,OH,K,GLN 39,NE2,
+Water-mediated,J,TRP 96,O,K,TRP 47,N,
+Water-mediated,V,GLN 87,OE1,J,TYR 91,O,
+Water-mediated,J,TYR 87,OH,K,LYS 43,O,
+Water-mediated,J,GLY 41,O,K,TYR 95,OH,
+Water-mediated,J,GLY 41,O,K,GLN 115,O,
+Water-mediated,V,ARG 82,NH2,K,GLY 104,O,
+Water-mediated,V,TYR 45,OH,K,SER 106,N,
+Water-mediated,V,ARG 82,NH1,K,SER 106,N,
+Amide-aromatic,H,TRP 108,,L,TYR 91,,4.07
+Amide-aromatic,W,GLN 87,,H,TRP 50,,4.2
+Amide-aromatic,W,GLN 87,,H,TRP 50,,4.3
+Amide-aromatic,W,GLY 88,,H,TRP 50,,4.27
+Amide-aromatic,W,GLY 92,,H,TYR 102,,3.94
+Amide-aromatic,W,GLU 93,,H,TYR 102,,4.47
+Amide-aromatic,W,GLY 88,,H,TRP 108,,3.94
+Amide-aromatic,V,GLN 87,,K,TRP 50,,4.07
+Amide-aromatic,V,GLN 87,,K,TRP 50,,4.24
+Amide-aromatic,V,GLY 88,,K,TRP 50,,4.25
+Amide-aromatic,V,GLY 88,,K,TRP 108,,4.07
+Amide-aromatic,V,GLY 92,,K,TYR 102,,3.91
+Amide-aromatic,V,GLU 93,,K,TYR 102,,4.5
+Amide-aromatic,K,TRP 108,,J,TYR 91,,4.09
+Van der Waals,L,TYR 32,CE1,H,HIS 107,CE1,4.65
+Van der Waals,L,ASN 34,ND2,H,TRP 108,C,3.91
+Van der Waals,L,ASN 34,ND2,H,TRP 108,O,3.42
+Van der Waals,L,ASN 34,CB,H,TYR 109,CB,4.37
+Van der Waals,L,ASN 34,CG,H,TYR 109,CA,4.42
+Van der Waals,L,ASN 34,CG,H,TYR 109,CB,3.75
+Van der Waals,L,ASN 34,OD1,H,TYR 109,CB,4.15
+Van der Waals,L,ASN 34,ND2,H,TYR 109,N,3.97
+Van der Waals,L,ASN 34,ND2,H,TYR 109,CA,3.62
+Van der Waals,L,ASN 34,ND2,H,TYR 109,CB,3.41
+Van der Waals,L,TYR 36,CZ,H,TYR 109,CA,4.7
+Van der Waals,L,TYR 36,CZ,H,TYR 109,CB,4.47
+Van der Waals,L,TYR 36,OH,H,TYR 109,CA,3.45
+Van der Waals,L,TYR 36,OH,H,TYR 109,C,3.73
+Van der Waals,L,TYR 36,OH,H,TYR 109,CB,3.5
+Van der Waals,L,TYR 36,CE2,H,PHE 110,N,4.33
+Van der Waals,L,TYR 36,CE2,H,PHE 110,C,4.75
+Van der Waals,L,TYR 36,CE2,H,PHE 110,O,3.83
+Van der Waals,L,TYR 36,CE2,H,PHE 110,CB,4.61
+Van der Waals,L,TYR 36,CE2,H,PHE 110,CD2,4.42
+Van der Waals,L,TYR 36,CZ,H,PHE 110,N,4.13
+Van der Waals,L,TYR 36,CZ,H,PHE 110,CG,4.69
+Van der Waals,L,TYR 36,CZ,H,PHE 110,CD2,4.0
+Van der Waals,L,TYR 36,CZ,H,PHE 110,CE2,4.59
+Van der Waals,L,TYR 36,OH,H,PHE 110,N,3.06
+Van der Waals,L,TYR 36,OH,H,PHE 110,CA,4.12
+Van der Waals,L,TYR 36,OH,H,PHE 110,CB,4.08
+Van der Waals,L,TYR 36,OH,H,PHE 110,CG,3.83
+Van der Waals,L,TYR 36,OH,H,PHE 110,CD2,3.33
+Van der Waals,L,TYR 36,OH,H,PHE 110,CE2,3.88
+Van der Waals,L,ALA 43,N,H,TYR 95,CE1,4.54
+Van der Waals,L,ALA 43,CA,H,TYR 95,CE1,3.98
+Van der Waals,L,ALA 43,CA,H,TYR 95,CZ,4.2
+Van der Waals,L,ALA 43,CA,H,TYR 95,OH,4.08
+Van der Waals,L,ALA 43,CB,H,TYR 95,CD1,4.12
+Van der Waals,L,ALA 43,CB,H,TYR 95,CE1,3.71
+Van der Waals,L,ALA 43,CB,H,TYR 95,CZ,4.39
+Van der Waals,L,ALA 43,CB,H,TRP 113,CB,3.77
+Van der Waals,L,ALA 43,CB,H,TRP 113,CG,4.13
+Van der Waals,L,ALA 43,CB,H,TRP 113,CD2,4.3
+Van der Waals,L,ALA 43,CB,H,TRP 113,CE3,4.33
+Van der Waals,L,ALA 43,CB,H,GLY 114,O,3.82
+Van der Waals,L,PRO 44,CB,H,LEU 45,CD1,4.29
+Van der Waals,L,PRO 44,CG,H,LEU 45,CG,4.39
+Van der Waals,L,PRO 44,CG,H,LEU 45,CD1,3.56
+Van der Waals,L,PRO 44,CG,H,LEU 45,CD2,3.99
+Van der Waals,L,PRO 44,CD,H,LEU 45,CD2,4.66
+Van der Waals,L,PRO 44,CD,H,TYR 95,CE2,4.66
+Van der Waals,L,PRO 44,CD,H,TYR 95,CZ,4.56
+Van der Waals,L,PRO 44,N,H,TRP 113,CD2,4.54
+Van der Waals,L,PRO 44,CA,H,TRP 113,CE2,4.68
+Van der Waals,L,PRO 44,CA,H,TRP 113,CZ2,4.65
+Van der Waals,L,PRO 44,C,H,TRP 113,CD1,4.68
+Van der Waals,L,PRO 44,C,H,TRP 113,NE1,4.23
+Van der Waals,L,PRO 44,C,H,TRP 113,CE2,4.36
+Van der Waals,L,PRO 44,C,H,TRP 113,CZ2,4.64
+Van der Waals,L,PRO 44,O,H,TRP 113,CG,3.96
+Van der Waals,L,PRO 44,O,H,TRP 113,CD1,3.55
+Van der Waals,L,PRO 44,O,H,TRP 113,CD2,4.02
+Van der Waals,L,PRO 44,O,H,TRP 113,NE1,3.35
+Van der Waals,L,PRO 44,O,H,TRP 113,CE2,3.66
+Van der Waals,L,PRO 44,O,H,TRP 113,CZ2,4.29
+Van der Waals,L,PRO 44,CB,H,TRP 113,CD2,4.74
+Van der Waals,L,PRO 44,CB,H,TRP 113,CE2,4.15
+Van der Waals,L,PRO 44,CB,H,TRP 113,CZ2,3.69
+Van der Waals,L,PRO 44,CB,H,TRP 113,CZ3,4.48
+Van der Waals,L,PRO 44,CB,H,TRP 113,CH2,3.88
+Van der Waals,L,PRO 44,CG,H,TRP 113,CE2,4.57
+Van der Waals,L,PRO 44,CG,H,TRP 113,CE3,4.55
+Van der Waals,L,PRO 44,CG,H,TRP 113,CZ2,4.02
+Van der Waals,L,PRO 44,CG,H,TRP 113,CZ3,3.97
+Van der Waals,L,PRO 44,CG,H,TRP 113,CH2,3.68
+Van der Waals,L,PRO 44,CD,H,TRP 113,CD2,4.17
+Van der Waals,L,PRO 44,CD,H,TRP 113,CE2,4.32
+Van der Waals,L,PRO 44,CD,H,TRP 113,CE3,3.84
+Van der Waals,L,PRO 44,CD,H,TRP 113,CZ2,4.19
+Van der Waals,L,PRO 44,CD,H,TRP 113,CZ3,3.66
+Van der Waals,L,PRO 44,CD,H,TRP 113,CH2,3.85
+Van der Waals,L,VAL 46,CB,H,TYR 109,CD2,4.14
+Van der Waals,L,VAL 46,CB,H,TYR 109,CE2,4.61
+Van der Waals,L,VAL 46,CG1,H,TYR 109,CD2,3.8
+Van der Waals,L,VAL 46,CG1,H,TYR 109,CE2,3.82
+Van der Waals,L,VAL 46,CG2,H,TYR 109,CB,4.31
+Van der Waals,L,VAL 46,CG2,H,TYR 109,CG,4.28
+Van der Waals,L,VAL 46,CG2,H,TYR 109,CD2,3.9
+Van der Waals,L,VAL 46,CG2,H,TYR 109,CE2,4.48
+Van der Waals,L,VAL 46,CB,H,PHE 110,O,4.16
+Van der Waals,L,VAL 46,CG1,H,PHE 110,O,4.2
+Van der Waals,L,VAL 46,CG1,H,ASP 111,CB,4.71
+Van der Waals,L,TYR 49,CD2,H,HIS 107,CB,4.21
+Van der Waals,L,TYR 49,CD2,H,HIS 107,CG,4.23
+Van der Waals,L,TYR 49,CD2,H,HIS 107,CD2,4.29
+Van der Waals,L,TYR 49,CE2,H,HIS 107,CG,4.65
+Van der Waals,L,TYR 49,CE2,H,HIS 107,CD2,4.31
+Van der Waals,L,TYR 49,CB,H,TYR 109,CB,4.46
+Van der Waals,L,TYR 49,CB,H,TYR 109,CG,4.14
+Van der Waals,L,TYR 49,CB,H,TYR 109,CD1,3.58
+Van der Waals,L,TYR 49,CB,H,TYR 109,CE1,3.94
+Van der Waals,L,TYR 49,CB,H,TYR 109,CZ,4.75
+Van der Waals,L,TYR 49,CG,H,TYR 109,CG,4.57
+Van der Waals,L,TYR 49,CG,H,TYR 109,CD1,3.72
+Van der Waals,L,TYR 49,CG,H,TYR 109,CE1,3.53
+Van der Waals,L,TYR 49,CG,H,TYR 109,CZ,4.26
+Van der Waals,L,TYR 49,CD1,H,TYR 109,CD1,4.21
+Van der Waals,L,TYR 49,CD1,H,TYR 109,CE1,3.73
+Van der Waals,L,TYR 49,CD1,H,TYR 109,CE2,4.68
+Van der Waals,L,TYR 49,CD1,H,TYR 109,CZ,4.0
+Van der Waals,L,TYR 49,CD1,H,TYR 109,OH,4.29
+Van der Waals,L,TYR 49,CD2,H,TYR 109,CD1,4.09
+Van der Waals,L,TYR 49,CD2,H,TYR 109,CE1,3.76
+Van der Waals,L,TYR 49,CD2,H,TYR 109,CZ,4.69
+Van der Waals,L,TYR 49,CE1,H,TYR 109,CE1,4.12
+Van der Waals,L,TYR 49,CE1,H,TYR 109,CZ,4.22
+Van der Waals,L,TYR 49,CE1,H,TYR 109,OH,4.06
+Van der Waals,L,TYR 49,CE2,H,TYR 109,CE1,4.15
+Van der Waals,L,TYR 49,CZ,H,TYR 109,CE1,4.32
+Van der Waals,L,TYR 49,CZ,H,TYR 109,CZ,4.67
+Van der Waals,L,TYR 49,CZ,H,TYR 109,OH,4.4
+Van der Waals,L,PHE 50,CA,H,HIS 107,ND1,4.52
+Van der Waals,L,PHE 50,CB,H,HIS 107,CG,4.14
+Van der Waals,L,PHE 50,CB,H,HIS 107,ND1,3.72
+Van der Waals,L,PHE 50,CB,H,HIS 107,CD2,4.38
+Van der Waals,L,PHE 50,CB,H,HIS 107,CE1,3.76
+Van der Waals,L,PHE 50,CB,H,HIS 107,NE2,4.16
+Van der Waals,L,PHE 50,CG,H,HIS 107,CG,4.39
+Van der Waals,L,PHE 50,CG,H,HIS 107,ND1,3.61
+Van der Waals,L,PHE 50,CG,H,HIS 107,CD2,4.47
+Van der Waals,L,PHE 50,CG,H,HIS 107,CE1,3.21
+Van der Waals,L,PHE 50,CG,H,HIS 107,NE2,3.79
+Van der Waals,L,PHE 50,CD1,H,HIS 107,ND1,3.68
+Van der Waals,L,PHE 50,CD1,H,HIS 107,CE1,3.37
+Van der Waals,L,PHE 50,CD1,H,HIS 107,NE2,4.33
+Van der Waals,L,PHE 50,CD2,H,HIS 107,ND1,4.2
+Van der Waals,L,PHE 50,CD2,H,HIS 107,CD2,4.53
+Van der Waals,L,PHE 50,CD2,H,HIS 107,CE1,3.4
+Van der Waals,L,PHE 50,CD2,H,HIS 107,NE2,3.63
+Van der Waals,L,PHE 50,CE1,H,HIS 107,ND1,4.33
+Van der Waals,L,PHE 50,CE1,H,HIS 107,CE1,3.71
+Van der Waals,L,PHE 50,CE2,H,HIS 107,CE1,3.73
+Van der Waals,L,PHE 50,CE2,H,HIS 107,NE2,4.04
+Van der Waals,L,PHE 50,CZ,H,HIS 107,CE1,3.88
+Van der Waals,L,HIS 55,NE2,H,ASP 111,CB,4.51
+Van der Waals,L,TYR 87,CE1,H,GLY 44,CA,4.17
+Van der Waals,L,TYR 87,CE1,H,GLY 44,C,4.69
+Van der Waals,L,TYR 87,CZ,H,GLY 44,CA,4.41
+Van der Waals,L,TYR 87,OH,H,GLY 44,CA,3.82
+Van der Waals,L,TYR 87,OH,H,GLY 44,C,4.45
+Van der Waals,L,TYR 87,CB,H,LEU 45,CD1,4.44
+Van der Waals,L,TYR 87,CG,H,LEU 45,CG,4.67
+Van der Waals,L,TYR 87,CG,H,LEU 45,CD1,4.01
+Van der Waals,L,TYR 87,CD1,H,LEU 45,CG,4.64
+Van der Waals,L,TYR 87,CD1,H,LEU 45,CD1,4.4
+Van der Waals,L,TYR 87,CD2,H,LEU 45,CG,4.51
+Van der Waals,L,TYR 87,CD2,H,LEU 45,CD1,3.84
+Van der Waals,L,TYR 87,CE1,H,LEU 45,N,4.31
+Van der Waals,L,TYR 87,CE1,H,LEU 45,CG,4.46
+Van der Waals,L,TYR 87,CE1,H,LEU 45,CD1,4.62
+Van der Waals,L,TYR 87,CE2,H,LEU 45,CG,4.33
+Van der Waals,L,TYR 87,CE2,H,LEU 45,CD1,4.08
+Van der Waals,L,TYR 87,CZ,H,LEU 45,CG,4.3
+Van der Waals,L,TYR 87,CZ,H,LEU 45,CD1,4.47
+Van der Waals,L,GLN 89,CD,H,TRP 108,O,3.91
+Van der Waals,L,GLN 89,OE1,H,TRP 108,O,3.87
+Van der Waals,L,GLN 89,NE2,H,TRP 108,C,4.31
+Van der Waals,L,GLN 89,NE2,H,TRP 108,O,3.08
+Van der Waals,L,GLN 89,OE1,H,TYR 109,CA,4.16
+Van der Waals,L,TYR 91,CD2,H,HIS 107,CA,4.38
+Van der Waals,L,TYR 91,CD2,H,HIS 107,C,4.44
+Van der Waals,L,TYR 91,CE1,H,HIS 107,CB,4.74
+Van der Waals,L,TYR 91,CE2,H,HIS 107,CA,3.7
+Van der Waals,L,TYR 91,CE2,H,HIS 107,C,4.18
+Van der Waals,L,TYR 91,CE2,H,HIS 107,CB,4.01
+Van der Waals,L,TYR 91,CE2,H,HIS 107,CG,4.3
+Van der Waals,L,TYR 91,CE2,H,HIS 107,ND1,3.66
+Van der Waals,L,TYR 91,CE2,H,HIS 107,CE1,4.73
+Van der Waals,L,TYR 91,CZ,H,HIS 107,CA,4.09
+Van der Waals,L,TYR 91,CZ,H,HIS 107,C,4.58
+Van der Waals,L,TYR 91,CZ,H,HIS 107,CB,3.89
+Van der Waals,L,TYR 91,CZ,H,HIS 107,CG,4.13
+Van der Waals,L,TYR 91,CZ,H,HIS 107,ND1,3.5
+Van der Waals,L,TYR 91,CZ,H,HIS 107,CE1,4.61
+Van der Waals,L,TYR 91,OH,H,HIS 107,CA,4.16
+Van der Waals,L,TYR 91,OH,H,HIS 107,CB,3.55
+Van der Waals,L,TYR 91,OH,H,HIS 107,CG,3.37
+Van der Waals,L,TYR 91,OH,H,HIS 107,ND1,2.59
+Van der Waals,L,TYR 91,OH,H,HIS 107,CD2,4.51
+Van der Waals,L,TYR 91,OH,H,HIS 107,CE1,3.56
+Van der Waals,L,TYR 91,O,H,TRP 108,CD1,4.47
+Van der Waals,L,TYR 91,CB,H,TRP 108,CA,4.53
+Van der Waals,L,TYR 91,CB,H,TRP 108,C,4.49
+Van der Waals,L,TYR 91,CB,H,TRP 108,O,3.72
+Van der Waals,L,TYR 91,CB,H,TRP 108,CB,3.9
+Van der Waals,L,TYR 91,CB,H,TRP 108,CG,4.63
+Van der Waals,L,TYR 91,CB,H,TRP 108,CD1,4.45
+Van der Waals,L,TYR 91,CG,H,TRP 108,N,3.99
+Van der Waals,L,TYR 91,CG,H,TRP 108,CA,4.31
+Van der Waals,L,TYR 91,CG,H,TRP 108,C,4.34
+Van der Waals,L,TYR 91,CG,H,TRP 108,O,3.85
+Van der Waals,L,TYR 91,CG,H,TRP 108,CB,4.1
+Van der Waals,L,TYR 91,CG,H,TRP 108,CG,4.75
+Van der Waals,L,TYR 91,CG,H,TRP 108,CD1,4.58
+Van der Waals,L,TYR 91,CD1,H,TRP 108,N,4.49
+Van der Waals,L,TYR 91,CD1,H,TRP 108,C,4.55
+Van der Waals,L,TYR 91,CD1,H,TRP 108,O,4.03
+Van der Waals,L,TYR 91,CD2,H,TRP 108,N,3.5
+Van der Waals,L,TYR 91,CD2,H,TRP 108,CA,4.18
+Van der Waals,L,TYR 91,CD2,H,TRP 108,C,4.65
+Van der Waals,L,TYR 91,CD2,H,TRP 108,CB,3.99
+Van der Waals,L,TYR 91,CD2,H,TRP 108,CG,4.22
+Van der Waals,L,TYR 91,CD2,H,TRP 108,CD1,3.86
+Van der Waals,L,TYR 91,CE2,H,TRP 108,N,3.61
+Van der Waals,L,TYR 91,CE2,H,TRP 108,CA,4.66
+Van der Waals,L,TYR 91,CE2,H,TRP 108,CD1,4.71
+Van der Waals,L,TYR 91,CZ,H,TRP 108,N,4.17
+Van der Waals,L,VAL 94,CB,H,TRP 47,CZ3,4.63
+Van der Waals,L,VAL 94,CB,H,TRP 47,CH2,4.74
+Van der Waals,L,VAL 94,CG1,H,TRP 47,CH2,4.57
+Van der Waals,L,PRO 95,CA,H,TRP 47,CE3,3.85
+Van der Waals,L,PRO 95,CA,H,TRP 47,CZ3,3.67
+Van der Waals,L,PRO 95,CA,H,TRP 47,CH2,4.74
+Van der Waals,L,PRO 95,C,H,TRP 47,CE3,4.21
+Van der Waals,L,PRO 95,C,H,TRP 47,CZ3,4.36
+Van der Waals,L,PRO 95,CB,H,TRP 47,CE3,3.74
+Van der Waals,L,PRO 95,CB,H,TRP 47,CZ3,3.86
+Van der Waals,L,PRO 95,CB,H,ALA 61,CA,4.35
+Van der Waals,L,PRO 95,CB,H,ALA 61,CB,4.14
+Van der Waals,L,TRP 96,N,H,TRP 47,CD2,4.18
+Van der Waals,L,TRP 96,N,H,TRP 47,CE3,3.62
+Van der Waals,L,TRP 96,N,H,TRP 47,CZ3,3.93
+Van der Waals,L,TRP 96,CA,H,TRP 47,CD2,4.74
+Van der Waals,L,TRP 96,CA,H,TRP 47,CE3,4.56
+Van der Waals,L,TRP 96,C,H,TRP 47,CB,4.58
+Van der Waals,L,TRP 96,O,H,TRP 47,CB,3.74
+Van der Waals,L,TRP 96,O,H,TRP 47,CG,4.42
+Van der Waals,L,TRP 96,O,H,TRP 47,CE3,4.32
+Van der Waals,L,TRP 96,CB,H,TRP 47,CB,4.44
+Van der Waals,L,TRP 96,CB,H,TRP 47,CG,4.19
+Van der Waals,L,TRP 96,CB,H,TRP 47,CD1,4.6
+Van der Waals,L,TRP 96,CB,H,TRP 47,CD2,4.12
+Van der Waals,L,TRP 96,CB,H,TRP 47,CE2,4.52
+Van der Waals,L,TRP 96,CB,H,TRP 47,CE3,4.39
+Van der Waals,L,TRP 96,CG,H,TRP 47,CG,4.56
+Van der Waals,L,TRP 96,CG,H,TRP 47,CD1,4.7
+Van der Waals,L,TRP 96,CG,H,TRP 47,CD2,4.18
+Van der Waals,L,TRP 96,CG,H,TRP 47,NE1,4.45
+Van der Waals,L,TRP 96,CG,H,TRP 47,CE2,4.11
+Van der Waals,L,TRP 96,CG,H,TRP 47,CE3,4.5
+Van der Waals,L,TRP 96,CG,H,TRP 47,CZ2,4.4
+Van der Waals,L,TRP 96,CG,H,TRP 47,CZ3,4.74
+Van der Waals,L,TRP 96,CG,H,TRP 47,CH2,4.68
+Van der Waals,L,TRP 96,CD1,H,TRP 47,CG,4.28
+Van der Waals,L,TRP 96,CD1,H,TRP 47,CD1,4.06
+Van der Waals,L,TRP 96,CD1,H,TRP 47,CD2,3.92
+Van der Waals,L,TRP 96,CD1,H,TRP 47,NE1,3.55
+Van der Waals,L,TRP 96,CD1,H,TRP 47,CE2,3.44
+Van der Waals,L,TRP 96,CD1,H,TRP 47,CE3,4.57
+Van der Waals,L,TRP 96,CD1,H,TRP 47,CZ2,3.71
+Van der Waals,L,TRP 96,CD1,H,TRP 47,CZ3,4.74
+Van der Waals,L,TRP 96,CD1,H,TRP 47,CH2,4.35
+Van der Waals,L,TRP 96,NE1,H,TRP 47,NE1,4.28
+Van der Waals,L,TRP 96,NE1,H,TRP 47,CE2,4.07
+Van der Waals,L,TRP 96,NE1,H,TRP 47,CZ2,3.87
+Van der Waals,L,TRP 96,NE1,H,TRP 47,CH2,4.46
+Van der Waals,L,TRP 96,CE2,H,TRP 47,CZ2,4.63
+Van der Waals,L,TRP 96,NE1,H,TRP 108,CB,4.31
+Van der Waals,L,TRP 96,CE2,H,TRP 108,CB,4.28
+Van der Waals,L,TRP 96,CE2,H,TRP 108,CG,4.73
+Van der Waals,L,TRP 96,CZ2,H,TRP 108,CB,4.05
+Van der Waals,L,TRP 96,CZ2,H,TRP 108,CG,4.04
+Van der Waals,L,TRP 96,CZ2,H,TRP 108,CD1,3.81
+Van der Waals,L,TRP 96,CH2,H,TRP 108,CG,4.67
+Van der Waals,L,TRP 96,CH2,H,TRP 108,CD1,4.06
+Van der Waals,L,PHE 98,CB,H,LEU 45,O,4.03
+Van der Waals,L,PHE 98,CB,H,LEU 45,CB,4.53
+Van der Waals,L,PHE 98,CG,H,LEU 45,C,4.55
+Van der Waals,L,PHE 98,CG,H,LEU 45,O,4.04
+Van der Waals,L,PHE 98,CG,H,LEU 45,CB,4.01
+Van der Waals,L,PHE 98,CG,H,LEU 45,CD1,4.63
+Van der Waals,L,PHE 98,CD1,H,LEU 45,CA,4.63
+Van der Waals,L,PHE 98,CD1,H,LEU 45,C,3.98
+Van der Waals,L,PHE 98,CD1,H,LEU 45,O,3.55
+Van der Waals,L,PHE 98,CD1,H,LEU 45,CB,3.99
+Van der Waals,L,PHE 98,CD2,H,LEU 45,CB,4.16
+Van der Waals,L,PHE 98,CD2,H,LEU 45,CG,4.72
+Van der Waals,L,PHE 98,CD2,H,LEU 45,CD1,3.99
+Van der Waals,L,PHE 98,CE1,H,LEU 45,C,4.35
+Van der Waals,L,PHE 98,CE1,H,LEU 45,O,4.27
+Van der Waals,L,PHE 98,CE1,H,LEU 45,CB,4.14
+Van der Waals,L,PHE 98,CE2,H,LEU 45,CB,4.29
+Van der Waals,L,PHE 98,CE2,H,LEU 45,CG,4.72
+Van der Waals,L,PHE 98,CE2,H,LEU 45,CD1,3.86
+Van der Waals,L,PHE 98,CZ,H,LEU 45,CB,4.28
+Van der Waals,L,PHE 98,CZ,H,LEU 45,CD1,4.41
+Van der Waals,L,PHE 98,CD1,H,GLU 46,N,4.47
+Van der Waals,L,PHE 98,CD1,H,GLU 46,CA,4.6
+Van der Waals,L,PHE 98,CE1,H,GLU 46,N,4.51
+Van der Waals,L,PHE 98,CE1,H,GLU 46,CA,4.64
+Van der Waals,L,PHE 98,CE1,H,GLU 46,C,4.55
+Van der Waals,L,PHE 98,CE1,H,TRP 47,N,4.1
+Van der Waals,L,PHE 98,CE1,H,TRP 47,CA,4.65
+Van der Waals,L,PHE 98,CE1,H,TRP 47,CB,4.36
+Van der Waals,L,PHE 116,CE2,H,ALA 146,CA,4.47
+Van der Waals,L,PHE 116,CE2,H,ALA 146,C,4.31
+Van der Waals,L,PHE 116,CZ,H,ALA 146,C,4.75
+Van der Waals,L,PHE 116,CB,H,ALA 147,CB,4.4
+Van der Waals,L,PHE 116,CG,H,ALA 147,CB,3.75
+Van der Waals,L,PHE 116,CD1,H,ALA 147,CB,4.0
+Van der Waals,L,PHE 116,CD2,H,ALA 147,N,4.18
+Van der Waals,L,PHE 116,CD2,H,ALA 147,CA,4.52
+Van der Waals,L,PHE 116,CD2,H,ALA 147,CB,3.61
+Van der Waals,L,PHE 116,CE1,H,ALA 147,CB,4.13
+Van der Waals,L,PHE 116,CE2,H,ALA 147,N,3.85
+Van der Waals,L,PHE 116,CE2,H,ALA 147,CA,4.43
+Van der Waals,L,PHE 116,CE2,H,ALA 147,CB,3.75
+Van der Waals,L,PHE 116,CZ,H,ALA 147,N,4.46
+Van der Waals,L,PHE 116,CZ,H,ALA 147,CB,4.01
+Van der Waals,L,PHE 118,CB,H,LEU 134,CB,4.48
+Van der Waals,L,PHE 118,CB,H,LEU 134,CD2,4.04
+Van der Waals,L,PHE 118,CG,H,LEU 134,CA,4.63
+Van der Waals,L,PHE 118,CG,H,LEU 134,CB,4.1
+Van der Waals,L,PHE 118,CG,H,LEU 134,CG,4.64
+Van der Waals,L,PHE 118,CG,H,LEU 134,CD2,4.32
+Van der Waals,L,PHE 118,CD1,H,LEU 134,CA,4.2
+Van der Waals,L,PHE 118,CD1,H,LEU 134,C,3.96
+Van der Waals,L,PHE 118,CD1,H,LEU 134,O,4.14
+Van der Waals,L,PHE 118,CD1,H,LEU 134,CB,3.92
+Van der Waals,L,PHE 118,CD2,H,LEU 134,CB,4.51
+Van der Waals,L,PHE 118,CD2,H,LEU 134,CD1,4.57
+Van der Waals,L,PHE 118,CD2,H,LEU 134,CD2,4.58
+Van der Waals,L,PHE 118,CE1,H,LEU 134,CA,4.66
+Van der Waals,L,PHE 118,CE1,H,LEU 134,C,4.16
+Van der Waals,L,PHE 118,CE1,H,LEU 134,O,3.91
+Van der Waals,L,PHE 118,CE1,H,LEU 134,CB,4.19
+Van der Waals,L,PHE 118,CE2,H,LEU 134,CB,4.74
+Van der Waals,L,PHE 118,CE2,H,LEU 134,CD1,4.66
+Van der Waals,L,PHE 118,CZ,H,LEU 134,CB,4.58
+Van der Waals,L,PHE 118,CD1,H,ALA 135,N,4.35
+Van der Waals,L,PHE 118,CD1,H,ALA 135,C,4.32
+Van der Waals,L,PHE 118,CD1,H,ALA 135,O,3.45
+Van der Waals,L,PHE 118,CE1,H,ALA 135,C,4.32
+Van der Waals,L,PHE 118,CE1,H,ALA 135,O,3.66
+Van der Waals,L,PHE 118,CE1,H,ALA 147,C,4.15
+Van der Waals,L,PHE 118,CE1,H,ALA 147,O,3.57
+Van der Waals,L,PHE 118,CZ,H,ALA 147,CA,4.71
+Van der Waals,L,PHE 118,CZ,H,ALA 147,C,4.03
+Van der Waals,L,PHE 118,CZ,H,ALA 147,O,3.83
+Van der Waals,L,PHE 118,CZ,H,ALA 147,CB,4.04
+Van der Waals,L,PHE 118,CE1,H,LEU 148,N,4.44
+Van der Waals,L,PHE 118,CE1,H,LEU 148,CA,4.19
+Van der Waals,L,PHE 118,CZ,H,LEU 148,N,4.27
+Van der Waals,L,PHE 118,CZ,H,LEU 148,CA,4.34
+Van der Waals,L,SER 121,CB,H,PHE 132,CB,4.74
+Van der Waals,L,SER 121,OG,H,PHE 132,CB,3.99
+Van der Waals,L,SER 121,OG,H,PHE 132,CG,4.21
+Van der Waals,L,SER 121,OG,H,PHE 132,CD1,4.05
+Van der Waals,L,SER 121,CB,H,PRO 133,O,4.06
+Van der Waals,L,SER 121,CB,H,PRO 133,CG,4.05
+Van der Waals,L,SER 121,CB,H,PRO 133,CD,4.05
+Van der Waals,L,SER 121,OG,H,PRO 133,CD,4.15
+Van der Waals,L,GLU 123,CD,H,VAL 131,O,4.01
+Van der Waals,L,GLU 123,OE1,H,VAL 131,O,3.4
+Van der Waals,L,GLU 123,OE2,H,VAL 131,O,3.89
+Van der Waals,L,GLU 123,C,H,PHE 132,CD1,4.48
+Van der Waals,L,GLU 123,C,H,PHE 132,CE1,4.19
+Van der Waals,L,GLU 123,O,H,PHE 132,CE1,4.31
+Van der Waals,L,GLU 123,CB,H,PHE 132,CD1,4.34
+Van der Waals,L,GLU 123,CB,H,PHE 132,CE1,4.56
+Van der Waals,L,GLU 123,CG,H,PHE 132,CD1,4.34
+Van der Waals,L,GLU 123,CG,H,PHE 132,CE1,4.26
+Van der Waals,L,GLU 123,CD,H,PHE 132,CD1,3.75
+Van der Waals,L,GLU 123,CD,H,PHE 132,CE1,3.83
+Van der Waals,L,GLU 123,OE1,H,PHE 132,CA,4.5
+Van der Waals,L,GLU 123,OE1,H,PHE 132,CD1,3.76
+Van der Waals,L,GLU 123,OE1,H,PHE 132,CE1,4.27
+Van der Waals,L,GLU 123,OE2,H,PHE 132,CD1,3.9
+Van der Waals,L,GLU 123,OE2,H,PHE 132,CE1,3.66
+Van der Waals,L,GLU 123,OE1,H,PRO 133,CD,4.29
+Van der Waals,L,GLN 124,N,H,PHE 132,CD1,3.97
+Van der Waals,L,GLN 124,N,H,PHE 132,CE1,3.86
+Van der Waals,L,GLN 124,N,H,PHE 132,CZ,4.55
+Van der Waals,L,GLN 124,CA,H,PHE 132,CG,4.59
+Van der Waals,L,GLN 124,CA,H,PHE 132,CD1,4.04
+Van der Waals,L,GLN 124,CA,H,PHE 132,CE1,3.65
+Van der Waals,L,GLN 124,CA,H,PHE 132,CE2,4.45
+Van der Waals,L,GLN 124,CA,H,PHE 132,CZ,3.88
+Van der Waals,L,GLN 124,CB,H,PHE 132,CG,3.99
+Van der Waals,L,GLN 124,CB,H,PHE 132,CD1,3.93
+Van der Waals,L,GLN 124,CB,H,PHE 132,CD2,3.99
+Van der Waals,L,GLN 124,CB,H,PHE 132,CE1,3.87
+Van der Waals,L,GLN 124,CB,H,PHE 132,CE2,3.93
+Van der Waals,L,GLN 124,CB,H,PHE 132,CZ,3.87
+Van der Waals,L,GLN 124,CG,H,PHE 132,CG,4.53
+Van der Waals,L,GLN 124,CG,H,PHE 132,CD1,4.68
+Van der Waals,L,GLN 124,CG,H,PHE 132,CD2,4.03
+Van der Waals,L,GLN 124,CG,H,PHE 132,CE1,4.37
+Van der Waals,L,GLN 124,CG,H,PHE 132,CE2,3.66
+Van der Waals,L,GLN 124,CG,H,PHE 132,CZ,3.85
+Van der Waals,L,GLN 124,CD,H,PHE 132,CD2,4.1
+Van der Waals,L,GLN 124,CD,H,PHE 132,CE2,4.02
+Van der Waals,L,GLN 124,CD,H,PHE 132,CZ,4.66
+Van der Waals,L,GLN 124,NE2,H,PHE 132,CD2,4.35
+Van der Waals,L,GLN 124,NE2,H,PHE 132,CE2,4.07
+Van der Waals,L,GLN 124,NE2,H,LYS 153,CD,3.98
+Van der Waals,L,SER 131,CB,H,LEU 151,CD2,3.73
+Van der Waals,L,SER 131,OG,H,LEU 151,CD2,3.89
+Van der Waals,L,SER 131,OG,H,LYS 153,CD,3.66
+Van der Waals,L,SER 131,OG,H,LYS 153,CE,4.31
+Van der Waals,L,SER 131,OG,H,LYS 153,NZ,3.78
+Van der Waals,L,VAL 133,CB,H,LEU 134,CD2,4.16
+Van der Waals,L,VAL 133,CG1,H,LEU 134,CD1,4.64
+Van der Waals,L,VAL 133,CG2,H,LEU 134,CD2,3.8
+Van der Waals,L,VAL 133,CG2,H,LEU 151,CD2,4.74
+Van der Waals,L,LEU 135,CD2,H,ALA 147,CB,4.22
+Van der Waals,L,LEU 135,CG,H,VAL 191,CG1,4.49
+Van der Waals,L,LEU 135,CD1,H,VAL 191,CB,4.71
+Van der Waals,L,LEU 135,CD1,H,VAL 191,CG1,4.13
+Van der Waals,L,LEU 135,CD1,H,VAL 191,CG2,4.65
+Van der Waals,L,LEU 135,CD2,H,VAL 191,CB,4.38
+Van der Waals,L,LEU 135,CD2,H,VAL 191,CG1,3.57
+Van der Waals,L,LEU 135,CD2,H,VAL 191,CG2,4.05
+Van der Waals,L,ASN 137,CG,H,HIS 174,CD2,4.17
+Van der Waals,L,ASN 137,CG,H,HIS 174,NE2,4.3
+Van der Waals,L,ASN 137,OD1,H,HIS 174,CG,4.25
+Van der Waals,L,ASN 137,OD1,H,HIS 174,CD2,3.13
+Van der Waals,L,ASN 137,OD1,H,HIS 174,NE2,3.49
+Van der Waals,L,ASN 137,ND2,H,HIS 174,CD2,4.52
+Van der Waals,L,ASN 137,CG,H,THR 193,CG2,4.4
+Van der Waals,L,ASN 137,ND2,H,THR 193,OG1,4.28
+Van der Waals,L,ASN 137,ND2,H,THR 193,CG2,3.62
+Van der Waals,L,ASN 138,CG,H,HIS 174,NE2,4.21
+Van der Waals,L,ASN 138,OD1,H,HIS 174,CE1,3.79
+Van der Waals,L,ASN 138,OD1,H,HIS 174,NE2,3.43
+Van der Waals,L,ASN 138,ND2,H,HIS 174,NE2,4.33
+Van der Waals,L,GLN 160,CB,H,VAL 179,CG1,4.33
+Van der Waals,L,GLN 160,CB,H,VAL 179,CG2,4.16
+Van der Waals,L,GLN 160,CG,H,VAL 179,CG2,4.73
+Van der Waals,L,GLN 160,CD,H,VAL 179,CB,4.74
+Van der Waals,L,GLN 160,CD,H,VAL 179,CG1,3.99
+Van der Waals,L,GLN 160,CD,H,VAL 179,CG2,4.16
+Van der Waals,L,GLN 160,OE1,H,VAL 179,CG1,4.18
+Van der Waals,L,GLN 160,OE1,H,VAL 179,CG2,3.82
+Van der Waals,L,GLN 160,NE2,H,VAL 179,CG1,3.7
+Van der Waals,L,GLN 160,CD,H,LEU 180,C,4.65
+Van der Waals,L,GLN 160,CD,H,LEU 180,O,3.92
+Van der Waals,L,GLN 160,OE1,H,LEU 180,C,4.03
+Van der Waals,L,GLN 160,OE1,H,LEU 180,O,3.09
+Van der Waals,L,GLN 160,NE2,H,LEU 180,C,4.38
+Van der Waals,L,GLN 160,NE2,H,LEU 180,O,3.95
+Van der Waals,L,GLN 160,CD,H,GLN 181,CA,4.44
+Van der Waals,L,GLN 160,OE1,H,GLN 181,CA,4.31
+Van der Waals,L,GLN 160,NE2,H,GLN 181,N,4.3
+Van der Waals,L,GLN 160,NE2,H,GLN 181,CA,3.7
+Van der Waals,L,GLN 160,NE2,H,GLN 181,CB,4.03
+Van der Waals,L,GLN 160,NE2,H,GLN 181,CG,3.66
+Van der Waals,L,GLU 161,O,H,VAL 179,CG2,3.94
+Van der Waals,L,SER 162,C,H,PHE 176,CD1,4.24
+Van der Waals,L,SER 162,O,H,PHE 176,CD1,3.66
+Van der Waals,L,SER 162,O,H,PHE 176,CE1,4.05
+Van der Waals,L,SER 162,CB,H,PHE 176,CB,4.21
+Van der Waals,L,SER 162,CB,H,PHE 176,CD1,4.65
+Van der Waals,L,SER 162,OG,H,PHE 176,CA,4.38
+Van der Waals,L,SER 162,OG,H,PHE 176,C,4.04
+Van der Waals,L,SER 162,OG,H,PHE 176,CB,3.75
+Van der Waals,L,SER 162,CB,H,PRO 177,C,4.69
+Van der Waals,L,SER 162,CB,H,PRO 177,O,3.62
+Van der Waals,L,SER 162,CB,H,PRO 177,CD,4.38
+Van der Waals,L,SER 162,OG,H,PRO 177,N,3.36
+Van der Waals,L,SER 162,OG,H,PRO 177,CA,3.74
+Van der Waals,L,SER 162,OG,H,PRO 177,C,3.55
+Van der Waals,L,SER 162,OG,H,PRO 177,O,2.67
+Van der Waals,L,SER 162,OG,H,PRO 177,CB,3.56
+Van der Waals,L,SER 162,OG,H,PRO 177,CG,3.81
+Van der Waals,L,SER 162,OG,H,PRO 177,CD,3.12
+Van der Waals,L,VAL 163,CA,H,PHE 176,CD1,4.62
+Van der Waals,L,VAL 163,C,H,PHE 176,CD1,4.53
+Van der Waals,L,VAL 163,C,H,PRO 177,CG,4.35
+Van der Waals,L,VAL 163,C,H,PRO 177,CD,4.12
+Van der Waals,L,VAL 163,O,H,PRO 177,CG,3.45
+Van der Waals,L,VAL 163,O,H,PRO 177,CD,3.62
+Van der Waals,L,THR 164,OG1,H,HIS 174,ND1,4.26
+Van der Waals,L,THR 164,N,H,PHE 176,CD1,4.21
+Van der Waals,L,THR 164,N,H,PHE 176,CE1,4.36
+Van der Waals,L,THR 164,CA,H,PHE 176,CD1,4.67
+Van der Waals,L,THR 164,CB,H,PHE 176,CD1,4.39
+Van der Waals,L,THR 164,CB,H,PHE 176,CE1,4.21
+Van der Waals,L,THR 164,OG1,H,PHE 176,CD1,4.33
+Van der Waals,L,THR 164,OG1,H,PHE 176,CE1,4.3
+Van der Waals,L,THR 164,N,H,PRO 177,CD,4.54
+Van der Waals,L,THR 164,CA,H,PRO 177,CD,4.53
+Van der Waals,L,SER 174,CB,H,HIS 174,CG,4.18
+Van der Waals,L,SER 174,CB,H,HIS 174,ND1,4.34
+Van der Waals,L,SER 174,CB,H,HIS 174,CD2,4.12
+Van der Waals,L,SER 174,CB,H,HIS 174,CE1,4.4
+Van der Waals,L,SER 174,CB,H,HIS 174,NE2,4.26
+Van der Waals,L,SER 174,OG,H,HIS 174,CG,4.08
+Van der Waals,L,SER 174,OG,H,HIS 174,ND1,4.1
+Van der Waals,L,SER 174,OG,H,HIS 174,CD2,3.66
+Van der Waals,L,SER 174,OG,H,HIS 174,CE1,3.74
+Van der Waals,L,SER 174,OG,H,HIS 174,NE2,3.43
+Van der Waals,L,SER 174,CA,H,PHE 176,CE1,4.39
+Van der Waals,L,SER 174,CA,H,PHE 176,CZ,4.69
+Van der Waals,L,SER 174,C,H,PHE 176,CD1,4.6
+Van der Waals,L,SER 174,C,H,PHE 176,CE1,3.53
+Van der Waals,L,SER 174,C,H,PHE 176,CZ,4.15
+Van der Waals,L,SER 174,O,H,PHE 176,CD1,4.2
+Van der Waals,L,SER 174,O,H,PHE 176,CE1,3.44
+Van der Waals,L,SER 174,O,H,PHE 176,CZ,4.41
+Van der Waals,L,SER 174,CB,H,PHE 176,CE1,4.01
+Van der Waals,L,SER 174,CB,H,PHE 176,CZ,3.98
+Van der Waals,L,LEU 175,N,H,PHE 176,CE1,3.58
+Van der Waals,L,LEU 175,N,H,PHE 176,CZ,4.0
+Van der Waals,L,LEU 175,CA,H,PHE 176,CD1,4.44
+Van der Waals,L,LEU 175,CA,H,PHE 176,CE1,3.64
+Van der Waals,L,LEU 175,CA,H,PHE 176,CZ,4.27
+Van der Waals,L,LEU 175,C,H,PHE 176,CD1,4.45
+Van der Waals,L,LEU 175,C,H,PHE 176,CE1,3.69
+Van der Waals,L,LEU 175,C,H,PHE 176,CZ,3.95
+Van der Waals,L,LEU 175,O,H,PHE 176,CE1,4.22
+Van der Waals,L,LEU 175,O,H,PHE 176,CZ,4.09
+Van der Waals,L,SER 176,N,H,PHE 176,CD1,4.17
+Van der Waals,L,SER 176,N,H,PHE 176,CE1,3.81
+Van der Waals,L,SER 176,N,H,PHE 176,CZ,4.18
+Van der Waals,L,SER 176,CA,H,PHE 176,CE1,4.68
+Van der Waals,L,SER 176,CA,H,PHE 176,CZ,4.72
+Van der Waals,L,SER 176,CB,H,PHE 176,CG,4.31
+Van der Waals,L,SER 176,CB,H,PHE 176,CD1,4.44
+Van der Waals,L,SER 176,CB,H,PHE 176,CD2,4.11
+Van der Waals,L,SER 176,CB,H,PHE 176,CE1,4.41
+Van der Waals,L,SER 176,CB,H,PHE 176,CE2,4.08
+Van der Waals,L,SER 176,CB,H,PHE 176,CZ,4.24
+Van der Waals,L,SER 176,OG,H,PHE 176,CB,4.25
+Van der Waals,L,SER 176,OG,H,PHE 176,CG,3.86
+Van der Waals,L,SER 176,OG,H,PHE 176,CD1,4.15
+Van der Waals,L,SER 176,OG,H,PHE 176,CD2,3.99
+Van der Waals,L,SER 176,OG,H,PHE 176,CE2,4.42
+Van der Waals,L,SER 92,O,W,GLN 87,NE2,4.21
+Van der Waals,L,VAL 94,CB,W,HIS 86,O,4.3
+Van der Waals,L,VAL 94,CG1,W,HIS 86,C,4.33
+Van der Waals,L,VAL 94,CG1,W,HIS 86,O,3.35
+Van der Waals,L,VAL 94,CG2,W,HIS 86,O,4.36
+Van der Waals,L,VAL 94,CG1,W,GLN 87,CA,4.37
+Van der Waals,L,VAL 94,CG1,W,GLN 87,CB,4.64
+Van der Waals,L,VAL 94,CG1,W,GLN 87,CG,4.12
+Van der Waals,L,VAL 94,CG1,W,GLN 87,CD,4.61
+Van der Waals,L,VAL 94,CG1,W,GLN 87,NE2,4.48
+Van der Waals,L,TRP 96,NE1,W,GLN 87,O,4.13
+Van der Waals,L,TRP 96,CE2,W,GLN 87,O,4.24
+Van der Waals,L,TRP 96,CZ2,W,GLN 87,CA,4.16
+Van der Waals,L,TRP 96,CZ2,W,GLN 87,C,4.24
+Van der Waals,L,TRP 96,CZ2,W,GLN 87,O,3.67
+Van der Waals,L,TRP 96,CZ2,W,GLN 87,CB,4.09
+Van der Waals,L,TRP 96,CZ2,W,GLN 87,CG,4.6
+Van der Waals,L,TRP 96,CZ2,W,GLN 87,CD,4.71
+Van der Waals,L,TRP 96,CH2,W,GLN 87,CA,4.57
+Van der Waals,L,TRP 96,CH2,W,GLN 87,CB,4.14
+Van der Waals,L,TRP 96,CH2,W,GLN 87,CG,4.22
+Van der Waals,L,TRP 96,CH2,W,GLN 87,CD,3.96
+Van der Waals,L,TRP 96,CH2,W,GLN 87,OE1,3.99
+Van der Waals,L,TRP 96,CH2,W,GLN 87,NE2,4.33
+Van der Waals,H,ASN 31,CG,V,PHE 17,CD2,4.36
+Van der Waals,H,ASN 31,CG,V,PHE 17,CE2,4.69
+Van der Waals,H,ASN 31,OD1,V,PHE 17,CD2,3.76
+Van der Waals,H,ASN 31,OD1,V,PHE 17,CE2,3.78
+Van der Waals,H,ASN 31,ND2,V,PHE 17,CD2,4.32
+Van der Waals,H,THR 30,C,W,GLN 89,OE1,4.01
+Van der Waals,H,THR 30,O,W,GLN 89,CD,4.3
+Van der Waals,H,THR 30,O,W,GLN 89,OE1,3.09
+Van der Waals,H,ASN 31,CA,W,MET 81,CE,3.98
+Van der Waals,H,ASN 31,C,W,MET 81,CE,4.48
+Van der Waals,H,ASN 31,O,W,MET 81,CE,4.28
+Van der Waals,H,ASN 31,CB,W,MET 81,CE,4.68
+Van der Waals,H,ASN 31,CG,W,MET 81,CE,4.52
+Van der Waals,H,ASN 31,OD1,W,MET 81,CE,3.7
+Van der Waals,H,ASN 31,CA,W,GLN 89,OE1,4.28
+Van der Waals,H,ASN 31,C,W,GLN 89,CD,4.56
+Van der Waals,H,ASN 31,C,W,GLN 89,OE1,3.75
+Van der Waals,H,ASN 31,O,W,GLN 89,OE1,3.93
+Van der Waals,H,ASN 31,C,W,HIS 90,CA,4.35
+Van der Waals,H,ASN 31,O,W,HIS 90,N,4.06
+Van der Waals,H,ASN 31,O,W,HIS 90,CA,3.23
+Van der Waals,H,ASN 31,O,W,HIS 90,C,3.58
+Van der Waals,H,ASN 31,O,W,HIS 90,CB,4.19
+Van der Waals,H,ASN 31,CA,W,ILE 91,CG2,4.66
+Van der Waals,H,ASN 31,C,W,ILE 91,N,4.44
+Van der Waals,H,ASN 31,O,W,ILE 91,N,3.23
+Van der Waals,H,ASN 31,O,W,ILE 91,CA,4.36
+Van der Waals,H,ASN 31,O,W,ILE 91,CB,4.43
+Van der Waals,H,ASN 31,O,W,ILE 91,CG1,4.24
+Van der Waals,H,ASN 31,O,W,ILE 91,CG2,4.06
+Van der Waals,H,ASN 31,CB,W,ILE 91,CB,4.73
+Van der Waals,H,ASN 31,CB,W,ILE 91,CG1,3.99
+Van der Waals,H,ASN 31,CB,W,ILE 91,CG2,4.19
+Van der Waals,H,ASN 31,CB,W,ILE 91,CD1,3.98
+Van der Waals,H,ASN 31,CG,W,ILE 91,CG1,4.25
+Van der Waals,H,ASN 31,CG,W,ILE 91,CG2,4.09
+Van der Waals,H,ASN 31,CG,W,ILE 91,CD1,3.78
+Van der Waals,H,ASN 31,OD1,W,ILE 91,CG2,4.18
+Van der Waals,H,ASN 31,ND2,W,ILE 91,CG1,4.22
+Van der Waals,H,ASN 31,ND2,W,ILE 91,CG2,4.54
+Van der Waals,H,ASN 31,ND2,W,ILE 91,CD1,3.31
+Van der Waals,H,TYR 32,N,W,GLN 89,CD,4.49
+Van der Waals,H,TYR 32,N,W,GLN 89,OE1,3.85
+Van der Waals,H,TYR 32,CA,W,GLN 89,C,4.56
+Van der Waals,H,TYR 32,CA,W,GLN 89,O,3.78
+Van der Waals,H,TYR 32,CA,W,GLN 89,CD,4.43
+Van der Waals,H,TYR 32,CA,W,GLN 89,OE1,4.18
+Van der Waals,H,TYR 32,C,W,GLN 89,C,4.69
+Van der Waals,H,TYR 32,C,W,GLN 89,O,3.78
+Van der Waals,H,TYR 32,C,W,GLN 89,CD,4.05
+Van der Waals,H,TYR 32,C,W,GLN 89,OE1,4.06
+Van der Waals,H,TYR 32,C,W,GLN 89,NE2,3.82
+Van der Waals,H,TYR 32,O,W,GLN 89,NE2,4.17
+Van der Waals,H,TYR 32,CA,W,HIS 90,CA,4.25
+Van der Waals,H,TYR 32,CA,W,HIS 90,CB,4.56
+Van der Waals,H,TYR 32,CB,W,HIS 90,CB,4.74
+Van der Waals,H,TYR 32,CG,W,HIS 90,CB,4.62
+Van der Waals,H,TYR 32,CD2,W,HIS 90,CA,4.23
+Van der Waals,H,TYR 32,CD2,W,HIS 90,CB,3.75
+Van der Waals,H,TYR 32,CE2,W,HIS 90,CB,4.37
+Van der Waals,H,TYR 32,CD2,W,ILE 91,N,4.29
+Van der Waals,H,TYR 32,CE1,W,ILE 91,CG1,4.37
+Van der Waals,H,TYR 32,CE1,W,ILE 91,CD1,4.68
+Van der Waals,H,TYR 32,CE2,W,ILE 91,N,4.18
+Van der Waals,H,TYR 32,CE2,W,ILE 91,O,3.99
+Van der Waals,H,TYR 32,CE2,W,ILE 91,CG1,4.09
+Van der Waals,H,TYR 32,CZ,W,ILE 91,CG1,3.79
+Van der Waals,H,TYR 32,CZ,W,ILE 91,CD1,4.35
+Van der Waals,H,TYR 32,OH,W,ILE 91,CG1,3.61
+Van der Waals,H,TYR 32,OH,W,ILE 91,CD1,3.88
+Van der Waals,H,GLY 33,N,W,GLN 89,C,3.89
+Van der Waals,H,GLY 33,N,W,GLN 89,O,2.9
+Van der Waals,H,GLY 33,N,W,GLN 89,CB,4.26
+Van der Waals,H,GLY 33,N,W,GLN 89,CG,4.44
+Van der Waals,H,GLY 33,N,W,GLN 89,CD,3.8
+Van der Waals,H,GLY 33,N,W,GLN 89,OE1,4.21
+Van der Waals,H,GLY 33,N,W,GLN 89,NE2,3.4
+Van der Waals,H,GLY 33,CA,W,GLN 89,C,4.69
+Van der Waals,H,GLY 33,CA,W,GLN 89,O,3.76
+Van der Waals,H,GLY 33,CA,W,GLN 89,CB,4.46
+Van der Waals,H,GLY 33,CA,W,GLN 89,CD,4.19
+Van der Waals,H,GLY 33,CA,W,GLN 89,NE2,3.33
+Van der Waals,H,TRP 50,CD1,W,HIS 86,O,4.28
+Van der Waals,H,TRP 50,NE1,W,HIS 86,CA,4.29
+Van der Waals,H,TRP 50,NE1,W,HIS 86,C,3.64
+Van der Waals,H,TRP 50,NE1,W,HIS 86,O,3.32
+Van der Waals,H,TRP 50,CE2,W,HIS 86,CA,4.68
+Van der Waals,H,TRP 50,CE2,W,HIS 86,C,4.14
+Van der Waals,H,TRP 50,CE2,W,HIS 86,O,4.19
+Van der Waals,H,TRP 50,CZ2,W,HIS 86,N,4.2
+Van der Waals,H,TRP 50,CZ2,W,HIS 86,CA,4.27
+Van der Waals,H,TRP 50,CZ2,W,HIS 86,C,3.95
+Van der Waals,H,TRP 50,CZ2,W,HIS 86,O,4.4
+Van der Waals,H,TRP 50,CD1,W,GLN 87,O,4.27
+Van der Waals,H,TRP 50,CD2,W,GLN 87,C,4.67
+Van der Waals,H,TRP 50,CD2,W,GLN 87,O,4.26
+Van der Waals,H,TRP 50,NE1,W,GLN 87,N,4.08
+Van der Waals,H,TRP 50,NE1,W,GLN 87,CA,4.24
+Van der Waals,H,TRP 50,NE1,W,GLN 87,C,4.01
+Van der Waals,H,TRP 50,NE1,W,GLN 87,O,3.76
+Van der Waals,H,TRP 50,CE2,W,GLN 87,N,4.25
+Van der Waals,H,TRP 50,CE2,W,GLN 87,CA,4.45
+Van der Waals,H,TRP 50,CE2,W,GLN 87,C,3.88
+Van der Waals,H,TRP 50,CE2,W,GLN 87,O,3.76
+Van der Waals,H,TRP 50,CZ2,W,GLN 87,N,3.83
+Van der Waals,H,TRP 50,CZ2,W,GLN 87,CA,4.28
+Van der Waals,H,TRP 50,CZ2,W,GLN 87,C,3.73
+Van der Waals,H,TRP 50,CZ2,W,GLN 87,O,4.02
+Van der Waals,H,TRP 50,CH2,W,GLN 87,C,4.42
+Van der Waals,H,TRP 50,CD2,W,GLY 88,CA,4.69
+Van der Waals,H,TRP 50,CE2,W,GLY 88,N,4.14
+Van der Waals,H,TRP 50,CE2,W,GLY 88,CA,4.35
+Van der Waals,H,TRP 50,CE3,W,GLY 88,CA,4.59
+Van der Waals,H,TRP 50,CZ2,W,GLY 88,N,3.6
+Van der Waals,H,TRP 50,CZ2,W,GLY 88,CA,3.89
+Van der Waals,H,TRP 50,CZ2,W,GLY 88,C,4.24
+Van der Waals,H,TRP 50,CZ2,W,GLY 88,O,4.4
+Van der Waals,H,TRP 50,CZ3,W,GLY 88,CA,4.14
+Van der Waals,H,TRP 50,CZ3,W,GLY 88,C,4.03
+Van der Waals,H,TRP 50,CH2,W,GLY 88,N,3.92
+Van der Waals,H,TRP 50,CH2,W,GLY 88,CA,3.77
+Van der Waals,H,TRP 50,CH2,W,GLY 88,C,3.68
+Van der Waals,H,TRP 50,CH2,W,GLY 88,O,3.88
+Van der Waals,H,TRP 50,CZ3,W,GLN 89,N,4.02
+Van der Waals,H,TRP 50,CZ3,W,GLN 89,CA,4.61
+Van der Waals,H,TRP 50,CZ3,W,GLN 89,CB,3.86
+Van der Waals,H,TRP 50,CZ3,W,GLN 89,NE2,4.12
+Van der Waals,H,TRP 50,CH2,W,GLN 89,N,4.08
+Van der Waals,H,TRP 50,CH2,W,GLN 89,CA,4.73
+Van der Waals,H,TRP 50,CH2,W,GLN 89,CB,4.1
+Van der Waals,H,ILE 51,O,W,GLN 89,NE2,4.19
+Van der Waals,H,ASN 52,CG,W,ILE 83,CD1,4.7
+Van der Waals,H,ASN 52,ND2,W,ILE 83,CG1,4.27
+Van der Waals,H,ASN 52,ND2,W,ILE 83,CG2,3.94
+Van der Waals,H,ASN 52,ND2,W,ILE 83,CD1,3.84
+Van der Waals,H,ASN 52,CA,W,GLN 89,CD,4.32
+Van der Waals,H,ASN 52,CA,W,GLN 89,NE2,3.21
+Van der Waals,H,ASN 52,C,W,GLN 89,CD,4.45
+Van der Waals,H,ASN 52,C,W,GLN 89,NE2,3.45
+Van der Waals,H,ASN 52,CB,W,GLN 89,CD,4.68
+Van der Waals,H,ASN 52,CB,W,GLN 89,NE2,3.87
+Van der Waals,H,ASN 52,CG,W,GLN 89,CB,4.29
+Van der Waals,H,ASN 52,CG,W,GLN 89,CG,4.13
+Van der Waals,H,ASN 52,CG,W,GLN 89,CD,3.87
+Van der Waals,H,ASN 52,CG,W,GLN 89,NE2,3.48
+Van der Waals,H,ASN 52,OD1,W,GLN 89,CG,3.95
+Van der Waals,H,ASN 52,OD1,W,GLN 89,CD,3.39
+Van der Waals,H,ASN 52,OD1,W,GLN 89,OE1,3.81
+Van der Waals,H,ASN 52,OD1,W,GLN 89,NE2,3.2
+Van der Waals,H,ASN 52,ND2,W,GLN 89,CB,4.16
+Van der Waals,H,ASN 52,ND2,W,GLN 89,CG,4.15
+Van der Waals,H,ASN 52,ND2,W,GLN 89,CD,4.36
+Van der Waals,H,ASN 52,ND2,W,GLN 89,NE2,4.21
+Van der Waals,H,THR 53,N,W,GLN 89,CD,3.91
+Van der Waals,H,THR 53,N,W,GLN 89,OE1,4.11
+Van der Waals,H,THR 53,N,W,GLN 89,NE2,2.97
+Van der Waals,H,THR 53,CA,W,GLN 89,CD,4.73
+Van der Waals,H,THR 53,CA,W,GLN 89,NE2,4.05
+Van der Waals,H,THR 53,C,W,GLN 89,OE1,4.38
+Van der Waals,H,THR 53,C,W,GLN 89,NE2,4.53
+Van der Waals,H,THR 53,CB,W,GLN 89,NE2,4.34
+Van der Waals,H,THR 53,OG1,W,GLN 89,CD,3.95
+Van der Waals,H,THR 53,OG1,W,GLN 89,OE1,3.46
+Van der Waals,H,THR 53,OG1,W,GLN 89,NE2,3.6
+Van der Waals,H,TYR 54,CB,W,MET 81,SD,4.27
+Van der Waals,H,TYR 54,CB,W,MET 81,CE,4.54
+Van der Waals,H,TYR 54,CG,W,MET 81,SD,4.1
+Van der Waals,H,TYR 54,CG,W,MET 81,CE,4.19
+Van der Waals,H,TYR 54,CD1,W,MET 81,SD,4.35
+Van der Waals,H,TYR 54,CD1,W,MET 81,CE,3.84
+Van der Waals,H,TYR 54,CD2,W,MET 81,SD,4.35
+Van der Waals,H,TYR 54,CE1,W,MET 81,SD,4.8
+Van der Waals,H,TYR 54,CE1,W,MET 81,CE,4.17
+Van der Waals,H,TYR 54,CE2,W,MET 81,SD,4.81
+Van der Waals,H,TYR 54,N,W,GLN 89,CD,4.2
+Van der Waals,H,TYR 54,N,W,GLN 89,OE1,3.83
+Van der Waals,H,TYR 54,N,W,GLN 89,NE2,4.09
+Van der Waals,H,TYR 54,CA,W,GLN 89,OE1,4.36
+Van der Waals,H,TYR 54,CB,W,GLN 89,CD,4.25
+Van der Waals,H,TYR 54,CB,W,GLN 89,OE1,3.66
+Van der Waals,H,THR 59,CB,W,HIS 86,CA,4.56
+Van der Waals,H,THR 59,CB,W,HIS 86,O,4.31
+Van der Waals,H,THR 59,OG1,W,HIS 86,CA,3.63
+Van der Waals,H,THR 59,OG1,W,HIS 86,C,4.22
+Van der Waals,H,THR 59,OG1,W,HIS 86,O,4.11
+Van der Waals,H,THR 59,OG1,W,HIS 86,CB,4.33
+Van der Waals,H,THR 59,OG1,W,HIS 86,CD2,4.12
+Van der Waals,H,THR 59,CG2,W,HIS 86,CA,4.44
+Van der Waals,H,THR 59,CG2,W,HIS 86,C,4.56
+Van der Waals,H,THR 59,CG2,W,HIS 86,O,3.83
+Van der Waals,H,THR 59,CG2,W,HIS 86,CB,4.61
+Van der Waals,H,TYR 99,CD2,W,GLY 88,CA,4.08
+Van der Waals,H,TYR 99,CD2,W,GLY 88,C,4.55
+Van der Waals,H,TYR 99,CE2,W,GLY 88,N,4.51
+Van der Waals,H,TYR 99,CE2,W,GLY 88,CA,3.5
+Van der Waals,H,TYR 99,CE2,W,GLY 88,C,4.37
+Van der Waals,H,TYR 99,CZ,W,GLY 88,CA,4.09
+Van der Waals,H,TYR 99,OH,W,GLY 88,CA,4.16
+Van der Waals,H,TYR 99,CB,W,GLN 89,O,3.84
+Van der Waals,H,TYR 99,CG,W,GLN 89,O,4.3
+Van der Waals,H,TYR 99,CD2,W,GLN 89,N,3.92
+Van der Waals,H,TYR 99,CD2,W,GLN 89,C,4.76
+Van der Waals,H,TYR 99,CD2,W,GLN 89,O,3.89
+Van der Waals,H,TYR 99,CE2,W,GLN 89,N,4.15
+Van der Waals,H,TYR 99,CB,W,HIS 90,CB,4.47
+Van der Waals,H,PRO 100,C,W,HIS 90,CB,4.34
+Van der Waals,H,PRO 100,C,W,HIS 90,CG,4.51
+Van der Waals,H,PRO 100,C,W,HIS 90,ND1,3.83
+Van der Waals,H,PRO 100,O,W,HIS 90,CB,3.2
+Van der Waals,H,PRO 100,O,W,HIS 90,CG,3.28
+Van der Waals,H,PRO 100,O,W,HIS 90,ND1,2.68
+Van der Waals,H,PRO 100,O,W,HIS 90,CE1,3.81
+Van der Waals,H,PRO 100,CG,W,HIS 90,ND1,4.43
+Van der Waals,H,PRO 100,CD,W,HIS 90,ND1,4.45
+Van der Waals,H,PRO 100,O,W,ILE 91,O,4.23
+Van der Waals,H,HIS 101,CE1,W,GLN 79,NE2,4.53
+Van der Waals,H,HIS 101,NE2,W,GLN 79,CG,4.45
+Van der Waals,H,HIS 101,NE2,W,GLN 79,CD,4.15
+Van der Waals,H,HIS 101,NE2,W,GLN 79,NE2,3.87
+Van der Waals,H,HIS 101,CA,W,ILE 91,C,4.69
+Van der Waals,H,HIS 101,CA,W,ILE 91,O,3.52
+Van der Waals,H,HIS 101,C,W,ILE 91,O,3.96
+Van der Waals,H,HIS 101,CB,W,ILE 91,O,4.25
+Van der Waals,H,HIS 101,CG,W,ILE 91,C,4.63
+Van der Waals,H,HIS 101,CG,W,ILE 91,O,3.89
+Van der Waals,H,HIS 101,ND1,W,ILE 91,O,4.18
+Van der Waals,H,HIS 101,CD2,W,ILE 91,C,4.48
+Van der Waals,H,HIS 101,CD2,W,ILE 91,O,4.01
+Van der Waals,H,HIS 101,CD2,W,ILE 91,CG1,4.3
+Van der Waals,H,HIS 101,CD2,W,ILE 91,CD1,4.62
+Van der Waals,H,HIS 101,CE1,W,ILE 91,C,4.72
+Van der Waals,H,HIS 101,CE1,W,ILE 91,O,4.46
+Van der Waals,H,HIS 101,NE2,W,ILE 91,C,4.53
+Van der Waals,H,HIS 101,CG,W,GLY 92,CA,4.4
+Van der Waals,H,HIS 101,ND1,W,GLY 92,CA,3.8
+Van der Waals,H,HIS 101,CD2,W,GLY 92,CA,4.49
+Van der Waals,H,HIS 101,CE1,W,GLY 92,N,4.36
+Van der Waals,H,HIS 101,CE1,W,GLY 92,CA,3.54
+Van der Waals,H,HIS 101,CE1,W,GLY 92,C,4.04
+Van der Waals,H,HIS 101,NE2,W,GLY 92,CA,3.98
+Van der Waals,H,HIS 101,CE1,W,GLU 93,N,4.06
+Van der Waals,H,HIS 101,CE1,W,GLU 93,CG,4.08
+Van der Waals,H,TYR 102,CE1,W,ILE 80,C,4.72
+Van der Waals,H,TYR 102,CE1,W,ILE 80,O,3.49
+Van der Waals,H,TYR 102,CZ,W,ILE 80,C,4.74
+Van der Waals,H,TYR 102,CZ,W,ILE 80,O,3.6
+Van der Waals,H,TYR 102,OH,W,ILE 80,CA,4.27
+Van der Waals,H,TYR 102,OH,W,ILE 80,C,3.8
+Van der Waals,H,TYR 102,OH,W,ILE 80,O,2.85
+Van der Waals,H,TYR 102,OH,W,ILE 80,CB,3.96
+Van der Waals,H,TYR 102,CG,W,ARG 82,CD,4.66
+Van der Waals,H,TYR 102,CD1,W,ARG 82,CD,4.24
+Van der Waals,H,TYR 102,CD2,W,ARG 82,CD,4.46
+Van der Waals,H,TYR 102,CD2,W,ARG 82,NE,4.42
+Van der Waals,H,TYR 102,CD2,W,ARG 82,CZ,4.72
+Van der Waals,H,TYR 102,CE1,W,ARG 82,CB,4.57
+Van der Waals,H,TYR 102,CE1,W,ARG 82,CG,3.88
+Van der Waals,H,TYR 102,CE1,W,ARG 82,CD,3.59
+Van der Waals,H,TYR 102,CE1,W,ARG 82,NE,4.17
+Van der Waals,H,TYR 102,CE2,W,ARG 82,CG,4.64
+Van der Waals,H,TYR 102,CE2,W,ARG 82,CD,3.85
+Van der Waals,H,TYR 102,CE2,W,ARG 82,NE,3.6
+Van der Waals,H,TYR 102,CE2,W,ARG 82,CZ,4.12
+Van der Waals,H,TYR 102,CZ,W,ARG 82,CG,3.78
+Van der Waals,H,TYR 102,CZ,W,ARG 82,CD,3.37
+Van der Waals,H,TYR 102,CZ,W,ARG 82,NE,3.46
+Van der Waals,H,TYR 102,CZ,W,ARG 82,CZ,4.36
+Van der Waals,H,TYR 102,OH,W,ARG 82,CG,3.48
+Van der Waals,H,TYR 102,OH,W,ARG 82,CD,3.51
+Van der Waals,H,TYR 102,OH,W,ARG 82,NE,3.39
+Van der Waals,H,TYR 102,OH,W,ARG 82,CZ,4.46
+Van der Waals,H,TYR 102,CB,W,HIS 90,ND1,4.31
+Van der Waals,H,TYR 102,CB,W,HIS 90,CE1,3.88
+Van der Waals,H,TYR 102,CB,W,HIS 90,NE2,4.38
+Van der Waals,H,TYR 102,CG,W,HIS 90,CD2,4.74
+Van der Waals,H,TYR 102,CG,W,HIS 90,CE1,4.18
+Van der Waals,H,TYR 102,CG,W,HIS 90,NE2,4.22
+Van der Waals,H,TYR 102,CD1,W,HIS 90,C,4.65
+Van der Waals,H,TYR 102,CD1,W,HIS 90,O,4.31
+Van der Waals,H,TYR 102,CD1,W,HIS 90,CG,4.09
+Van der Waals,H,TYR 102,CD1,W,HIS 90,ND1,4.1
+Van der Waals,H,TYR 102,CD1,W,HIS 90,CD2,3.79
+Van der Waals,H,TYR 102,CD1,W,HIS 90,CE1,3.84
+Van der Waals,H,TYR 102,CD1,W,HIS 90,NE2,3.63
+Van der Waals,H,TYR 102,CE1,W,HIS 90,C,4.52
+Van der Waals,H,TYR 102,CE1,W,HIS 90,O,3.91
+Van der Waals,H,TYR 102,CE1,W,HIS 90,CG,4.75
+Van der Waals,H,TYR 102,CE1,W,HIS 90,CD2,4.22
+Van der Waals,H,TYR 102,CE1,W,HIS 90,NE2,4.3
+Van der Waals,H,TYR 102,N,W,ILE 91,C,4.38
+Van der Waals,H,TYR 102,N,W,ILE 91,O,3.4
+Van der Waals,H,TYR 102,CG,W,ILE 91,O,4.42
+Van der Waals,H,TYR 102,CD1,W,ILE 91,CA,4.66
+Van der Waals,H,TYR 102,CD1,W,ILE 91,C,3.67
+Van der Waals,H,TYR 102,CD1,W,ILE 91,O,3.44
+Van der Waals,H,TYR 102,CE1,W,ILE 91,CA,4.24
+Van der Waals,H,TYR 102,CE1,W,ILE 91,C,3.47
+Van der Waals,H,TYR 102,CE1,W,ILE 91,O,3.71
+Van der Waals,H,TYR 102,CZ,W,ILE 91,C,4.46
+Van der Waals,H,TYR 102,N,W,GLY 92,CA,3.91
+Van der Waals,H,TYR 102,CA,W,GLY 92,CA,4.41
+Van der Waals,H,TYR 102,C,W,GLY 92,CA,4.07
+Van der Waals,H,TYR 102,C,W,GLY 92,C,4.59
+Van der Waals,H,TYR 102,O,W,GLY 92,CA,3.25
+Van der Waals,H,TYR 102,O,W,GLY 92,C,3.64
+Van der Waals,H,TYR 102,CG,W,GLY 92,CA,3.94
+Van der Waals,H,TYR 102,CG,W,GLY 92,C,4.64
+Van der Waals,H,TYR 102,CD1,W,GLY 92,N,3.65
+Van der Waals,H,TYR 102,CD1,W,GLY 92,CA,3.43
+Van der Waals,H,TYR 102,CD1,W,GLY 92,C,4.35
+Van der Waals,H,TYR 102,CD2,W,GLY 92,CA,4.23
+Van der Waals,H,TYR 102,CD2,W,GLY 92,C,4.46
+Van der Waals,H,TYR 102,CE1,W,GLY 92,N,3.18
+Van der Waals,H,TYR 102,CE1,W,GLY 92,CA,3.22
+Van der Waals,H,TYR 102,CE1,W,GLY 92,C,3.85
+Van der Waals,H,TYR 102,CE1,W,GLY 92,O,4.19
+Van der Waals,H,TYR 102,CE2,W,GLY 92,CA,4.07
+Van der Waals,H,TYR 102,CE2,W,GLY 92,C,3.97
+Van der Waals,H,TYR 102,CE2,W,GLY 92,O,4.42
+Van der Waals,H,TYR 102,CZ,W,GLY 92,N,3.8
+Van der Waals,H,TYR 102,CZ,W,GLY 92,CA,3.56
+Van der Waals,H,TYR 102,CZ,W,GLY 92,C,3.63
+Van der Waals,H,TYR 102,CZ,W,GLY 92,O,3.84
+Van der Waals,H,TYR 102,OH,W,GLY 92,N,4.06
+Van der Waals,H,TYR 102,OH,W,GLY 92,CA,4.08
+Van der Waals,H,TYR 102,OH,W,GLY 92,C,3.79
+Van der Waals,H,TYR 102,OH,W,GLY 92,O,3.55
+Van der Waals,H,TYR 102,C,W,GLU 93,N,4.07
+Van der Waals,H,TYR 102,O,W,GLU 93,N,3.07
+Van der Waals,H,TYR 102,O,W,GLU 93,CA,4.23
+Van der Waals,H,TYR 102,O,W,GLU 93,CB,4.37
+Van der Waals,H,TYR 102,CD2,W,GLU 93,N,4.32
+Van der Waals,H,TYR 102,CD2,W,GLU 93,O,4.18
+Van der Waals,H,TYR 102,CE1,W,GLU 93,N,4.54
+Van der Waals,H,TYR 102,CE2,W,GLU 93,N,3.98
+Van der Waals,H,TYR 102,CE2,W,GLU 93,CA,4.66
+Van der Waals,H,TYR 102,CE2,W,GLU 93,C,4.2
+Van der Waals,H,TYR 102,CE2,W,GLU 93,O,3.57
+Van der Waals,H,TYR 102,CZ,W,GLU 93,N,4.1
+Van der Waals,H,TYR 102,CZ,W,GLU 93,C,4.63
+Van der Waals,H,TYR 102,CZ,W,GLU 93,O,4.33
+Van der Waals,H,TYR 102,OH,W,GLU 93,C,4.48
+Van der Waals,H,TYR 102,CE2,W,MET 94,CG,4.23
+Van der Waals,H,TYR 102,CZ,W,MET 94,CG,4.31
+Van der Waals,H,TYR 102,CZ,W,MET 94,SD,4.66
+Van der Waals,H,TYR 102,OH,W,MET 94,CG,3.43
+Van der Waals,H,TYR 102,OH,W,MET 94,SD,3.54
+Van der Waals,H,TYR 103,CA,W,GLU 93,N,4.49
+Van der Waals,H,TYR 103,CA,W,GLU 93,O,4.21
+Van der Waals,H,TYR 103,CA,W,GLU 93,CB,4.73
+Van der Waals,H,TYR 103,C,W,GLU 93,O,4.13
+Van der Waals,H,TYR 103,CD1,W,GLU 93,CB,4.27
+Van der Waals,H,TYR 103,CD1,W,GLU 93,CG,4.03
+Van der Waals,H,TYR 103,CD1,W,GLU 93,CD,3.72
+Van der Waals,H,TYR 103,CD1,W,GLU 93,OE1,3.48
+Van der Waals,H,TYR 103,CD1,W,GLU 93,OE2,4.34
+Van der Waals,H,TYR 103,CE1,W,GLU 93,CB,4.74
+Van der Waals,H,TYR 103,CE1,W,GLU 93,CG,4.03
+Van der Waals,H,TYR 103,CE1,W,GLU 93,CD,3.55
+Van der Waals,H,TYR 103,CE1,W,GLU 93,OE1,3.65
+Van der Waals,H,TYR 103,CE1,W,GLU 93,OE2,3.78
+Van der Waals,H,GLY 104,N,W,GLU 93,C,4.31
+Van der Waals,H,GLY 104,N,W,GLU 93,O,3.13
+Van der Waals,H,GLY 104,CA,W,GLU 93,O,3.83
+Van der Waals,H,SER 105,CA,W,ARG 82,CZ,4.51
+Van der Waals,H,SER 105,CA,W,ARG 82,NH1,3.98
+Van der Waals,H,SER 105,C,W,ARG 82,NH1,4.12
+Van der Waals,H,SER 106,N,W,ARG 82,NH1,3.69
+Van der Waals,H,SER 106,CA,W,ARG 82,NH1,4.49
+Van der Waals,H,SER 106,CB,W,ARG 82,CD,4.6
+Van der Waals,H,SER 106,CB,W,ARG 82,NH1,4.06
+Van der Waals,H,SER 106,OG,W,ARG 82,CB,4.38
+Van der Waals,H,SER 106,OG,W,ARG 82,CG,4.5
+Van der Waals,H,SER 106,OG,W,ARG 82,CD,3.38
+Van der Waals,H,SER 106,OG,W,ARG 82,NE,4.28
+Van der Waals,H,SER 106,OG,W,ARG 82,CZ,4.37
+Van der Waals,H,SER 106,OG,W,ARG 82,NH1,3.59
+Van der Waals,H,SER 106,CA,W,HIS 90,CE1,4.03
+Van der Waals,H,SER 106,CA,W,HIS 90,NE2,4.11
+Van der Waals,H,SER 106,C,W,HIS 90,CE1,4.68
+Van der Waals,H,SER 106,CB,W,HIS 90,CD2,4.74
+Van der Waals,H,SER 106,CB,W,HIS 90,CE1,3.78
+Van der Waals,H,SER 106,CB,W,HIS 90,NE2,3.44
+Van der Waals,H,SER 106,OG,W,HIS 90,CD2,3.78
+Van der Waals,H,SER 106,OG,W,HIS 90,CE1,3.33
+Van der Waals,H,SER 106,OG,W,HIS 90,NE2,2.63
+Van der Waals,H,TRP 108,CD1,W,GLN 87,CB,4.47
+Van der Waals,H,TRP 108,CD1,W,GLN 87,OE1,4.22
+Van der Waals,H,TRP 108,CD2,W,GLN 87,C,4.54
+Van der Waals,H,TRP 108,CD2,W,GLN 87,O,4.37
+Van der Waals,H,TRP 108,NE1,W,GLN 87,CB,3.97
+Van der Waals,H,TRP 108,NE1,W,GLN 87,OE1,3.79
+Van der Waals,H,TRP 108,CE2,W,GLN 87,C,4.34
+Van der Waals,H,TRP 108,CE2,W,GLN 87,CB,4.41
+Van der Waals,H,TRP 108,CZ2,W,GLN 87,C,4.55
+Van der Waals,H,TRP 108,CZ2,W,GLN 87,CB,4.74
+Van der Waals,H,TRP 108,CD2,W,GLY 88,N,4.43
+Van der Waals,H,TRP 108,CD2,W,GLY 88,CA,4.05
+Van der Waals,H,TRP 108,CE2,W,GLY 88,N,4.07
+Van der Waals,H,TRP 108,CE2,W,GLY 88,CA,4.01
+Van der Waals,H,TRP 108,CE2,W,GLY 88,C,4.7
+Van der Waals,H,TRP 108,CE3,W,GLY 88,CA,3.76
+Van der Waals,H,TRP 108,CE3,W,GLY 88,C,4.38
+Van der Waals,H,TRP 108,CZ2,W,GLY 88,N,3.88
+Van der Waals,H,TRP 108,CZ2,W,GLY 88,CA,3.71
+Van der Waals,H,TRP 108,CZ2,W,GLY 88,C,3.96
+Van der Waals,H,TRP 108,CZ2,W,GLY 88,O,4.13
+Van der Waals,H,TRP 108,CZ3,W,GLY 88,N,4.37
+Van der Waals,H,TRP 108,CZ3,W,GLY 88,CA,3.39
+Van der Waals,H,TRP 108,CZ3,W,GLY 88,C,3.53
+Van der Waals,H,TRP 108,CZ3,W,GLY 88,O,4.29
+Van der Waals,H,TRP 108,CH2,W,GLY 88,N,4.03
+Van der Waals,H,TRP 108,CH2,W,GLY 88,CA,3.37
+Van der Waals,H,TRP 108,CH2,W,GLY 88,C,3.29
+Van der Waals,H,TRP 108,CH2,W,GLY 88,O,3.66
+Van der Waals,H,TRP 108,CE3,W,GLN 89,N,4.43
+Van der Waals,H,TRP 108,CZ3,W,GLN 89,N,3.46
+Van der Waals,H,TRP 108,CZ3,W,GLN 89,CA,4.37
+Van der Waals,H,TRP 108,CZ3,W,GLN 89,C,4.4
+Van der Waals,H,TRP 108,CH2,W,GLN 89,N,3.58
+Van der Waals,H,TRP 108,CH2,W,GLN 89,CA,4.35
+Van der Waals,H,TRP 108,CH2,W,GLN 89,C,4.7
+Van der Waals,H,TRP 108,CE3,W,HIS 90,ND1,4.46
+Van der Waals,H,TRP 108,CE3,W,HIS 90,CE1,4.09
+Van der Waals,H,TRP 108,CE3,W,HIS 90,NE2,4.34
+Van der Waals,H,TRP 108,CZ2,W,HIS 90,NE2,4.36
+Van der Waals,H,TRP 108,CZ3,W,HIS 90,CG,3.94
+Van der Waals,H,TRP 108,CZ3,W,HIS 90,ND1,3.79
+Van der Waals,H,TRP 108,CZ3,W,HIS 90,CD2,3.69
+Van der Waals,H,TRP 108,CZ3,W,HIS 90,CE1,3.44
+Van der Waals,H,TRP 108,CZ3,W,HIS 90,NE2,3.35
+Van der Waals,H,TRP 108,CH2,W,HIS 90,CG,4.47
+Van der Waals,H,TRP 108,CH2,W,HIS 90,ND1,4.52
+Van der Waals,H,TRP 108,CH2,W,HIS 90,CD2,3.77
+Van der Waals,H,TRP 108,CH2,W,HIS 90,CE1,3.91
+Van der Waals,H,TRP 108,CH2,W,HIS 90,NE2,3.38
+Van der Waals,V,VAL 14,N,W,THR 77,O,4.07
+Van der Waals,V,VAL 14,CA,W,THR 77,C,4.23
+Van der Waals,V,VAL 14,CA,W,THR 77,O,3.3
+Van der Waals,V,VAL 14,CA,W,THR 77,CB,4.54
+Van der Waals,V,VAL 14,CA,W,THR 77,CG2,4.52
+Van der Waals,V,VAL 14,C,W,THR 77,O,3.69
+Van der Waals,V,VAL 14,CB,W,THR 77,O,4.3
+Van der Waals,V,VAL 14,CB,W,THR 77,CG2,4.46
+Van der Waals,V,VAL 14,CG1,W,THR 77,O,4.33
+Van der Waals,V,VAL 14,CG1,W,THR 77,CG2,4.44
+Van der Waals,V,VAL 14,CG2,W,THR 77,CB,4.27
+Van der Waals,V,VAL 14,CG2,W,THR 77,CG2,3.73
+Van der Waals,V,VAL 14,CG1,W,MET 78,CA,4.76
+Van der Waals,V,VAL 14,CG1,W,MET 78,C,4.69
+Van der Waals,V,VAL 14,CG1,W,GLN 79,N,4.36
+Van der Waals,V,VAL 14,CG1,W,GLN 79,CB,4.64
+Van der Waals,V,VAL 14,CG1,W,GLN 79,CG,3.47
+Van der Waals,V,VAL 14,CG1,W,GLN 79,CD,4.01
+Van der Waals,V,VAL 14,CG1,W,GLN 79,NE2,3.75
+Van der Waals,V,VAL 14,CB,W,GLU 93,CD,4.71
+Van der Waals,V,VAL 14,CB,W,GLU 93,OE2,4.08
+Van der Waals,V,VAL 14,CG1,W,GLU 93,CG,4.33
+Van der Waals,V,VAL 14,CG1,W,GLU 93,CD,4.43
+Van der Waals,V,VAL 14,CG1,W,GLU 93,OE2,3.96
+Van der Waals,V,VAL 14,CG2,W,GLU 93,CG,4.4
+Van der Waals,V,VAL 14,CG2,W,GLU 93,CD,3.68
+Van der Waals,V,VAL 14,CG2,W,GLU 93,OE1,4.23
+Van der Waals,V,VAL 14,CG2,W,GLU 93,OE2,3.1
+Van der Waals,V,VAL 15,CG2,W,ILE 76,CG1,4.42
+Van der Waals,V,VAL 15,CG2,W,ILE 76,CD1,4.36
+Van der Waals,V,VAL 15,N,W,THR 77,C,4.17
+Van der Waals,V,VAL 15,N,W,THR 77,O,3.06
+Van der Waals,V,VAL 15,CA,W,THR 77,O,4.15
+Van der Waals,V,VAL 15,CB,W,THR 77,O,4.11
+Van der Waals,V,VAL 15,CG2,W,THR 77,C,4.6
+Van der Waals,V,VAL 15,CG2,W,THR 77,O,3.61
+Van der Waals,V,VAL 15,N,W,MET 78,CA,4.18
+Van der Waals,V,VAL 15,CA,W,MET 78,CA,4.7
+Van der Waals,V,VAL 15,C,W,MET 78,CA,4.67
+Van der Waals,V,VAL 15,O,W,MET 78,CA,3.79
+Van der Waals,V,VAL 15,O,W,MET 78,C,3.9
+Van der Waals,V,VAL 15,O,W,MET 78,CB,4.38
+Van der Waals,V,VAL 15,CB,W,MET 78,CA,4.39
+Van der Waals,V,VAL 15,CB,W,MET 78,CB,4.31
+Van der Waals,V,VAL 15,CB,W,MET 78,CG,3.98
+Van der Waals,V,VAL 15,CB,W,MET 78,SD,4.83
+Van der Waals,V,VAL 15,CB,W,MET 78,CE,3.93
+Van der Waals,V,VAL 15,CG1,W,MET 78,CE,4.06
+Van der Waals,V,VAL 15,CG2,W,MET 78,CA,4.6
+Van der Waals,V,VAL 15,CG2,W,MET 78,CB,4.47
+Van der Waals,V,VAL 15,CG2,W,MET 78,CG,3.68
+Van der Waals,V,VAL 15,CG2,W,MET 78,SD,4.49
+Van der Waals,V,VAL 15,CG2,W,MET 78,CE,3.62
+Van der Waals,V,VAL 15,C,W,GLN 79,N,4.26
+Van der Waals,V,VAL 15,C,W,GLN 79,CB,4.68
+Van der Waals,V,VAL 15,C,W,GLN 79,CG,4.59
+Van der Waals,V,VAL 15,O,W,GLN 79,N,3.04
+Van der Waals,V,VAL 15,O,W,GLN 79,CA,3.9
+Van der Waals,V,VAL 15,O,W,GLN 79,CB,3.58
+Van der Waals,V,VAL 15,O,W,GLN 79,CG,3.61
+Van der Waals,V,VAL 15,O,W,GLN 79,CD,4.18
+Van der Waals,V,LYS 16,CA,W,GLN 79,CB,4.54
+Van der Waals,V,LYS 16,CA,W,GLN 79,CG,4.51
+Van der Waals,V,LYS 16,CA,W,GLN 79,CD,4.11
+Van der Waals,V,LYS 16,CA,W,GLN 79,OE1,3.73
+Van der Waals,V,LYS 16,C,W,GLN 79,CB,4.27
+Van der Waals,V,LYS 16,C,W,GLN 79,CG,4.73
+Van der Waals,V,LYS 16,C,W,GLN 79,CD,4.53
+Van der Waals,V,LYS 16,C,W,GLN 79,OE1,3.92
+Van der Waals,V,LYS 16,CB,W,GLN 79,OE1,4.38
+Van der Waals,V,LYS 16,CD,W,GLN 79,CD,4.13
+Van der Waals,V,LYS 16,CD,W,GLN 79,OE1,4.01
+Van der Waals,V,LYS 16,CD,W,GLN 79,NE2,3.87
+Van der Waals,V,LYS 16,CE,W,GLN 79,NE2,4.28
+Van der Waals,V,LYS 16,NZ,W,GLN 79,CD,4.47
+Van der Waals,V,LYS 16,NZ,W,GLN 79,NE2,3.51
+Van der Waals,V,PHE 17,CD1,W,LYS 48,O,4.02
+Van der Waals,V,PHE 17,CE1,W,LYS 48,C,3.91
+Van der Waals,V,PHE 17,CE1,W,LYS 48,O,3.25
+Van der Waals,V,PHE 17,CE1,W,LYS 48,CB,4.38
+Van der Waals,V,PHE 17,CZ,W,LYS 48,C,4.65
+Van der Waals,V,PHE 17,CZ,W,LYS 48,O,4.21
+Van der Waals,V,PHE 17,CZ,W,LYS 48,CB,4.45
+Van der Waals,V,PHE 17,CD1,W,PRO 49,CD,4.63
+Van der Waals,V,PHE 17,CE1,W,PRO 49,N,4.46
+Van der Waals,V,PHE 17,CE1,W,PRO 49,CD,4.14
+Van der Waals,V,PHE 17,N,W,GLN 79,O,4.24
+Van der Waals,V,PHE 17,N,W,GLN 79,CB,3.61
+Van der Waals,V,PHE 17,N,W,GLN 79,CG,4.27
+Van der Waals,V,PHE 17,N,W,GLN 79,CD,3.98
+Van der Waals,V,PHE 17,N,W,GLN 79,OE1,3.15
+Van der Waals,V,PHE 17,CA,W,GLN 79,C,4.54
+Van der Waals,V,PHE 17,CA,W,GLN 79,O,3.68
+Van der Waals,V,PHE 17,CA,W,GLN 79,CB,4.01
+Van der Waals,V,PHE 17,CA,W,GLN 79,OE1,4.06
+Van der Waals,V,PHE 17,CB,W,GLN 79,C,4.59
+Van der Waals,V,PHE 17,CB,W,GLN 79,O,3.93
+Van der Waals,V,PHE 17,CB,W,GLN 79,CB,4.06
+Van der Waals,V,PHE 17,CB,W,GLN 79,OE1,3.86
+Van der Waals,V,PHE 17,CG,W,GLN 79,O,4.29
+Van der Waals,V,PHE 17,CD1,W,GLN 79,C,4.5
+Van der Waals,V,PHE 17,CD1,W,GLN 79,O,3.66
+Van der Waals,V,PHE 17,CD1,W,ILE 80,CA,4.65
+Van der Waals,V,PHE 17,CD1,W,ILE 80,C,4.74
+Van der Waals,V,PHE 17,CD1,W,MET 81,N,4.24
+Van der Waals,V,PHE 17,CD1,W,MET 81,CB,4.6
+Van der Waals,V,PHE 17,CE1,W,MET 81,N,4.17
+Van der Waals,V,PHE 17,CE1,W,MET 81,CA,4.71
+Van der Waals,V,PHE 17,CE1,W,MET 81,CB,3.99
+Van der Waals,V,PHE 17,CE1,W,MET 81,CE,4.54
+Van der Waals,V,PHE 17,CE2,W,MET 81,CE,4.18
+Van der Waals,V,PHE 17,CZ,W,MET 81,CB,4.45
+Van der Waals,V,PHE 17,CZ,W,MET 81,CE,3.94
+Van der Waals,V,PHE 17,CB,W,ILE 91,CG2,4.38
+Van der Waals,V,PHE 17,CB,W,ILE 91,CD1,4.09
+Van der Waals,V,PHE 17,CG,W,ILE 91,CG2,3.96
+Van der Waals,V,PHE 17,CG,W,ILE 91,CD1,4.62
+Van der Waals,V,PHE 17,CD1,W,ILE 91,CG2,3.95
+Van der Waals,V,PHE 17,CD2,W,ILE 91,CG2,4.35
+Van der Waals,V,PHE 17,CE1,W,ILE 91,CG2,4.33
+Van der Waals,V,PHE 17,CE2,W,ILE 91,CG2,4.71
+Van der Waals,V,PHE 17,CZ,W,ILE 91,CG2,4.7
+Van der Waals,V,VAL 20,C,W,PRO 49,CG,4.31
+Van der Waals,V,VAL 20,C,W,PRO 49,CD,4.69
+Van der Waals,V,VAL 20,O,W,PRO 49,CG,4.11
+Van der Waals,V,VAL 20,CB,W,PRO 49,CG,4.68
+Van der Waals,V,VAL 20,CB,W,PRO 49,CD,4.75
+Van der Waals,V,VAL 20,CG1,W,PRO 49,CG,3.98
+Van der Waals,V,VAL 20,CG1,W,PRO 49,CD,4.39
+Van der Waals,V,VAL 20,CG1,W,VAL 52,CB,4.55
+Van der Waals,V,VAL 20,CG1,W,VAL 52,CG1,3.9
+Van der Waals,V,VAL 20,O,W,PRO 53,CD,4.48
+Van der Waals,V,VAL 20,CG1,W,PRO 53,CD,4.23
+Van der Waals,V,VAL 20,CB,W,MET 78,CE,4.64
+Van der Waals,V,VAL 20,CG1,W,MET 78,CB,4.75
+Van der Waals,V,VAL 20,CG1,W,MET 78,SD,4.39
+Van der Waals,V,VAL 20,CG1,W,MET 78,CE,4.12
+Van der Waals,V,VAL 20,CG2,W,MET 78,CB,4.08
+Van der Waals,V,VAL 20,CG2,W,MET 78,CG,4.54
+Van der Waals,V,VAL 20,CG2,W,MET 78,SD,4.66
+Van der Waals,V,VAL 20,CG2,W,MET 78,CE,4.1
+Van der Waals,V,VAL 20,CB,W,GLN 79,O,4.4
+Van der Waals,V,VAL 20,CG2,W,GLN 79,N,4.51
+Van der Waals,V,VAL 20,CG2,W,GLN 79,O,4.08
+Van der Waals,V,VAL 20,CG1,W,ILE 80,CD1,4.17
+Van der Waals,V,TYR 21,CD2,W,LYS 48,C,4.5
+Van der Waals,V,TYR 21,CD2,W,LYS 48,CB,4.63
+Van der Waals,V,TYR 21,CE2,W,LYS 48,CB,4.54
+Van der Waals,V,TYR 21,N,W,PRO 49,CG,4.28
+Van der Waals,V,TYR 21,N,W,PRO 49,CD,4.31
+Van der Waals,V,TYR 21,CA,W,PRO 49,CB,4.39
+Van der Waals,V,TYR 21,CA,W,PRO 49,CG,4.07
+Van der Waals,V,TYR 21,CA,W,PRO 49,CD,4.13
+Van der Waals,V,TYR 21,CB,W,PRO 49,CD,4.39
+Van der Waals,V,TYR 21,CG,W,PRO 49,CD,4.67
+Van der Waals,V,TYR 21,CD2,W,PRO 49,N,4.16
+Van der Waals,V,TYR 21,CD2,W,PRO 49,CA,4.28
+Van der Waals,V,TYR 21,CD2,W,PRO 49,CB,4.11
+Van der Waals,V,TYR 21,CD2,W,PRO 49,CG,4.56
+Van der Waals,V,TYR 21,CD2,W,PRO 49,CD,4.04
+Van der Waals,V,TYR 21,CE2,W,PRO 49,CA,4.44
+Van der Waals,V,TYR 21,CE2,W,PRO 49,CB,4.49
+Van der Waals,V,ARG 23,C,W,LEU 32,CD2,4.76
+Van der Waals,V,ARG 23,O,W,LEU 32,CD2,4.03
+Van der Waals,V,ARG 23,C,W,PRO 53,CG,4.71
+Van der Waals,V,ARG 23,CB,W,PRO 53,CB,4.54
+Van der Waals,V,ARG 23,CB,W,PRO 53,CG,3.97
+Van der Waals,V,ARG 23,CD,W,PRO 53,CG,4.68
+Van der Waals,V,ARG 23,NE,W,PRO 53,CG,4.31
+Van der Waals,V,ARG 23,CZ,W,PRO 53,CB,4.45
+Van der Waals,V,ARG 23,CZ,W,PRO 53,CG,3.92
+Van der Waals,V,ARG 23,NH1,W,PRO 53,CB,3.86
+Van der Waals,V,ARG 23,NH1,W,PRO 53,CG,3.81
+Van der Waals,V,ARG 23,NH2,W,PRO 53,CG,4.31
+Van der Waals,V,SER 24,CA,W,LEU 32,CD1,4.56
+Van der Waals,V,SER 24,CA,W,LEU 32,CD2,3.9
+Van der Waals,V,SER 24,O,W,LEU 32,CD1,4.43
+Van der Waals,V,SER 24,CB,W,LEU 32,CD2,3.76
+Van der Waals,V,SER 24,CB,W,PRO 49,CB,4.58
+Van der Waals,V,SER 24,CB,W,PRO 49,CG,4.69
+Van der Waals,V,SER 24,OG,W,PRO 49,CB,3.35
+Van der Waals,V,SER 24,OG,W,PRO 49,CG,3.37
+Van der Waals,V,SER 24,CA,W,CYS 51,SG,4.73
+Van der Waals,V,SER 24,C,W,CYS 51,SG,4.67
+Van der Waals,V,SER 24,O,W,CYS 51,SG,3.87
+Van der Waals,V,SER 24,CB,W,CYS 51,C,4.07
+Van der Waals,V,SER 24,CB,W,CYS 51,O,3.26
+Van der Waals,V,SER 24,CB,W,CYS 51,SG,3.75
+Van der Waals,V,SER 24,OG,W,CYS 51,C,4.06
+Van der Waals,V,SER 24,OG,W,CYS 51,O,2.96
+Van der Waals,V,SER 24,OG,W,CYS 51,SG,4.29
+Van der Waals,V,SER 24,CB,W,VAL 52,CA,4.39
+Van der Waals,V,SER 24,CB,W,VAL 52,C,4.69
+Van der Waals,V,SER 24,CA,W,PRO 53,CD,4.75
+Van der Waals,V,SER 24,CB,W,PRO 53,CD,3.91
+Van der Waals,V,SER 24,OG,W,PRO 53,CD,4.25
+Van der Waals,V,ILE 29,CG1,W,GLU 30,O,4.42
+Van der Waals,V,ILE 29,CD1,W,GLU 30,C,4.45
+Van der Waals,V,ILE 29,CD1,W,GLU 30,O,3.6
+Van der Waals,V,ILE 29,CD1,W,GLU 30,CG,4.6
+Van der Waals,V,ILE 29,CG2,W,LEU 32,CD1,4.61
+Van der Waals,V,ILE 29,CD1,W,LEU 32,CG,4.15
+Van der Waals,V,ILE 29,CD1,W,LEU 32,CD1,4.14
+Van der Waals,V,GLU 30,C,W,ILE 29,CD1,4.58
+Van der Waals,V,GLU 30,O,W,ILE 29,CD1,3.81
+Van der Waals,V,GLU 30,CG,W,ILE 29,CD1,4.53
+Van der Waals,V,GLU 30,OE2,W,ILE 29,CD1,4.33
+Van der Waals,V,LEU 32,CD2,W,ARG 23,C,4.68
+Van der Waals,V,LEU 32,CD2,W,ARG 23,O,4.06
+Van der Waals,V,LEU 32,CD1,W,SER 24,CA,4.63
+Van der Waals,V,LEU 32,CD2,W,SER 24,CA,3.92
+Van der Waals,V,LEU 32,CD2,W,SER 24,CB,3.82
+Van der Waals,V,LEU 32,CG,W,ILE 29,CD1,4.14
+Van der Waals,V,LEU 32,CD1,W,ILE 29,CG2,4.7
+Van der Waals,V,LEU 32,CD1,W,ILE 29,CD1,3.87
+Van der Waals,V,LEU 32,CD1,W,GLY 58,CA,4.62
+Van der Waals,V,LEU 32,CD1,W,GLY 58,C,4.0
+Van der Waals,V,LEU 32,CD1,W,GLY 58,O,4.45
+Van der Waals,V,LEU 32,CG,W,GLY 59,CA,4.73
+Van der Waals,V,LEU 32,CD1,W,GLY 59,N,3.53
+Van der Waals,V,LEU 32,CD1,W,GLY 59,CA,3.64
+Van der Waals,V,PHE 47,O,W,ASN 62,OD1,4.15
+Van der Waals,V,LYS 48,CA,W,PHE 17,CE1,4.67
+Van der Waals,V,LYS 48,C,W,PHE 17,CD1,4.68
+Van der Waals,V,LYS 48,C,W,PHE 17,CE1,3.64
+Van der Waals,V,LYS 48,C,W,PHE 17,CZ,4.28
+Van der Waals,V,LYS 48,O,W,PHE 17,CD1,3.71
+Van der Waals,V,LYS 48,O,W,PHE 17,CE1,2.79
+Van der Waals,V,LYS 48,O,W,PHE 17,CZ,3.67
+Van der Waals,V,LYS 48,CB,W,PHE 17,CE1,4.3
+Van der Waals,V,LYS 48,CB,W,PHE 17,CZ,4.25
+Van der Waals,V,LYS 48,C,W,TYR 21,CD2,4.35
+Van der Waals,V,LYS 48,C,W,TYR 21,CE2,4.7
+Van der Waals,V,LYS 48,CB,W,TYR 21,CD2,4.7
+Van der Waals,V,LYS 48,CB,W,TYR 21,CE2,4.51
+Van der Waals,V,LYS 48,CA,W,ASN 62,OD1,4.36
+Van der Waals,V,LYS 48,CD,W,ASN 62,CB,4.47
+Van der Waals,V,LYS 48,CD,W,ASN 62,CG,4.68
+Van der Waals,V,LYS 48,NZ,W,ASN 62,C,4.38
+Van der Waals,V,LYS 48,NZ,W,ASN 62,O,3.57
+Van der Waals,V,LYS 48,NZ,W,ASN 62,CB,4.24
+Van der Waals,V,PRO 49,N,W,PHE 17,CE1,4.21
+Van der Waals,V,PRO 49,CD,W,PHE 17,CD1,4.45
+Van der Waals,V,PRO 49,CD,W,PHE 17,CE1,3.9
+Van der Waals,V,PRO 49,CG,W,VAL 20,C,4.33
+Van der Waals,V,PRO 49,CG,W,VAL 20,O,4.14
+Van der Waals,V,PRO 49,CG,W,VAL 20,CB,4.65
+Van der Waals,V,PRO 49,CG,W,VAL 20,CG1,3.98
+Van der Waals,V,PRO 49,CD,W,VAL 20,CG1,4.54
+Van der Waals,V,PRO 49,N,W,TYR 21,CD2,4.04
+Van der Waals,V,PRO 49,N,W,TYR 21,CE2,4.49
+Van der Waals,V,PRO 49,CA,W,TYR 21,CD2,4.25
+Van der Waals,V,PRO 49,CA,W,TYR 21,CE2,4.39
+Van der Waals,V,PRO 49,CB,W,TYR 21,CA,4.34
+Van der Waals,V,PRO 49,CB,W,TYR 21,CG,4.69
+Van der Waals,V,PRO 49,CB,W,TYR 21,CD2,4.15
+Van der Waals,V,PRO 49,CB,W,TYR 21,CE2,4.54
+Van der Waals,V,PRO 49,CG,W,TYR 21,N,4.31
+Van der Waals,V,PRO 49,CG,W,TYR 21,CA,4.11
+Van der Waals,V,PRO 49,CG,W,TYR 21,CD2,4.64
+Van der Waals,V,PRO 49,CD,W,TYR 21,N,4.42
+Van der Waals,V,PRO 49,CD,W,TYR 21,CA,4.22
+Van der Waals,V,PRO 49,CD,W,TYR 21,CB,4.43
+Van der Waals,V,PRO 49,CD,W,TYR 21,CG,4.67
+Van der Waals,V,PRO 49,CD,W,TYR 21,CD2,4.06
+Van der Waals,V,PRO 49,CB,W,SER 24,CB,4.5
+Van der Waals,V,PRO 49,CB,W,SER 24,OG,3.55
+Van der Waals,V,PRO 49,CG,W,SER 24,CB,4.7
+Van der Waals,V,PRO 49,CG,W,SER 24,OG,3.51
+Van der Waals,V,PRO 49,CA,W,CYS 60,SG,4.49
+Van der Waals,V,PRO 49,C,W,CYS 60,SG,4.59
+Van der Waals,V,PRO 49,CB,W,CYS 60,SG,3.93
+Van der Waals,V,PRO 49,CA,W,ASN 62,CG,4.05
+Van der Waals,V,PRO 49,CA,W,ASN 62,OD1,3.25
+Van der Waals,V,PRO 49,CA,W,ASN 62,ND2,4.21
+Van der Waals,V,PRO 49,C,W,ASN 62,CG,4.55
+Van der Waals,V,PRO 49,C,W,ASN 62,OD1,3.46
+Van der Waals,V,PRO 49,CB,W,ASN 62,CG,4.6
+Van der Waals,V,PRO 49,CB,W,ASN 62,OD1,3.98
+Van der Waals,V,PRO 49,CB,W,ASN 62,ND2,4.38
+Van der Waals,V,SER 50,N,W,CYS 60,SG,3.89
+Van der Waals,V,SER 50,CA,W,CYS 60,SG,4.68
+Van der Waals,V,SER 50,C,W,CYS 60,SG,4.72
+Van der Waals,V,SER 50,OG,W,CYS 60,CB,3.64
+Van der Waals,V,SER 50,OG,W,CYS 60,SG,4.16
+Van der Waals,V,SER 50,N,W,ASN 62,CG,4.05
+Van der Waals,V,SER 50,N,W,ASN 62,OD1,2.86
+Van der Waals,V,SER 50,CA,W,ASN 62,OD1,3.92
+Van der Waals,V,SER 50,CB,W,ASN 62,OD1,3.84
+Van der Waals,V,SER 50,OG,W,ASN 62,OD1,3.95
+Van der Waals,V,CYS 51,C,W,SER 24,CB,3.89
+Van der Waals,V,CYS 51,C,W,SER 24,OG,3.97
+Van der Waals,V,CYS 51,O,W,SER 24,CB,3.11
+Van der Waals,V,CYS 51,O,W,SER 24,OG,2.89
+Van der Waals,V,CYS 51,SG,W,SER 24,CA,4.47
+Van der Waals,V,CYS 51,SG,W,SER 24,C,4.56
+Van der Waals,V,CYS 51,SG,W,SER 24,O,3.89
+Van der Waals,V,CYS 51,SG,W,SER 24,CB,3.51
+Van der Waals,V,CYS 51,SG,W,SER 24,OG,4.43
+Van der Waals,V,CYS 51,SG,W,GLY 59,CA,4.39
+Van der Waals,V,CYS 51,SG,W,GLY 59,C,4.23
+Van der Waals,V,CYS 51,N,W,CYS 60,SG,3.99
+Van der Waals,V,CYS 51,CA,W,CYS 60,SG,4.68
+Van der Waals,V,CYS 51,O,W,CYS 60,SG,4.44
+Van der Waals,V,CYS 51,CB,W,CYS 60,CB,4.51
+Van der Waals,V,CYS 51,CB,W,CYS 60,SG,4.45
+Van der Waals,V,CYS 51,SG,W,CYS 60,N,4.05
+Van der Waals,V,CYS 51,SG,W,CYS 60,CA,4.54
+Van der Waals,V,CYS 51,SG,W,CYS 60,CB,3.79
+Van der Waals,V,CYS 51,SG,W,CYS 60,SG,3.54
+Van der Waals,V,VAL 52,CA,W,VAL 20,CG1,4.66
+Van der Waals,V,VAL 52,CB,W,VAL 20,CG1,4.39
+Van der Waals,V,VAL 52,CG1,W,VAL 20,CG1,3.65
+Van der Waals,V,VAL 52,N,W,SER 24,CB,4.44
+Van der Waals,V,VAL 52,CA,W,SER 24,CB,4.33
+Van der Waals,V,VAL 52,CA,W,SER 24,OG,4.33
+Van der Waals,V,VAL 52,C,W,SER 24,CB,4.7
+Van der Waals,V,PRO 53,CD,W,VAL 20,O,4.42
+Van der Waals,V,PRO 53,CD,W,VAL 20,CG1,4.15
+Van der Waals,V,PRO 53,CB,W,ARG 23,CB,4.6
+Van der Waals,V,PRO 53,CB,W,ARG 23,CZ,4.54
+Van der Waals,V,PRO 53,CB,W,ARG 23,NH1,3.77
+Van der Waals,V,PRO 53,CG,W,ARG 23,C,4.69
+Van der Waals,V,PRO 53,CG,W,ARG 23,CB,3.94
+Van der Waals,V,PRO 53,CG,W,ARG 23,CD,4.68
+Van der Waals,V,PRO 53,CG,W,ARG 23,NE,4.39
+Van der Waals,V,PRO 53,CG,W,ARG 23,CZ,3.88
+Van der Waals,V,PRO 53,CG,W,ARG 23,NH1,3.52
+Van der Waals,V,PRO 53,CG,W,ARG 23,NH2,4.37
+Van der Waals,V,PRO 53,CD,W,ARG 23,CB,4.66
+Van der Waals,V,PRO 53,CD,W,SER 24,CA,4.72
+Van der Waals,V,PRO 53,CD,W,SER 24,CB,3.99
+Van der Waals,V,PRO 53,CD,W,SER 24,OG,3.99
+Van der Waals,V,GLY 58,CA,W,LEU 32,CD1,4.63
+Van der Waals,V,GLY 58,C,W,LEU 32,CD1,3.99
+Van der Waals,V,GLY 59,N,W,LEU 32,CD1,3.3
+Van der Waals,V,GLY 59,CA,W,LEU 32,CG,4.59
+Van der Waals,V,GLY 59,CA,W,LEU 32,CD1,3.38
+Van der Waals,V,GLY 59,C,W,LEU 32,CD1,4.72
+Van der Waals,V,GLY 59,CA,W,CYS 51,SG,4.47
+Van der Waals,V,GLY 59,C,W,CYS 51,SG,4.27
+Van der Waals,V,CYS 60,SG,W,PRO 49,CA,4.58
+Van der Waals,V,CYS 60,SG,W,PRO 49,C,4.68
+Van der Waals,V,CYS 60,SG,W,PRO 49,CB,3.96
+Van der Waals,V,CYS 60,CB,W,SER 50,CB,4.71
+Van der Waals,V,CYS 60,CB,W,SER 50,OG,3.37
+Van der Waals,V,CYS 60,SG,W,SER 50,N,3.97
+Van der Waals,V,CYS 60,SG,W,SER 50,CA,4.73
+Van der Waals,V,CYS 60,SG,W,SER 50,C,4.79
+Van der Waals,V,CYS 60,SG,W,SER 50,CB,4.89
+Van der Waals,V,CYS 60,SG,W,SER 50,OG,3.85
+Van der Waals,V,CYS 60,N,W,CYS 51,SG,3.95
+Van der Waals,V,CYS 60,CA,W,CYS 51,SG,4.38
+Van der Waals,V,CYS 60,CB,W,CYS 51,CB,4.65
+Van der Waals,V,CYS 60,CB,W,CYS 51,SG,3.56
+Van der Waals,V,CYS 60,SG,W,CYS 51,N,4.06
+Van der Waals,V,CYS 60,SG,W,CYS 51,CA,4.75
+Van der Waals,V,CYS 60,SG,W,CYS 51,O,4.43
+Van der Waals,V,CYS 60,SG,W,CYS 51,CB,4.46
+Van der Waals,V,CYS 60,SG,W,CYS 51,SG,3.17
+Van der Waals,V,ASN 62,C,W,LYS 48,NZ,4.49
+Van der Waals,V,ASN 62,O,W,LYS 48,NZ,3.65
+Van der Waals,V,ASN 62,CB,W,LYS 48,CD,4.4
+Van der Waals,V,ASN 62,CB,W,LYS 48,NZ,4.35
+Van der Waals,V,ASN 62,CG,W,LYS 48,CD,4.66
+Van der Waals,V,ASN 62,OD1,W,LYS 48,CA,4.41
+Van der Waals,V,ASN 62,CG,W,PRO 49,CA,4.09
+Van der Waals,V,ASN 62,CG,W,PRO 49,C,4.6
+Van der Waals,V,ASN 62,CG,W,PRO 49,CB,4.59
+Van der Waals,V,ASN 62,OD1,W,PRO 49,CA,3.34
+Van der Waals,V,ASN 62,OD1,W,PRO 49,C,3.54
+Van der Waals,V,ASN 62,OD1,W,PRO 49,CB,3.99
+Van der Waals,V,ASN 62,ND2,W,PRO 49,CA,4.23
+Van der Waals,V,ASN 62,ND2,W,PRO 49,CB,4.35
+Van der Waals,V,ASN 62,CG,W,SER 50,N,4.11
+Van der Waals,V,ASN 62,CG,W,SER 50,OG,4.41
+Van der Waals,V,ASN 62,OD1,W,SER 50,N,2.91
+Van der Waals,V,ASN 62,OD1,W,SER 50,CA,3.94
+Van der Waals,V,ASN 62,OD1,W,SER 50,CB,3.81
+Van der Waals,V,ASN 62,OD1,W,SER 50,OG,3.39
+Van der Waals,V,ILE 76,CG1,W,VAL 15,CG2,4.43
+Van der Waals,V,ILE 76,CD1,W,VAL 15,CG2,4.25
+Van der Waals,V,THR 77,C,W,VAL 14,CA,4.02
+Van der Waals,V,THR 77,C,W,VAL 14,C,4.6
+Van der Waals,V,THR 77,C,W,VAL 14,CB,4.71
+Van der Waals,V,THR 77,C,W,VAL 14,CG1,4.56
+Van der Waals,V,THR 77,O,W,VAL 14,N,3.89
+Van der Waals,V,THR 77,O,W,VAL 14,CA,3.07
+Van der Waals,V,THR 77,O,W,VAL 14,C,3.49
+Van der Waals,V,THR 77,O,W,VAL 14,CB,4.04
+Van der Waals,V,THR 77,O,W,VAL 14,CG1,4.08
+Van der Waals,V,THR 77,O,W,VAL 14,CG2,4.44
+Van der Waals,V,THR 77,CB,W,VAL 14,CA,4.47
+Van der Waals,V,THR 77,CB,W,VAL 14,CG2,4.2
+Van der Waals,V,THR 77,CG2,W,VAL 14,CA,4.24
+Van der Waals,V,THR 77,CG2,W,VAL 14,CB,4.14
+Van der Waals,V,THR 77,CG2,W,VAL 14,CG1,4.21
+Van der Waals,V,THR 77,CG2,W,VAL 14,CG2,3.37
+Van der Waals,V,THR 77,C,W,VAL 15,N,4.04
+Van der Waals,V,THR 77,C,W,VAL 15,CG2,4.69
+Van der Waals,V,THR 77,O,W,VAL 15,N,2.94
+Van der Waals,V,THR 77,O,W,VAL 15,CA,4.09
+Van der Waals,V,THR 77,O,W,VAL 15,CB,4.16
+Van der Waals,V,THR 77,O,W,VAL 15,CG2,3.76
+Van der Waals,V,MET 78,CA,W,VAL 14,CG1,4.41
+Van der Waals,V,MET 78,C,W,VAL 14,CG1,4.39
+Van der Waals,V,MET 78,CA,W,VAL 15,N,3.96
+Van der Waals,V,MET 78,CA,W,VAL 15,CA,4.5
+Van der Waals,V,MET 78,CA,W,VAL 15,C,4.46
+Van der Waals,V,MET 78,CA,W,VAL 15,O,3.59
+Van der Waals,V,MET 78,CA,W,VAL 15,CB,4.25
+Van der Waals,V,MET 78,CA,W,VAL 15,CG2,4.58
+Van der Waals,V,MET 78,C,W,VAL 15,O,3.69
+Van der Waals,V,MET 78,CB,W,VAL 15,O,4.17
+Van der Waals,V,MET 78,CB,W,VAL 15,CB,4.11
+Van der Waals,V,MET 78,CB,W,VAL 15,CG2,4.37
+Van der Waals,V,MET 78,CG,W,VAL 15,CB,3.94
+Van der Waals,V,MET 78,CG,W,VAL 15,CG2,3.69
+Van der Waals,V,MET 78,SD,W,VAL 15,CB,4.8
+Van der Waals,V,MET 78,SD,W,VAL 15,CG2,4.49
+Van der Waals,V,MET 78,CE,W,VAL 15,CB,3.92
+Van der Waals,V,MET 78,CE,W,VAL 15,CG1,4.11
+Van der Waals,V,MET 78,CE,W,VAL 15,CG2,3.55
+Van der Waals,V,MET 78,CA,W,VAL 20,CG2,4.72
+Van der Waals,V,MET 78,CB,W,VAL 20,CG1,4.71
+Van der Waals,V,MET 78,CB,W,VAL 20,CG2,3.89
+Van der Waals,V,MET 78,CG,W,VAL 20,CG2,4.42
+Van der Waals,V,MET 78,SD,W,VAL 20,CG1,4.23
+Van der Waals,V,MET 78,SD,W,VAL 20,CG2,4.47
+Van der Waals,V,MET 78,CE,W,VAL 20,CB,4.61
+Van der Waals,V,MET 78,CE,W,VAL 20,CG1,4.13
+Van der Waals,V,MET 78,CE,W,VAL 20,CG2,4.02
+Van der Waals,V,GLN 79,N,W,VAL 14,CG1,4.11
+Van der Waals,V,GLN 79,CB,W,VAL 14,CG1,4.58
+Van der Waals,V,GLN 79,CG,W,VAL 14,CG1,3.38
+Van der Waals,V,GLN 79,CD,W,VAL 14,CG1,4.08
+Van der Waals,V,GLN 79,NE2,W,VAL 14,CG1,3.87
+Van der Waals,V,GLN 79,N,W,VAL 15,C,4.09
+Van der Waals,V,GLN 79,N,W,VAL 15,O,2.87
+Van der Waals,V,GLN 79,CA,W,VAL 15,O,3.79
+Van der Waals,V,GLN 79,CB,W,VAL 15,C,4.64
+Van der Waals,V,GLN 79,CB,W,VAL 15,O,3.58
+Van der Waals,V,GLN 79,CG,W,VAL 15,C,4.38
+Van der Waals,V,GLN 79,CG,W,VAL 15,O,3.46
+Van der Waals,V,GLN 79,CD,W,VAL 15,O,4.2
+Van der Waals,V,GLN 79,O,W,LYS 16,C,4.51
+Van der Waals,V,GLN 79,CB,W,LYS 16,CA,4.36
+Van der Waals,V,GLN 79,CB,W,LYS 16,C,4.06
+Van der Waals,V,GLN 79,CG,W,LYS 16,CA,4.19
+Van der Waals,V,GLN 79,CG,W,LYS 16,C,4.44
+Van der Waals,V,GLN 79,CD,W,LYS 16,CA,3.9
+Van der Waals,V,GLN 79,CD,W,LYS 16,C,4.36
+Van der Waals,V,GLN 79,CD,W,LYS 16,CB,4.66
+Van der Waals,V,GLN 79,CD,W,LYS 16,CD,3.8
+Van der Waals,V,GLN 79,CD,W,LYS 16,CE,4.65
+Van der Waals,V,GLN 79,CD,W,LYS 16,NZ,4.28
+Van der Waals,V,GLN 79,OE1,W,LYS 16,CA,3.69
+Van der Waals,V,GLN 79,OE1,W,LYS 16,C,3.9
+Van der Waals,V,GLN 79,OE1,W,LYS 16,CB,4.25
+Van der Waals,V,GLN 79,OE1,W,LYS 16,CD,3.79
+Van der Waals,V,GLN 79,NE2,W,LYS 16,CA,4.52
+Van der Waals,V,GLN 79,NE2,W,LYS 16,CD,3.51
+Van der Waals,V,GLN 79,NE2,W,LYS 16,CE,3.97
+Van der Waals,V,GLN 79,NE2,W,LYS 16,NZ,3.25
+Van der Waals,V,GLN 79,CA,W,PHE 17,N,4.51
+Van der Waals,V,GLN 79,CA,W,PHE 17,CA,4.65
+Van der Waals,V,GLN 79,C,W,PHE 17,CA,4.29
+Van der Waals,V,GLN 79,C,W,PHE 17,CB,4.39
+Van der Waals,V,GLN 79,C,W,PHE 17,CD1,4.22
+Van der Waals,V,GLN 79,O,W,PHE 17,N,3.96
+Van der Waals,V,GLN 79,O,W,PHE 17,CA,3.37
+Van der Waals,V,GLN 79,O,W,PHE 17,C,4.46
+Van der Waals,V,GLN 79,O,W,PHE 17,CB,3.68
+Van der Waals,V,GLN 79,O,W,PHE 17,CG,4.01
+Van der Waals,V,GLN 79,O,W,PHE 17,CD1,3.4
+Van der Waals,V,GLN 79,O,W,PHE 17,CE1,4.47
+Van der Waals,V,GLN 79,CB,W,PHE 17,N,3.47
+Van der Waals,V,GLN 79,CB,W,PHE 17,CA,3.88
+Van der Waals,V,GLN 79,CB,W,PHE 17,CB,3.95
+Van der Waals,V,GLN 79,CG,W,PHE 17,N,4.08
+Van der Waals,V,GLN 79,CD,W,PHE 17,N,3.88
+Van der Waals,V,GLN 79,OE1,W,PHE 17,N,3.17
+Van der Waals,V,GLN 79,OE1,W,PHE 17,CA,4.1
+Van der Waals,V,GLN 79,OE1,W,PHE 17,CB,3.91
+Van der Waals,V,GLN 79,N,W,VAL 20,CG2,4.48
+Van der Waals,V,GLN 79,O,W,VAL 20,CB,4.42
+Van der Waals,V,GLN 79,O,W,VAL 20,CG2,4.14
+Van der Waals,V,ILE 80,CA,W,PHE 17,CD1,4.32
+Van der Waals,V,ILE 80,CA,W,PHE 17,CE1,4.74
+Van der Waals,V,ILE 80,C,W,PHE 17,CD1,4.44
+Van der Waals,V,ILE 80,C,W,PHE 17,CE1,4.66
+Van der Waals,V,ILE 80,CD1,W,VAL 20,CB,4.74
+Van der Waals,V,ILE 80,CD1,W,VAL 20,CG1,4.03
+Van der Waals,V,MET 81,N,W,PHE 17,CD1,4.05
+Van der Waals,V,MET 81,N,W,PHE 17,CE1,3.9
+Van der Waals,V,MET 81,CA,W,PHE 17,CE1,4.51
+Van der Waals,V,MET 81,CB,W,PHE 17,CD1,4.47
+Van der Waals,V,MET 81,CB,W,PHE 17,CE1,3.85
+Van der Waals,V,MET 81,CB,W,PHE 17,CZ,4.22
+Van der Waals,V,MET 81,SD,W,PHE 17,CZ,4.86
+Van der Waals,V,MET 81,CE,W,PHE 17,CE2,4.19
+Van der Waals,V,MET 81,CE,W,PHE 17,CZ,4.15
+Van der Waals,V,ILE 91,CG2,W,PHE 17,CB,4.33
+Van der Waals,V,ILE 91,CG2,W,PHE 17,CG,3.91
+Van der Waals,V,ILE 91,CG2,W,PHE 17,CD1,3.98
+Van der Waals,V,ILE 91,CG2,W,PHE 17,CD2,4.25
+Van der Waals,V,ILE 91,CG2,W,PHE 17,CE1,4.41
+Van der Waals,V,ILE 91,CG2,W,PHE 17,CE2,4.66
+Van der Waals,V,ILE 91,CG2,W,PHE 17,CZ,4.74
+Van der Waals,V,ILE 91,CD1,W,PHE 17,CB,4.36
+Van der Waals,V,GLU 93,CG,W,VAL 14,CG1,4.26
+Van der Waals,V,GLU 93,CG,W,VAL 14,CG2,4.14
+Van der Waals,V,GLU 93,CD,W,VAL 14,CG1,4.63
+Van der Waals,V,GLU 93,CD,W,VAL 14,CG2,3.72
+Van der Waals,V,GLU 93,OE1,W,VAL 14,CG2,4.44
+Van der Waals,V,GLU 93,OE2,W,VAL 14,CB,4.25
+Van der Waals,V,GLU 93,OE2,W,VAL 14,CG1,4.26
+Van der Waals,V,GLU 93,OE2,W,VAL 14,CG2,3.2
+Van der Waals,V,HIS 86,C,J,VAL 94,CG1,4.55
+Van der Waals,V,HIS 86,O,J,VAL 94,CB,4.45
+Van der Waals,V,HIS 86,O,J,VAL 94,CG1,3.5
+Van der Waals,V,HIS 86,O,J,VAL 94,CG2,4.35
+Van der Waals,V,GLN 87,NE2,J,SER 92,O,4.18
+Van der Waals,V,GLN 87,CA,J,VAL 94,CG1,4.61
+Van der Waals,V,GLN 87,CG,J,VAL 94,CG1,4.66
+Van der Waals,V,GLN 87,CA,J,TRP 96,CZ2,4.34
+Van der Waals,V,GLN 87,CA,J,TRP 96,CH2,4.68
+Van der Waals,V,GLN 87,C,J,TRP 96,CZ2,4.47
+Van der Waals,V,GLN 87,O,J,TRP 96,CZ2,3.98
+Van der Waals,V,GLN 87,CB,J,TRP 96,CZ2,4.24
+Van der Waals,V,GLN 87,CB,J,TRP 96,CH2,4.26
+Van der Waals,V,GLN 87,CG,J,TRP 96,CH2,4.36
+Van der Waals,V,GLN 87,CD,J,TRP 96,CZ2,4.72
+Van der Waals,V,GLN 87,CD,J,TRP 96,CH2,3.97
+Van der Waals,V,GLN 87,OE1,J,TRP 96,CH2,3.95
+Van der Waals,V,GLN 87,NE2,J,TRP 96,CH2,4.3
+Van der Waals,V,TYR 45,CE1,K,SER 106,CB,4.09
+Van der Waals,V,TYR 45,CE1,K,SER 106,OG,3.68
+Van der Waals,V,TYR 45,CZ,K,SER 106,CB,4.01
+Van der Waals,V,TYR 45,CZ,K,SER 106,OG,3.95
+Van der Waals,V,TYR 45,OH,K,SER 106,N,4.3
+Van der Waals,V,TYR 45,OH,K,SER 106,CA,4.22
+Van der Waals,V,TYR 45,OH,K,SER 106,CB,3.17
+Van der Waals,V,TYR 45,OH,K,SER 106,OG,3.57
+Van der Waals,V,GLN 79,CG,K,HIS 101,NE2,4.51
+Van der Waals,V,GLN 79,CD,K,HIS 101,NE2,4.3
+Van der Waals,V,GLN 79,NE2,K,HIS 101,NE2,4.13
+Van der Waals,V,ILE 80,CA,K,TYR 102,OH,4.43
+Van der Waals,V,ILE 80,C,K,TYR 102,CZ,4.73
+Van der Waals,V,ILE 80,C,K,TYR 102,OH,3.75
+Van der Waals,V,ILE 80,O,K,TYR 102,CE1,3.62
+Van der Waals,V,ILE 80,O,K,TYR 102,CZ,3.6
+Van der Waals,V,ILE 80,O,K,TYR 102,OH,2.8
+Van der Waals,V,ILE 80,CB,K,TYR 102,OH,4.14
+Van der Waals,V,MET 81,CE,K,ASN 31,CA,3.82
+Van der Waals,V,MET 81,CE,K,ASN 31,C,4.25
+Van der Waals,V,MET 81,CE,K,ASN 31,O,3.98
+Van der Waals,V,MET 81,CE,K,ASN 31,CB,4.57
+Van der Waals,V,MET 81,CE,K,ASN 31,CG,4.44
+Van der Waals,V,MET 81,CE,K,ASN 31,OD1,3.64
+Van der Waals,V,ARG 82,N,K,TYR 102,CE1,4.43
+Van der Waals,V,ARG 82,CB,K,TYR 102,CE1,4.29
+Van der Waals,V,ARG 82,CB,K,TYR 102,CZ,4.52
+Van der Waals,V,ARG 82,CB,K,TYR 102,OH,4.29
+Van der Waals,V,ARG 82,CG,K,TYR 102,CE1,3.97
+Van der Waals,V,ARG 82,CG,K,TYR 102,CE2,4.58
+Van der Waals,V,ARG 82,CG,K,TYR 102,CZ,3.75
+Van der Waals,V,ARG 82,CG,K,TYR 102,OH,3.32
+Van der Waals,V,ARG 82,CD,K,TYR 102,CG,4.61
+Van der Waals,V,ARG 82,CD,K,TYR 102,CD1,4.24
+Van der Waals,V,ARG 82,CD,K,TYR 102,CD2,4.34
+Van der Waals,V,ARG 82,CD,K,TYR 102,CE1,3.55
+Van der Waals,V,ARG 82,CD,K,TYR 102,CE2,3.67
+Van der Waals,V,ARG 82,CD,K,TYR 102,CZ,3.22
+Van der Waals,V,ARG 82,CD,K,TYR 102,OH,3.26
+Van der Waals,V,ARG 82,NE,K,TYR 102,CD2,4.21
+Van der Waals,V,ARG 82,NE,K,TYR 102,CE1,4.08
+Van der Waals,V,ARG 82,NE,K,TYR 102,CE2,3.33
+Van der Waals,V,ARG 82,NE,K,TYR 102,CZ,3.26
+Van der Waals,V,ARG 82,NE,K,TYR 102,OH,3.15
+Van der Waals,V,ARG 82,CZ,K,TYR 102,CD2,4.57
+Van der Waals,V,ARG 82,CZ,K,TYR 102,CE2,3.92
+Van der Waals,V,ARG 82,CZ,K,TYR 102,CZ,4.24
+Van der Waals,V,ARG 82,CZ,K,TYR 102,OH,4.3
+Van der Waals,V,ARG 82,NH2,K,TYR 102,CE2,4.35
+Van der Waals,V,ARG 82,CZ,K,SER 105,CA,4.31
+Van der Waals,V,ARG 82,CZ,K,SER 105,C,4.74
+Van der Waals,V,ARG 82,NH1,K,SER 105,CA,3.88
+Van der Waals,V,ARG 82,NH1,K,SER 105,C,4.14
+Van der Waals,V,ARG 82,NH2,K,SER 105,CA,4.45
+Van der Waals,V,ARG 82,CB,K,SER 106,OG,4.14
+Van der Waals,V,ARG 82,CG,K,SER 106,OG,4.32
+Van der Waals,V,ARG 82,CD,K,SER 106,CB,4.56
+Van der Waals,V,ARG 82,CD,K,SER 106,OG,3.23
+Van der Waals,V,ARG 82,NE,K,SER 106,OG,4.13
+Van der Waals,V,ARG 82,CZ,K,SER 106,N,4.54
+Van der Waals,V,ARG 82,CZ,K,SER 106,OG,4.24
+Van der Waals,V,ARG 82,NH1,K,SER 106,N,3.65
+Van der Waals,V,ARG 82,NH1,K,SER 106,CA,4.53
+Van der Waals,V,ARG 82,NH1,K,SER 106,CB,4.17
+Van der Waals,V,ARG 82,NH1,K,SER 106,OG,3.47
+Van der Waals,V,ILE 83,CG1,K,ASN 52,ND2,4.54
+Van der Waals,V,ILE 83,CG2,K,ASN 52,ND2,4.07
+Van der Waals,V,ILE 83,CD1,K,ASN 52,ND2,4.07
+Van der Waals,V,ILE 83,CD1,K,TYR 54,CD2,4.56
+Van der Waals,V,HIS 86,N,K,TRP 50,CZ2,4.43
+Van der Waals,V,HIS 86,CA,K,TRP 50,NE1,4.43
+Van der Waals,V,HIS 86,CA,K,TRP 50,CZ2,4.46
+Van der Waals,V,HIS 86,C,K,TRP 50,NE1,3.69
+Van der Waals,V,HIS 86,C,K,TRP 50,CE2,4.24
+Van der Waals,V,HIS 86,C,K,TRP 50,CZ2,4.08
+Van der Waals,V,HIS 86,O,K,TRP 50,CD1,4.3
+Van der Waals,V,HIS 86,O,K,TRP 50,NE1,3.36
+Van der Waals,V,HIS 86,O,K,TRP 50,CE2,4.26
+Van der Waals,V,HIS 86,O,K,TRP 50,CZ2,4.49
+Van der Waals,V,HIS 86,CA,K,THR 59,CB,4.7
+Van der Waals,V,HIS 86,CA,K,THR 59,OG1,3.9
+Van der Waals,V,HIS 86,CA,K,THR 59,CG2,4.48
+Van der Waals,V,HIS 86,C,K,THR 59,OG1,4.4
+Van der Waals,V,HIS 86,C,K,THR 59,CG2,4.55
+Van der Waals,V,HIS 86,O,K,THR 59,CB,4.32
+Van der Waals,V,HIS 86,O,K,THR 59,OG1,4.25
+Van der Waals,V,HIS 86,O,K,THR 59,CG2,3.81
+Van der Waals,V,HIS 86,CB,K,THR 59,CG2,4.6
+Van der Waals,V,HIS 86,CD2,K,THR 59,OG1,4.48
+Van der Waals,V,GLN 87,N,K,TRP 50,NE1,4.05
+Van der Waals,V,GLN 87,N,K,TRP 50,CE2,4.28
+Van der Waals,V,GLN 87,N,K,TRP 50,CZ2,3.9
+Van der Waals,V,GLN 87,CA,K,TRP 50,NE1,4.15
+Van der Waals,V,GLN 87,CA,K,TRP 50,CE2,4.41
+Van der Waals,V,GLN 87,CA,K,TRP 50,CZ2,4.29
+Van der Waals,V,GLN 87,C,K,TRP 50,CD1,4.66
+Van der Waals,V,GLN 87,C,K,TRP 50,CD2,4.56
+Van der Waals,V,GLN 87,C,K,TRP 50,NE1,3.84
+Van der Waals,V,GLN 87,C,K,TRP 50,CE2,3.74
+Van der Waals,V,GLN 87,C,K,TRP 50,CZ2,3.65
+Van der Waals,V,GLN 87,C,K,TRP 50,CH2,4.39
+Van der Waals,V,GLN 87,O,K,TRP 50,CG,4.3
+Van der Waals,V,GLN 87,O,K,TRP 50,CD1,3.98
+Van der Waals,V,GLN 87,O,K,TRP 50,CD2,4.02
+Van der Waals,V,GLN 87,O,K,TRP 50,NE1,3.49
+Van der Waals,V,GLN 87,O,K,TRP 50,CE2,3.51
+Van der Waals,V,GLN 87,O,K,TRP 50,CZ2,3.84
+Van der Waals,V,GLN 87,C,K,TRP 108,CD2,4.64
+Van der Waals,V,GLN 87,C,K,TRP 108,CE2,4.44
+Van der Waals,V,GLN 87,C,K,TRP 108,CZ2,4.68
+Van der Waals,V,GLN 87,CB,K,TRP 108,CD1,4.42
+Van der Waals,V,GLN 87,CB,K,TRP 108,NE1,3.93
+Van der Waals,V,GLN 87,CB,K,TRP 108,CE2,4.4
+Van der Waals,V,GLN 87,OE1,K,TRP 108,CD1,4.01
+Van der Waals,V,GLN 87,OE1,K,TRP 108,NE1,3.65
+Van der Waals,V,GLY 88,N,K,TRP 50,CE2,4.06
+Van der Waals,V,GLY 88,N,K,TRP 50,CZ2,3.56
+Van der Waals,V,GLY 88,N,K,TRP 50,CH2,3.93
+Van der Waals,V,GLY 88,CA,K,TRP 50,CD2,4.6
+Van der Waals,V,GLY 88,CA,K,TRP 50,CE2,4.23
+Van der Waals,V,GLY 88,CA,K,TRP 50,CE3,4.53
+Van der Waals,V,GLY 88,CA,K,TRP 50,CZ2,3.78
+Van der Waals,V,GLY 88,CA,K,TRP 50,CZ3,4.09
+Van der Waals,V,GLY 88,CA,K,TRP 50,CH2,3.69
+Van der Waals,V,GLY 88,C,K,TRP 50,CZ2,4.16
+Van der Waals,V,GLY 88,C,K,TRP 50,CZ3,4.03
+Van der Waals,V,GLY 88,C,K,TRP 50,CH2,3.63
+Van der Waals,V,GLY 88,O,K,TRP 50,CZ2,4.39
+Van der Waals,V,GLY 88,O,K,TRP 50,CH2,3.91
+Van der Waals,V,GLY 88,CA,K,TYR 99,CD2,4.14
+Van der Waals,V,GLY 88,CA,K,TYR 99,CE2,3.59
+Van der Waals,V,GLY 88,CA,K,TYR 99,CZ,4.22
+Van der Waals,V,GLY 88,CA,K,TYR 99,OH,4.35
+Van der Waals,V,GLY 88,C,K,TYR 99,CD2,4.63
+Van der Waals,V,GLY 88,C,K,TYR 99,CE2,4.48
+Van der Waals,V,GLY 88,N,K,TRP 108,CD2,4.5
+Van der Waals,V,GLY 88,N,K,TRP 108,CE2,4.13
+Van der Waals,V,GLY 88,N,K,TRP 108,CZ2,3.97
+Van der Waals,V,GLY 88,N,K,TRP 108,CZ3,4.53
+Van der Waals,V,GLY 88,N,K,TRP 108,CH2,4.17
+Van der Waals,V,GLY 88,CA,K,TRP 108,CD2,4.19
+Van der Waals,V,GLY 88,CA,K,TRP 108,CE2,4.1
+Van der Waals,V,GLY 88,CA,K,TRP 108,CE3,3.95
+Van der Waals,V,GLY 88,CA,K,TRP 108,CZ2,3.79
+Van der Waals,V,GLY 88,CA,K,TRP 108,CZ3,3.6
+Van der Waals,V,GLY 88,CA,K,TRP 108,CH2,3.52
+Van der Waals,V,GLY 88,C,K,TRP 108,CE3,4.57
+Van der Waals,V,GLY 88,C,K,TRP 108,CZ2,4.04
+Van der Waals,V,GLY 88,C,K,TRP 108,CZ3,3.76
+Van der Waals,V,GLY 88,C,K,TRP 108,CH2,3.45
+Van der Waals,V,GLY 88,O,K,TRP 108,CZ2,4.2
+Van der Waals,V,GLY 88,O,K,TRP 108,CZ3,4.49
+Van der Waals,V,GLY 88,O,K,TRP 108,CH2,3.82
+Van der Waals,V,GLN 89,CD,K,THR 30,O,4.32
+Van der Waals,V,GLN 89,OE1,K,THR 30,C,3.9
+Van der Waals,V,GLN 89,OE1,K,THR 30,O,3.09
+Van der Waals,V,GLN 89,CD,K,ASN 31,C,4.53
+Van der Waals,V,GLN 89,OE1,K,ASN 31,CA,4.27
+Van der Waals,V,GLN 89,OE1,K,ASN 31,C,3.77
+Van der Waals,V,GLN 89,OE1,K,ASN 31,O,3.95
+Van der Waals,V,GLN 89,C,K,TYR 32,CA,4.58
+Van der Waals,V,GLN 89,O,K,TYR 32,CA,3.74
+Van der Waals,V,GLN 89,O,K,TYR 32,C,3.79
+Van der Waals,V,GLN 89,CD,K,TYR 32,N,4.44
+Van der Waals,V,GLN 89,CD,K,TYR 32,CA,4.37
+Van der Waals,V,GLN 89,CD,K,TYR 32,C,4.0
+Van der Waals,V,GLN 89,OE1,K,TYR 32,N,3.82
+Van der Waals,V,GLN 89,OE1,K,TYR 32,CA,4.15
+Van der Waals,V,GLN 89,OE1,K,TYR 32,C,4.01
+Van der Waals,V,GLN 89,NE2,K,TYR 32,C,3.83
+Van der Waals,V,GLN 89,NE2,K,TYR 32,O,4.24
+Van der Waals,V,GLN 89,C,K,GLY 33,N,3.98
+Van der Waals,V,GLN 89,O,K,GLY 33,N,2.92
+Van der Waals,V,GLN 89,O,K,GLY 33,CA,3.8
+Van der Waals,V,GLN 89,CB,K,GLY 33,N,4.42
+Van der Waals,V,GLN 89,CB,K,GLY 33,CA,4.65
+Van der Waals,V,GLN 89,CG,K,GLY 33,N,4.4
+Van der Waals,V,GLN 89,CD,K,GLY 33,N,3.72
+Van der Waals,V,GLN 89,CD,K,GLY 33,CA,4.13
+Van der Waals,V,GLN 89,OE1,K,GLY 33,N,4.14
+Van der Waals,V,GLN 89,NE2,K,GLY 33,N,3.36
+Van der Waals,V,GLN 89,NE2,K,GLY 33,CA,3.3
+Van der Waals,V,GLN 89,N,K,TRP 50,CZ3,3.98
+Van der Waals,V,GLN 89,N,K,TRP 50,CH2,4.01
+Van der Waals,V,GLN 89,CA,K,TRP 50,CZ3,4.58
+Van der Waals,V,GLN 89,CA,K,TRP 50,CH2,4.69
+Van der Waals,V,GLN 89,CB,K,TRP 50,CZ3,3.86
+Van der Waals,V,GLN 89,CB,K,TRP 50,CH2,4.05
+Van der Waals,V,GLN 89,NE2,K,TRP 50,CZ3,3.97
+Van der Waals,V,GLN 89,NE2,K,ILE 51,O,4.19
+Van der Waals,V,GLN 89,CB,K,ASN 52,CG,4.3
+Van der Waals,V,GLN 89,CB,K,ASN 52,OD1,4.47
+Van der Waals,V,GLN 89,CB,K,ASN 52,ND2,4.22
+Van der Waals,V,GLN 89,CG,K,ASN 52,CG,4.25
+Van der Waals,V,GLN 89,CG,K,ASN 52,OD1,4.0
+Van der Waals,V,GLN 89,CG,K,ASN 52,ND2,4.36
+Van der Waals,V,GLN 89,CD,K,ASN 52,CA,4.34
+Van der Waals,V,GLN 89,CD,K,ASN 52,C,4.45
+Van der Waals,V,GLN 89,CD,K,ASN 52,CB,4.72
+Van der Waals,V,GLN 89,CD,K,ASN 52,CG,3.97
+Van der Waals,V,GLN 89,CD,K,ASN 52,OD1,3.43
+Van der Waals,V,GLN 89,CD,K,ASN 52,ND2,4.53
+Van der Waals,V,GLN 89,OE1,K,ASN 52,OD1,3.83
+Van der Waals,V,GLN 89,NE2,K,ASN 52,CA,3.22
+Van der Waals,V,GLN 89,NE2,K,ASN 52,C,3.48
+Van der Waals,V,GLN 89,NE2,K,ASN 52,CB,3.88
+Van der Waals,V,GLN 89,NE2,K,ASN 52,CG,3.54
+Van der Waals,V,GLN 89,NE2,K,ASN 52,OD1,3.21
+Van der Waals,V,GLN 89,NE2,K,ASN 52,ND2,4.31
+Van der Waals,V,GLN 89,CD,K,THR 53,N,3.82
+Van der Waals,V,GLN 89,CD,K,THR 53,CA,4.64
+Van der Waals,V,GLN 89,CD,K,THR 53,OG1,3.73
+Van der Waals,V,GLN 89,OE1,K,THR 53,N,3.94
+Van der Waals,V,GLN 89,OE1,K,THR 53,CA,4.37
+Van der Waals,V,GLN 89,OE1,K,THR 53,C,4.25
+Van der Waals,V,GLN 89,OE1,K,THR 53,CB,4.37
+Van der Waals,V,GLN 89,OE1,K,THR 53,OG1,3.2
+Van der Waals,V,GLN 89,NE2,K,THR 53,N,2.94
+Van der Waals,V,GLN 89,NE2,K,THR 53,CA,4.02
+Van der Waals,V,GLN 89,NE2,K,THR 53,C,4.53
+Van der Waals,V,GLN 89,NE2,K,THR 53,CB,4.27
+Van der Waals,V,GLN 89,NE2,K,THR 53,OG1,3.45
+Van der Waals,V,GLN 89,CD,K,TYR 54,N,4.09
+Van der Waals,V,GLN 89,CD,K,TYR 54,CB,4.16
+Van der Waals,V,GLN 89,OE1,K,TYR 54,N,3.64
+Van der Waals,V,GLN 89,OE1,K,TYR 54,CA,4.2
+Van der Waals,V,GLN 89,OE1,K,TYR 54,CB,3.59
+Van der Waals,V,GLN 89,NE2,K,TYR 54,N,4.04
+Van der Waals,V,GLN 89,N,K,TYR 99,CD2,3.98
+Van der Waals,V,GLN 89,N,K,TYR 99,CE2,4.22
+Van der Waals,V,GLN 89,C,K,TYR 99,CD2,4.73
+Van der Waals,V,GLN 89,O,K,TYR 99,CB,3.93
+Van der Waals,V,GLN 89,O,K,TYR 99,CG,4.33
+Van der Waals,V,GLN 89,O,K,TYR 99,CD2,3.9
+Van der Waals,V,GLN 89,N,K,TRP 108,CZ3,3.63
+Van der Waals,V,GLN 89,N,K,TRP 108,CH2,3.66
+Van der Waals,V,GLN 89,CA,K,TRP 108,CZ3,4.51
+Van der Waals,V,GLN 89,CA,K,TRP 108,CH2,4.43
+Van der Waals,V,GLN 89,C,K,TRP 108,CZ3,4.52
+Van der Waals,V,HIS 90,N,K,ASN 31,O,4.07
+Van der Waals,V,HIS 90,CA,K,ASN 31,C,4.34
+Van der Waals,V,HIS 90,CA,K,ASN 31,O,3.23
+Van der Waals,V,HIS 90,C,K,ASN 31,O,3.61
+Van der Waals,V,HIS 90,CB,K,ASN 31,O,4.16
+Van der Waals,V,HIS 90,CA,K,TYR 32,CA,4.34
+Van der Waals,V,HIS 90,CA,K,TYR 32,CD1,4.22
+Van der Waals,V,HIS 90,CB,K,TYR 32,CA,4.59
+Van der Waals,V,HIS 90,CB,K,TYR 32,CG,4.66
+Van der Waals,V,HIS 90,CB,K,TYR 32,CD1,3.72
+Van der Waals,V,HIS 90,CB,K,TYR 32,CE1,4.3
+Van der Waals,V,HIS 90,CB,K,TYR 99,CB,4.47
+Van der Waals,V,HIS 90,CB,K,PRO 100,C,4.36
+Van der Waals,V,HIS 90,CB,K,PRO 100,O,3.31
+Van der Waals,V,HIS 90,CG,K,PRO 100,C,4.48
+Van der Waals,V,HIS 90,CG,K,PRO 100,O,3.26
+Van der Waals,V,HIS 90,ND1,K,PRO 100,C,3.77
+Van der Waals,V,HIS 90,ND1,K,PRO 100,O,2.56
+Van der Waals,V,HIS 90,ND1,K,PRO 100,CG,4.42
+Van der Waals,V,HIS 90,ND1,K,PRO 100,CD,4.41
+Van der Waals,V,HIS 90,CD2,K,PRO 100,O,4.46
+Van der Waals,V,HIS 90,CE1,K,PRO 100,O,3.62
+Van der Waals,V,HIS 90,C,K,TYR 102,CD1,4.54
+Van der Waals,V,HIS 90,C,K,TYR 102,CE1,4.36
+Van der Waals,V,HIS 90,O,K,TYR 102,CD1,4.2
+Van der Waals,V,HIS 90,O,K,TYR 102,CE1,3.72
+Van der Waals,V,HIS 90,CG,K,TYR 102,CD1,4.0
+Van der Waals,V,HIS 90,CG,K,TYR 102,CE1,4.63
+Van der Waals,V,HIS 90,ND1,K,TYR 102,CB,4.32
+Van der Waals,V,HIS 90,ND1,K,TYR 102,CD1,4.06
+Van der Waals,V,HIS 90,CD2,K,TYR 102,CG,4.63
+Van der Waals,V,HIS 90,CD2,K,TYR 102,CD1,3.64
+Van der Waals,V,HIS 90,CD2,K,TYR 102,CE1,4.03
+Van der Waals,V,HIS 90,CE1,K,TYR 102,CB,3.81
+Van der Waals,V,HIS 90,CE1,K,TYR 102,CG,4.14
+Van der Waals,V,HIS 90,CE1,K,TYR 102,CD1,3.76
+Van der Waals,V,HIS 90,CE1,K,TYR 102,CE1,4.75
+Van der Waals,V,HIS 90,NE2,K,TYR 102,CB,4.24
+Van der Waals,V,HIS 90,NE2,K,TYR 102,CG,4.11
+Van der Waals,V,HIS 90,NE2,K,TYR 102,CD1,3.48
+Van der Waals,V,HIS 90,NE2,K,TYR 102,CE1,4.14
+Van der Waals,V,HIS 90,CD2,K,SER 106,CB,4.76
+Van der Waals,V,HIS 90,CD2,K,SER 106,OG,4.01
+Van der Waals,V,HIS 90,CE1,K,SER 106,CA,4.14
+Van der Waals,V,HIS 90,CE1,K,SER 106,CB,3.89
+Van der Waals,V,HIS 90,CE1,K,SER 106,OG,3.7
+Van der Waals,V,HIS 90,NE2,K,SER 106,CA,4.14
+Van der Waals,V,HIS 90,NE2,K,SER 106,CB,3.49
+Van der Waals,V,HIS 90,NE2,K,SER 106,OG,2.93
+Van der Waals,V,HIS 90,CG,K,TRP 108,CZ3,3.97
+Van der Waals,V,HIS 90,CG,K,TRP 108,CH2,4.46
+Van der Waals,V,HIS 90,ND1,K,TRP 108,CE3,4.51
+Van der Waals,V,HIS 90,ND1,K,TRP 108,CZ3,3.79
+Van der Waals,V,HIS 90,ND1,K,TRP 108,CH2,4.52
+Van der Waals,V,HIS 90,CD2,K,TRP 108,CZ3,3.71
+Van der Waals,V,HIS 90,CD2,K,TRP 108,CH2,3.77
+Van der Waals,V,HIS 90,CE1,K,TRP 108,CE3,4.13
+Van der Waals,V,HIS 90,CE1,K,TRP 108,CZ3,3.42
+Van der Waals,V,HIS 90,CE1,K,TRP 108,CH2,3.91
+Van der Waals,V,HIS 90,NE2,K,TRP 108,CE3,4.38
+Van der Waals,V,HIS 90,NE2,K,TRP 108,CZ2,4.4
+Van der Waals,V,HIS 90,NE2,K,TRP 108,CZ3,3.35
+Van der Waals,V,HIS 90,NE2,K,TRP 108,CH2,3.38
+Van der Waals,V,ILE 91,N,K,ASN 31,C,4.46
+Van der Waals,V,ILE 91,N,K,ASN 31,O,3.3
+Van der Waals,V,ILE 91,CA,K,ASN 31,O,4.39
+Van der Waals,V,ILE 91,CB,K,ASN 31,O,4.42
+Van der Waals,V,ILE 91,CG1,K,ASN 31,O,4.22
+Van der Waals,V,ILE 91,CG1,K,ASN 31,CB,4.06
+Van der Waals,V,ILE 91,CG1,K,ASN 31,CG,4.39
+Van der Waals,V,ILE 91,CG1,K,ASN 31,ND2,4.45
+Van der Waals,V,ILE 91,CG2,K,ASN 31,CA,4.68
+Van der Waals,V,ILE 91,CG2,K,ASN 31,O,4.06
+Van der Waals,V,ILE 91,CG2,K,ASN 31,CB,4.27
+Van der Waals,V,ILE 91,CG2,K,ASN 31,CG,4.16
+Van der Waals,V,ILE 91,CG2,K,ASN 31,OD1,4.19
+Van der Waals,V,ILE 91,CD1,K,ASN 31,CB,4.2
+Van der Waals,V,ILE 91,CD1,K,ASN 31,CG,4.13
+Van der Waals,V,ILE 91,CD1,K,ASN 31,ND2,3.75
+Van der Waals,V,ILE 91,N,K,TYR 32,CD1,4.25
+Van der Waals,V,ILE 91,N,K,TYR 32,CE1,4.08
+Van der Waals,V,ILE 91,C,K,TYR 32,CE1,4.61
+Van der Waals,V,ILE 91,O,K,TYR 32,CE1,3.72
+Van der Waals,V,ILE 91,O,K,TYR 32,CZ,4.45
+Van der Waals,V,ILE 91,CG1,K,TYR 32,CD1,4.73
+Van der Waals,V,ILE 91,CG1,K,TYR 32,CE1,3.87
+Van der Waals,V,ILE 91,CG1,K,TYR 32,CE2,4.39
+Van der Waals,V,ILE 91,CG1,K,TYR 32,CZ,3.66
+Van der Waals,V,ILE 91,CG1,K,TYR 32,OH,3.36
+Van der Waals,V,ILE 91,CD1,K,TYR 32,CE2,4.69
+Van der Waals,V,ILE 91,CD1,K,TYR 32,CZ,4.14
+Van der Waals,V,ILE 91,CD1,K,TYR 32,OH,3.48
+Van der Waals,V,ILE 91,O,K,PRO 100,O,4.16
+Van der Waals,V,ILE 91,C,K,HIS 101,CA,4.52
+Van der Waals,V,ILE 91,C,K,HIS 101,CG,4.46
+Van der Waals,V,ILE 91,C,K,HIS 101,CD2,4.13
+Van der Waals,V,ILE 91,C,K,HIS 101,CE1,4.6
+Van der Waals,V,ILE 91,C,K,HIS 101,NE2,4.23
+Van der Waals,V,ILE 91,O,K,HIS 101,CA,3.31
+Van der Waals,V,ILE 91,O,K,HIS 101,C,3.88
+Van der Waals,V,ILE 91,O,K,HIS 101,CB,4.0
+Van der Waals,V,ILE 91,O,K,HIS 101,CG,3.63
+Van der Waals,V,ILE 91,O,K,HIS 101,ND1,4.12
+Van der Waals,V,ILE 91,O,K,HIS 101,CD2,3.54
+Van der Waals,V,ILE 91,O,K,HIS 101,CE1,4.32
+Van der Waals,V,ILE 91,O,K,HIS 101,NE2,3.99
+Van der Waals,V,ILE 91,CG1,K,HIS 101,CD2,4.14
+Van der Waals,V,ILE 91,CG1,K,HIS 101,NE2,4.45
+Van der Waals,V,ILE 91,CD1,K,HIS 101,CD2,4.24
+Van der Waals,V,ILE 91,CD1,K,HIS 101,NE2,4.35
+Van der Waals,V,ILE 91,CA,K,TYR 102,CD1,4.57
+Van der Waals,V,ILE 91,CA,K,TYR 102,CE1,4.15
+Van der Waals,V,ILE 91,C,K,TYR 102,N,4.32
+Van der Waals,V,ILE 91,C,K,TYR 102,CG,4.75
+Van der Waals,V,ILE 91,C,K,TYR 102,CD1,3.71
+Van der Waals,V,ILE 91,C,K,TYR 102,CE1,3.59
+Van der Waals,V,ILE 91,C,K,TYR 102,CZ,4.55
+Van der Waals,V,ILE 91,O,K,TYR 102,N,3.46
+Van der Waals,V,ILE 91,O,K,TYR 102,CD1,3.75
+Van der Waals,V,ILE 91,O,K,TYR 102,CE1,4.07
+Van der Waals,V,GLY 92,N,K,HIS 101,CD2,4.39
+Van der Waals,V,GLY 92,N,K,HIS 101,CE1,4.22
+Van der Waals,V,GLY 92,N,K,HIS 101,NE2,4.07
+Van der Waals,V,GLY 92,CA,K,HIS 101,C,4.58
+Van der Waals,V,GLY 92,CA,K,HIS 101,CG,4.1
+Van der Waals,V,GLY 92,CA,K,HIS 101,ND1,3.63
+Van der Waals,V,GLY 92,CA,K,HIS 101,CD2,4.08
+Van der Waals,V,GLY 92,CA,K,HIS 101,CE1,3.29
+Van der Waals,V,GLY 92,CA,K,HIS 101,NE2,3.58
+Van der Waals,V,GLY 92,C,K,HIS 101,ND1,4.4
+Van der Waals,V,GLY 92,C,K,HIS 101,CE1,3.74
+Van der Waals,V,GLY 92,C,K,HIS 101,NE2,4.19
+Van der Waals,V,GLY 92,N,K,TYR 102,CG,4.43
+Van der Waals,V,GLY 92,N,K,TYR 102,CD1,3.58
+Van der Waals,V,GLY 92,N,K,TYR 102,CE1,3.21
+Van der Waals,V,GLY 92,N,K,TYR 102,CZ,3.82
+Van der Waals,V,GLY 92,N,K,TYR 102,OH,4.21
+Van der Waals,V,GLY 92,CA,K,TYR 102,N,3.77
+Van der Waals,V,GLY 92,CA,K,TYR 102,CA,4.3
+Van der Waals,V,GLY 92,CA,K,TYR 102,C,3.96
+Van der Waals,V,GLY 92,CA,K,TYR 102,O,3.21
+Van der Waals,V,GLY 92,CA,K,TYR 102,CB,4.69
+Van der Waals,V,GLY 92,CA,K,TYR 102,CG,3.9
+Van der Waals,V,GLY 92,CA,K,TYR 102,CD1,3.49
+Van der Waals,V,GLY 92,CA,K,TYR 102,CD2,4.21
+Van der Waals,V,GLY 92,CA,K,TYR 102,CE1,3.45
+Van der Waals,V,GLY 92,CA,K,TYR 102,CE2,4.18
+Van der Waals,V,GLY 92,CA,K,TYR 102,CZ,3.81
+Van der Waals,V,GLY 92,CA,K,TYR 102,OH,4.47
+Van der Waals,V,GLY 92,C,K,TYR 102,C,4.45
+Van der Waals,V,GLY 92,C,K,TYR 102,O,3.6
+Van der Waals,V,GLY 92,C,K,TYR 102,CG,4.54
+Van der Waals,V,GLY 92,C,K,TYR 102,CD1,4.35
+Van der Waals,V,GLY 92,C,K,TYR 102,CD2,4.38
+Van der Waals,V,GLY 92,C,K,TYR 102,CE1,4.01
+Van der Waals,V,GLY 92,C,K,TYR 102,CE2,4.04
+Van der Waals,V,GLY 92,C,K,TYR 102,CZ,3.84
+Van der Waals,V,GLY 92,C,K,TYR 102,OH,4.21
+Van der Waals,V,GLY 92,O,K,TYR 102,CE1,4.24
+Van der Waals,V,GLY 92,O,K,TYR 102,CE2,4.37
+Van der Waals,V,GLY 92,O,K,TYR 102,CZ,3.93
+Van der Waals,V,GLY 92,O,K,TYR 102,OH,3.89
+Van der Waals,V,GLU 93,N,K,HIS 101,CE1,3.76
+Van der Waals,V,GLU 93,CG,K,HIS 101,CE1,3.99
+Van der Waals,V,GLU 93,CD,K,HIS 101,CE1,4.61
+Van der Waals,V,GLU 93,N,K,TYR 102,C,3.96
+Van der Waals,V,GLU 93,N,K,TYR 102,O,3.05
+Van der Waals,V,GLU 93,N,K,TYR 102,CD2,4.31
+Van der Waals,V,GLU 93,N,K,TYR 102,CE2,4.14
+Van der Waals,V,GLU 93,N,K,TYR 102,CZ,4.38
+Van der Waals,V,GLU 93,CA,K,TYR 102,O,4.19
+Van der Waals,V,GLU 93,CA,K,TYR 102,CE2,4.72
+Van der Waals,V,GLU 93,C,K,TYR 102,CE2,4.23
+Van der Waals,V,GLU 93,O,K,TYR 102,CD2,4.04
+Van der Waals,V,GLU 93,O,K,TYR 102,CE2,3.6
+Van der Waals,V,GLU 93,O,K,TYR 102,CZ,4.5
+Van der Waals,V,GLU 93,CB,K,TYR 102,O,4.35
+Van der Waals,V,GLU 93,N,K,TYR 103,CA,4.33
+Van der Waals,V,GLU 93,CA,K,TYR 103,CA,4.7
+Van der Waals,V,GLU 93,C,K,TYR 103,CA,4.72
+Van der Waals,V,GLU 93,O,K,TYR 103,CA,3.92
+Van der Waals,V,GLU 93,O,K,TYR 103,C,3.76
+Van der Waals,V,GLU 93,CB,K,TYR 103,CA,4.53
+Van der Waals,V,GLU 93,CB,K,TYR 103,CD2,4.24
+Van der Waals,V,GLU 93,CG,K,TYR 103,CD2,4.22
+Van der Waals,V,GLU 93,CG,K,TYR 103,CE2,4.28
+Van der Waals,V,GLU 93,CD,K,TYR 103,CD2,3.63
+Van der Waals,V,GLU 93,CD,K,TYR 103,CE2,3.51
+Van der Waals,V,GLU 93,CD,K,TYR 103,CZ,4.68
+Van der Waals,V,GLU 93,OE1,K,TYR 103,CG,4.3
+Van der Waals,V,GLU 93,OE1,K,TYR 103,CD2,3.07
+Van der Waals,V,GLU 93,OE1,K,TYR 103,CE2,3.3
+Van der Waals,V,GLU 93,OE2,K,TYR 103,CD2,4.27
+Van der Waals,V,GLU 93,OE2,K,TYR 103,CE2,3.74
+Van der Waals,V,GLU 93,C,K,GLY 104,N,3.95
+Van der Waals,V,GLU 93,C,K,GLY 104,CA,4.74
+Van der Waals,V,GLU 93,O,K,GLY 104,N,2.76
+Van der Waals,V,GLU 93,O,K,GLY 104,CA,3.52
+Van der Waals,V,GLU 93,O,K,GLY 104,C,4.4
+Van der Waals,V,MET 94,CG,K,TYR 102,CE2,4.16
+Van der Waals,V,MET 94,CG,K,TYR 102,CZ,4.46
+Van der Waals,V,MET 94,CG,K,TYR 102,OH,3.82
+Van der Waals,V,MET 94,SD,K,TYR 102,CE2,4.82
+Van der Waals,V,MET 94,SD,K,TYR 102,CZ,4.73
+Van der Waals,V,MET 94,SD,K,TYR 102,OH,3.73
+Van der Waals,W,PHE 17,CD2,K,ASN 31,CG,4.38
+Van der Waals,W,PHE 17,CD2,K,ASN 31,OD1,3.74
+Van der Waals,W,PHE 17,CD2,K,ASN 31,ND2,4.41
+Van der Waals,W,PHE 17,CE2,K,ASN 31,OD1,3.87
+Van der Waals,J,TYR 32,CE1,K,HIS 107,CE1,4.63
+Van der Waals,J,ASN 34,ND2,K,TRP 108,C,3.95
+Van der Waals,J,ASN 34,ND2,K,TRP 108,O,3.49
+Van der Waals,J,ASN 34,CB,K,TYR 109,CB,4.43
+Van der Waals,J,ASN 34,CG,K,TYR 109,CA,4.44
+Van der Waals,J,ASN 34,CG,K,TYR 109,CB,3.71
+Van der Waals,J,ASN 34,OD1,K,TYR 109,CB,4.01
+Van der Waals,J,ASN 34,ND2,K,TYR 109,N,4.02
+Van der Waals,J,ASN 34,ND2,K,TYR 109,CA,3.64
+Van der Waals,J,ASN 34,ND2,K,TYR 109,CB,3.37
+Van der Waals,J,TYR 36,CZ,K,TYR 109,CA,4.73
+Van der Waals,J,TYR 36,CZ,K,TYR 109,CB,4.47
+Van der Waals,J,TYR 36,OH,K,TYR 109,CA,3.45
+Van der Waals,J,TYR 36,OH,K,TYR 109,C,3.76
+Van der Waals,J,TYR 36,OH,K,TYR 109,CB,3.45
+Van der Waals,J,TYR 36,CE2,K,PHE 110,N,4.38
+Van der Waals,J,TYR 36,CE2,K,PHE 110,C,4.7
+Van der Waals,J,TYR 36,CE2,K,PHE 110,O,3.75
+Van der Waals,J,TYR 36,CE2,K,PHE 110,CB,4.67
+Van der Waals,J,TYR 36,CE2,K,PHE 110,CD2,4.56
+Van der Waals,J,TYR 36,CZ,K,PHE 110,N,4.18
+Van der Waals,J,TYR 36,CZ,K,PHE 110,O,4.49
+Van der Waals,J,TYR 36,CZ,K,PHE 110,CD2,4.22
+Van der Waals,J,TYR 36,OH,K,PHE 110,N,3.11
+Van der Waals,J,TYR 36,OH,K,PHE 110,CA,4.17
+Van der Waals,J,TYR 36,OH,K,PHE 110,O,4.25
+Van der Waals,J,TYR 36,OH,K,PHE 110,CB,4.22
+Van der Waals,J,TYR 36,OH,K,PHE 110,CG,4.04
+Van der Waals,J,TYR 36,OH,K,PHE 110,CD2,3.67
+Van der Waals,J,TYR 36,OH,K,PHE 110,CE2,4.18
+Van der Waals,J,ALA 43,N,K,TYR 95,CE1,4.46
+Van der Waals,J,ALA 43,N,K,TYR 95,OH,4.27
+Van der Waals,J,ALA 43,CA,K,TYR 95,CD1,4.64
+Van der Waals,J,ALA 43,CA,K,TYR 95,CE1,3.85
+Van der Waals,J,ALA 43,CA,K,TYR 95,CZ,4.08
+Van der Waals,J,ALA 43,CA,K,TYR 95,OH,3.99
+Van der Waals,J,ALA 43,CB,K,TYR 95,CD1,3.99
+Van der Waals,J,ALA 43,CB,K,TYR 95,CE1,3.59
+Van der Waals,J,ALA 43,CB,K,TYR 95,CZ,4.29
+Van der Waals,J,ALA 43,CB,K,TRP 113,CB,3.79
+Van der Waals,J,ALA 43,CB,K,TRP 113,CG,4.13
+Van der Waals,J,ALA 43,CB,K,TRP 113,CD2,4.35
+Van der Waals,J,ALA 43,CB,K,TRP 113,CE3,4.41
+Van der Waals,J,ALA 43,CB,K,GLY 114,O,3.79
+Van der Waals,J,PRO 44,CB,K,LEU 45,CD1,4.38
+Van der Waals,J,PRO 44,CG,K,LEU 45,CG,4.46
+Van der Waals,J,PRO 44,CG,K,LEU 45,CD1,3.64
+Van der Waals,J,PRO 44,CG,K,LEU 45,CD2,4.06
+Van der Waals,J,PRO 44,CD,K,LEU 45,CD2,4.74
+Van der Waals,J,PRO 44,CD,K,TYR 95,CE2,4.54
+Van der Waals,J,PRO 44,CD,K,TYR 95,CZ,4.47
+Van der Waals,J,PRO 44,N,K,TRP 113,CD2,4.48
+Van der Waals,J,PRO 44,N,K,TRP 113,CE2,4.51
+Van der Waals,J,PRO 44,CA,K,TRP 113,CE2,4.59
+Van der Waals,J,PRO 44,CA,K,TRP 113,CZ2,4.58
+Van der Waals,J,PRO 44,C,K,TRP 113,CD1,4.52
+Van der Waals,J,PRO 44,C,K,TRP 113,NE1,4.08
+Van der Waals,J,PRO 44,C,K,TRP 113,CE2,4.25
+Van der Waals,J,PRO 44,C,K,TRP 113,CZ2,4.55
+Van der Waals,J,PRO 44,O,K,TRP 113,CG,3.87
+Van der Waals,J,PRO 44,O,K,TRP 113,CD1,3.4
+Van der Waals,J,PRO 44,O,K,TRP 113,CD2,3.96
+Van der Waals,J,PRO 44,O,K,TRP 113,NE1,3.19
+Van der Waals,J,PRO 44,O,K,TRP 113,CE2,3.55
+Van der Waals,J,PRO 44,O,K,TRP 113,CZ2,4.2
+Van der Waals,J,PRO 44,CB,K,TRP 113,CE2,4.18
+Van der Waals,J,PRO 44,CB,K,TRP 113,CZ2,3.72
+Van der Waals,J,PRO 44,CB,K,TRP 113,CZ3,4.55
+Van der Waals,J,PRO 44,CB,K,TRP 113,CH2,3.92
+Van der Waals,J,PRO 44,CG,K,TRP 113,CE2,4.6
+Van der Waals,J,PRO 44,CG,K,TRP 113,CE3,4.6
+Van der Waals,J,PRO 44,CG,K,TRP 113,CZ2,4.06
+Van der Waals,J,PRO 44,CG,K,TRP 113,CZ3,4.03
+Van der Waals,J,PRO 44,CG,K,TRP 113,CH2,3.74
+Van der Waals,J,PRO 44,CD,K,TRP 113,CD2,4.1
+Van der Waals,J,PRO 44,CD,K,TRP 113,CE2,4.24
+Van der Waals,J,PRO 44,CD,K,TRP 113,CE3,3.81
+Van der Waals,J,PRO 44,CD,K,TRP 113,CZ2,4.13
+Van der Waals,J,PRO 44,CD,K,TRP 113,CZ3,3.65
+Van der Waals,J,PRO 44,CD,K,TRP 113,CH2,3.82
+Van der Waals,J,VAL 46,CB,K,TYR 109,CD1,4.27
+Van der Waals,J,VAL 46,CB,K,TYR 109,CE1,4.74
+Van der Waals,J,VAL 46,CG1,K,TYR 109,CD1,3.97
+Van der Waals,J,VAL 46,CG1,K,TYR 109,CE1,4.0
+Van der Waals,J,VAL 46,CG2,K,TYR 109,CB,4.41
+Van der Waals,J,VAL 46,CG2,K,TYR 109,CG,4.38
+Van der Waals,J,VAL 46,CG2,K,TYR 109,CD1,4.06
+Van der Waals,J,VAL 46,CG2,K,TYR 109,CE1,4.64
+Van der Waals,J,VAL 46,CB,K,PHE 110,O,4.26
+Van der Waals,J,VAL 46,CG1,K,PHE 110,O,4.31
+Van der Waals,J,TYR 49,CD2,K,HIS 107,CB,4.07
+Van der Waals,J,TYR 49,CD2,K,HIS 107,CG,4.1
+Van der Waals,J,TYR 49,CD2,K,HIS 107,CD2,4.15
+Van der Waals,J,TYR 49,CE2,K,HIS 107,CB,4.68
+Van der Waals,J,TYR 49,CE2,K,HIS 107,CG,4.51
+Van der Waals,J,TYR 49,CE2,K,HIS 107,CD2,4.15
+Van der Waals,J,TYR 49,CB,K,TYR 109,CB,4.51
+Van der Waals,J,TYR 49,CB,K,TYR 109,CG,4.27
+Van der Waals,J,TYR 49,CB,K,TYR 109,CD2,3.74
+Van der Waals,J,TYR 49,CB,K,TYR 109,CE2,4.16
+Van der Waals,J,TYR 49,CG,K,TYR 109,CG,4.63
+Van der Waals,J,TYR 49,CG,K,TYR 109,CD2,3.81
+Van der Waals,J,TYR 49,CG,K,TYR 109,CE2,3.7
+Van der Waals,J,TYR 49,CG,K,TYR 109,CZ,4.44
+Van der Waals,J,TYR 49,CD1,K,TYR 109,CD2,4.29
+Van der Waals,J,TYR 49,CD1,K,TYR 109,CE2,3.88
+Van der Waals,J,TYR 49,CD1,K,TYR 109,CZ,4.2
+Van der Waals,J,TYR 49,CD1,K,TYR 109,OH,4.48
+Van der Waals,J,TYR 49,CD2,K,TYR 109,CD2,4.14
+Van der Waals,J,TYR 49,CD2,K,TYR 109,CE2,3.87
+Van der Waals,J,TYR 49,CE1,K,TYR 109,CE2,4.22
+Van der Waals,J,TYR 49,CE1,K,TYR 109,CZ,4.38
+Van der Waals,J,TYR 49,CE1,K,TYR 109,OH,4.24
+Van der Waals,J,TYR 49,CE2,K,TYR 109,CE2,4.22
+Van der Waals,J,TYR 49,CZ,K,TYR 109,CE2,4.38
+Van der Waals,J,TYR 49,CZ,K,TYR 109,OH,4.49
+Van der Waals,J,PHE 50,CB,K,HIS 107,CG,4.24
+Van der Waals,J,PHE 50,CB,K,HIS 107,ND1,3.82
+Van der Waals,J,PHE 50,CB,K,HIS 107,CD2,4.43
+Van der Waals,J,PHE 50,CB,K,HIS 107,CE1,3.8
+Van der Waals,J,PHE 50,CB,K,HIS 107,NE2,4.17
+Van der Waals,J,PHE 50,CG,K,HIS 107,CG,4.48
+Van der Waals,J,PHE 50,CG,K,HIS 107,ND1,3.7
+Van der Waals,J,PHE 50,CG,K,HIS 107,CD2,4.54
+Van der Waals,J,PHE 50,CG,K,HIS 107,CE1,3.27
+Van der Waals,J,PHE 50,CG,K,HIS 107,NE2,3.84
+Van der Waals,J,PHE 50,CD1,K,HIS 107,ND1,3.89
+Van der Waals,J,PHE 50,CD1,K,HIS 107,CE1,3.57
+Van der Waals,J,PHE 50,CD1,K,HIS 107,NE2,4.51
+Van der Waals,J,PHE 50,CD2,K,HIS 107,ND1,4.16
+Van der Waals,J,PHE 50,CD2,K,HIS 107,CD2,4.52
+Van der Waals,J,PHE 50,CD2,K,HIS 107,CE1,3.33
+Van der Waals,J,PHE 50,CD2,K,HIS 107,NE2,3.57
+Van der Waals,J,PHE 50,CE1,K,HIS 107,ND1,4.49
+Van der Waals,J,PHE 50,CE1,K,HIS 107,CE1,3.91
+Van der Waals,J,PHE 50,CE2,K,HIS 107,CE1,3.68
+Van der Waals,J,PHE 50,CE2,K,HIS 107,NE2,4.03
+Van der Waals,J,PHE 50,CZ,K,HIS 107,CE1,3.96
+Van der Waals,J,TYR 87,CE1,K,GLY 44,CA,4.05
+Van der Waals,J,TYR 87,CE1,K,GLY 44,C,4.6
+Van der Waals,J,TYR 87,CZ,K,GLY 44,CA,4.38
+Van der Waals,J,TYR 87,OH,K,GLY 44,CA,3.88
+Van der Waals,J,TYR 87,CB,K,LEU 45,CD1,4.34
+Van der Waals,J,TYR 87,CG,K,LEU 45,CG,4.68
+Van der Waals,J,TYR 87,CG,K,LEU 45,CD1,3.8
+Van der Waals,J,TYR 87,CD1,K,LEU 45,CG,4.57
+Van der Waals,J,TYR 87,CD1,K,LEU 45,CD1,4.11
+Van der Waals,J,TYR 87,CD2,K,LEU 45,CG,4.63
+Van der Waals,J,TYR 87,CD2,K,LEU 45,CD1,3.72
+Van der Waals,J,TYR 87,CE1,K,LEU 45,N,4.22
+Van der Waals,J,TYR 87,CE1,K,LEU 45,CG,4.43
+Van der Waals,J,TYR 87,CE1,K,LEU 45,CD1,4.34
+Van der Waals,J,TYR 87,CE2,K,LEU 45,CG,4.5
+Van der Waals,J,TYR 87,CE2,K,LEU 45,CD1,3.98
+Van der Waals,J,TYR 87,CZ,K,LEU 45,CG,4.4
+Van der Waals,J,TYR 87,CZ,K,LEU 45,CD1,4.28
+Van der Waals,J,GLN 89,CD,K,TRP 108,O,3.95
+Van der Waals,J,GLN 89,OE1,K,TRP 108,O,3.85
+Van der Waals,J,GLN 89,NE2,K,TRP 108,C,4.39
+Van der Waals,J,GLN 89,NE2,K,TRP 108,O,3.17
+Van der Waals,J,GLN 89,OE1,K,TYR 109,CA,4.12
+Van der Waals,J,GLN 89,OE1,K,TYR 109,CB,4.45
+Van der Waals,J,TYR 91,CD2,K,HIS 107,CA,4.5
+Van der Waals,J,TYR 91,CD2,K,HIS 107,C,4.53
+Van der Waals,J,TYR 91,CE2,K,HIS 107,CA,3.78
+Van der Waals,J,TYR 91,CE2,K,HIS 107,C,4.21
+Van der Waals,J,TYR 91,CE2,K,HIS 107,CB,4.13
+Van der Waals,J,TYR 91,CE2,K,HIS 107,CG,4.39
+Van der Waals,J,TYR 91,CE2,K,HIS 107,ND1,3.7
+Van der Waals,J,TYR 91,CZ,K,HIS 107,CA,4.1
+Van der Waals,J,TYR 91,CZ,K,HIS 107,C,4.53
+Van der Waals,J,TYR 91,CZ,K,HIS 107,CB,3.96
+Van der Waals,J,TYR 91,CZ,K,HIS 107,CG,4.2
+Van der Waals,J,TYR 91,CZ,K,HIS 107,ND1,3.57
+Van der Waals,J,TYR 91,CZ,K,HIS 107,CE1,4.66
+Van der Waals,J,TYR 91,OH,K,HIS 107,CA,4.12
+Van der Waals,J,TYR 91,OH,K,HIS 107,CB,3.57
+Van der Waals,J,TYR 91,OH,K,HIS 107,CG,3.41
+Van der Waals,J,TYR 91,OH,K,HIS 107,ND1,2.67
+Van der Waals,J,TYR 91,OH,K,HIS 107,CE1,3.64
+Van der Waals,J,TYR 91,O,K,TRP 108,CD1,4.41
+Van der Waals,J,TYR 91,CB,K,TRP 108,CA,4.61
+Van der Waals,J,TYR 91,CB,K,TRP 108,C,4.6
+Van der Waals,J,TYR 91,CB,K,TRP 108,O,3.86
+Van der Waals,J,TYR 91,CB,K,TRP 108,CB,3.93
+Van der Waals,J,TYR 91,CB,K,TRP 108,CG,4.66
+Van der Waals,J,TYR 91,CB,K,TRP 108,CD1,4.48
+Van der Waals,J,TYR 91,CG,K,TRP 108,N,4.05
+Van der Waals,J,TYR 91,CG,K,TRP 108,CA,4.35
+Van der Waals,J,TYR 91,CG,K,TRP 108,C,4.4
+Van der Waals,J,TYR 91,CG,K,TRP 108,O,3.94
+Van der Waals,J,TYR 91,CG,K,TRP 108,CB,4.08
+Van der Waals,J,TYR 91,CG,K,TRP 108,CG,4.75
+Van der Waals,J,TYR 91,CG,K,TRP 108,CD1,4.6
+Van der Waals,J,TYR 91,CD1,K,TRP 108,N,4.5
+Van der Waals,J,TYR 91,CD1,K,TRP 108,C,4.54
+Van der Waals,J,TYR 91,CD1,K,TRP 108,O,4.06
+Van der Waals,J,TYR 91,CD2,K,TRP 108,N,3.57
+Van der Waals,J,TYR 91,CD2,K,TRP 108,CA,4.24
+Van der Waals,J,TYR 91,CD2,K,TRP 108,C,4.71
+Van der Waals,J,TYR 91,CD2,K,TRP 108,CB,3.99
+Van der Waals,J,TYR 91,CD2,K,TRP 108,CG,4.25
+Van der Waals,J,TYR 91,CD2,K,TRP 108,CD1,3.91
+Van der Waals,J,TYR 91,CE1,K,TRP 108,N,4.53
+Van der Waals,J,TYR 91,CE2,K,TRP 108,N,3.63
+Van der Waals,J,TYR 91,CE2,K,TRP 108,CA,4.66
+Van der Waals,J,TYR 91,CE2,K,TRP 108,CD1,4.73
+Van der Waals,J,TYR 91,CZ,K,TRP 108,N,4.13
+Van der Waals,J,VAL 94,CB,K,TRP 47,CZ3,4.59
+Van der Waals,J,VAL 94,CB,K,TRP 47,CH2,4.72
+Van der Waals,J,VAL 94,CG1,K,TRP 47,CZ3,4.3
+Van der Waals,J,VAL 94,CG1,K,TRP 47,CH2,4.02
+Van der Waals,J,PRO 95,CA,K,TRP 47,CE3,3.85
+Van der Waals,J,PRO 95,CA,K,TRP 47,CZ3,3.71
+Van der Waals,J,PRO 95,C,K,TRP 47,CE3,4.18
+Van der Waals,J,PRO 95,C,K,TRP 47,CZ3,4.38
+Van der Waals,J,PRO 95,CB,K,TRP 47,CE3,3.76
+Van der Waals,J,PRO 95,CB,K,TRP 47,CZ3,3.91
+Van der Waals,J,PRO 95,CB,K,ALA 61,CA,4.17
+Van der Waals,J,PRO 95,CB,K,ALA 61,CB,3.92
+Van der Waals,J,PRO 95,CG,K,ALA 61,CB,4.71
+Van der Waals,J,TRP 96,N,K,TRP 47,CD2,4.09
+Van der Waals,J,TRP 96,N,K,TRP 47,CE3,3.57
+Van der Waals,J,TRP 96,N,K,TRP 47,CZ3,3.91
+Van der Waals,J,TRP 96,CA,K,TRP 47,CB,4.74
+Van der Waals,J,TRP 96,CA,K,TRP 47,CD2,4.61
+Van der Waals,J,TRP 96,CA,K,TRP 47,CE3,4.5
+Van der Waals,J,TRP 96,C,K,TRP 47,CB,4.37
+Van der Waals,J,TRP 96,O,K,TRP 47,CB,3.42
+Van der Waals,J,TRP 96,O,K,TRP 47,CG,4.21
+Van der Waals,J,TRP 96,O,K,TRP 47,CD2,4.5
+Van der Waals,J,TRP 96,O,K,TRP 47,CE3,4.38
+Van der Waals,J,TRP 96,CB,K,TRP 47,CB,4.25
+Van der Waals,J,TRP 96,CB,K,TRP 47,CG,4.01
+Van der Waals,J,TRP 96,CB,K,TRP 47,CD1,4.39
+Van der Waals,J,TRP 96,CB,K,TRP 47,CD2,4.01
+Van der Waals,J,TRP 96,CB,K,TRP 47,CE2,4.38
+Van der Waals,J,TRP 96,CB,K,TRP 47,CE3,4.35
+Van der Waals,J,TRP 96,CG,K,TRP 47,CG,4.48
+Van der Waals,J,TRP 96,CG,K,TRP 47,CD1,4.58
+Van der Waals,J,TRP 96,CG,K,TRP 47,CD2,4.15
+Van der Waals,J,TRP 96,CG,K,TRP 47,NE1,4.33
+Van der Waals,J,TRP 96,CG,K,TRP 47,CE2,4.05
+Van der Waals,J,TRP 96,CG,K,TRP 47,CE3,4.53
+Van der Waals,J,TRP 96,CG,K,TRP 47,CZ2,4.35
+Van der Waals,J,TRP 96,CG,K,TRP 47,CH2,4.69
+Van der Waals,J,TRP 96,CD1,K,TRP 47,CG,4.34
+Van der Waals,J,TRP 96,CD1,K,TRP 47,CD1,4.05
+Van der Waals,J,TRP 96,CD1,K,TRP 47,CD2,4.06
+Van der Waals,J,TRP 96,CD1,K,TRP 47,NE1,3.55
+Van der Waals,J,TRP 96,CD1,K,TRP 47,CE2,3.54
+Van der Waals,J,TRP 96,CD1,K,TRP 47,CE3,4.75
+Van der Waals,J,TRP 96,CD1,K,TRP 47,CZ2,3.83
+Van der Waals,J,TRP 96,CD1,K,TRP 47,CH2,4.52
+Van der Waals,J,TRP 96,NE1,K,TRP 47,NE1,4.3
+Van der Waals,J,TRP 96,NE1,K,TRP 47,CE2,4.16
+Van der Waals,J,TRP 96,NE1,K,TRP 47,CZ2,4.0
+Van der Waals,J,TRP 96,CE2,K,TRP 47,CZ2,4.61
+Van der Waals,J,TRP 96,NE1,K,TRP 108,CB,4.14
+Van der Waals,J,TRP 96,CE2,K,TRP 108,CB,4.21
+Van der Waals,J,TRP 96,CE2,K,TRP 108,CG,4.7
+Van der Waals,J,TRP 96,CZ2,K,TRP 108,CB,3.98
+Van der Waals,J,TRP 96,CZ2,K,TRP 108,CG,4.0
+Van der Waals,J,TRP 96,CZ2,K,TRP 108,CD1,3.78
+Van der Waals,J,TRP 96,CH2,K,TRP 108,CG,4.73
+Van der Waals,J,TRP 96,CH2,K,TRP 108,CD1,4.12
+Van der Waals,J,PHE 98,CB,K,LEU 45,C,4.58
+Van der Waals,J,PHE 98,CB,K,LEU 45,O,3.77
+Van der Waals,J,PHE 98,CB,K,LEU 45,CB,4.46
+Van der Waals,J,PHE 98,CG,K,LEU 45,CA,4.61
+Van der Waals,J,PHE 98,CG,K,LEU 45,C,4.28
+Van der Waals,J,PHE 98,CG,K,LEU 45,O,3.77
+Van der Waals,J,PHE 98,CG,K,LEU 45,CB,3.87
+Van der Waals,J,PHE 98,CG,K,LEU 45,CD1,4.73
+Van der Waals,J,PHE 98,CD1,K,LEU 45,CA,4.39
+Van der Waals,J,PHE 98,CD1,K,LEU 45,C,3.69
+Van der Waals,J,PHE 98,CD1,K,LEU 45,O,3.25
+Van der Waals,J,PHE 98,CD1,K,LEU 45,CB,3.86
+Van der Waals,J,PHE 98,CD2,K,LEU 45,CB,4.05
+Van der Waals,J,PHE 98,CD2,K,LEU 45,CD1,4.16
+Van der Waals,J,PHE 98,CE1,K,LEU 45,C,4.16
+Van der Waals,J,PHE 98,CE1,K,LEU 45,O,4.1
+Van der Waals,J,PHE 98,CE1,K,LEU 45,CB,4.06
+Van der Waals,J,PHE 98,CE2,K,LEU 45,CB,4.25
+Van der Waals,J,PHE 98,CE2,K,LEU 45,CD1,4.18
+Van der Waals,J,PHE 98,CZ,K,LEU 45,CB,4.25
+Van der Waals,J,PHE 98,CD1,K,GLU 46,N,4.17
+Van der Waals,J,PHE 98,CD1,K,GLU 46,CA,4.38
+Van der Waals,J,PHE 98,CD1,K,GLU 46,C,4.72
+Van der Waals,J,PHE 98,CE1,K,GLU 46,N,4.29
+Van der Waals,J,PHE 98,CE1,K,GLU 46,CA,4.46
+Van der Waals,J,PHE 98,CE1,K,GLU 46,C,4.35
+Van der Waals,J,PHE 98,CE1,K,TRP 47,N,4.14
+Van der Waals,J,PHE 98,CE1,K,TRP 47,CA,4.7
+Van der Waals,J,PHE 98,CE1,K,TRP 47,CB,4.41
+Van der Waals,J,PHE 116,CB,K,ALA 147,CB,4.69
+Van der Waals,J,PHE 116,CG,K,ALA 147,CB,4.01
+Van der Waals,J,PHE 116,CD1,K,ALA 147,CB,4.3
+Van der Waals,J,PHE 116,CD2,K,ALA 147,N,4.54
+Van der Waals,J,PHE 116,CD2,K,ALA 147,CB,3.76
+Van der Waals,J,PHE 116,CE1,K,ALA 147,CB,4.37
+Van der Waals,J,PHE 116,CE2,K,ALA 147,N,4.25
+Van der Waals,J,PHE 116,CE2,K,ALA 147,CA,4.7
+Van der Waals,J,PHE 116,CE2,K,ALA 147,CB,3.84
+Van der Waals,J,PHE 116,CZ,K,ALA 147,CB,4.15
+Van der Waals,J,PHE 118,CB,K,LEU 134,CB,4.31
+Van der Waals,J,PHE 118,CB,K,LEU 134,CG,4.57
+Van der Waals,J,PHE 118,CB,K,LEU 134,CD2,3.74
+Van der Waals,J,PHE 118,CG,K,LEU 134,CA,4.52
+Van der Waals,J,PHE 118,CG,K,LEU 134,C,4.54
+Van der Waals,J,PHE 118,CG,K,LEU 134,O,4.44
+Van der Waals,J,PHE 118,CG,K,LEU 134,CB,3.9
+Van der Waals,J,PHE 118,CG,K,LEU 134,CG,4.52
+Van der Waals,J,PHE 118,CG,K,LEU 134,CD2,4.18
+Van der Waals,J,PHE 118,CD1,K,LEU 134,CA,4.02
+Van der Waals,J,PHE 118,CD1,K,LEU 134,C,3.61
+Van der Waals,J,PHE 118,CD1,K,LEU 134,O,3.4
+Van der Waals,J,PHE 118,CD1,K,LEU 134,CB,3.74
+Van der Waals,J,PHE 118,CD1,K,LEU 134,CD2,4.71
+Van der Waals,J,PHE 118,CD2,K,LEU 134,CB,4.37
+Van der Waals,J,PHE 118,CD2,K,LEU 134,CD1,4.71
+Van der Waals,J,PHE 118,CD2,K,LEU 134,CD2,4.68
+Van der Waals,J,PHE 118,CE1,K,LEU 134,CA,4.46
+Van der Waals,J,PHE 118,CE1,K,LEU 134,C,3.74
+Van der Waals,J,PHE 118,CE1,K,LEU 134,O,3.07
+Van der Waals,J,PHE 118,CE1,K,LEU 134,CB,4.09
+Van der Waals,J,PHE 118,CE2,K,LEU 134,CB,4.68
+Van der Waals,J,PHE 118,CZ,K,LEU 134,C,4.76
+Van der Waals,J,PHE 118,CZ,K,LEU 134,O,3.93
+Van der Waals,J,PHE 118,CZ,K,LEU 134,CB,4.55
+Van der Waals,J,PHE 118,CD1,K,ALA 135,N,4.21
+Van der Waals,J,PHE 118,CD1,K,ALA 135,CA,4.7
+Van der Waals,J,PHE 118,CD1,K,ALA 135,C,4.01
+Van der Waals,J,PHE 118,CD1,K,ALA 135,O,3.31
+Van der Waals,J,PHE 118,CE1,K,ALA 135,N,4.46
+Van der Waals,J,PHE 118,CE1,K,ALA 135,CA,4.7
+Van der Waals,J,PHE 118,CE1,K,ALA 135,C,3.83
+Van der Waals,J,PHE 118,CE1,K,ALA 135,O,3.42
+Van der Waals,J,PHE 118,CE1,K,PRO 136,N,4.17
+Van der Waals,J,PHE 118,CE1,K,PRO 136,CA,4.17
+Van der Waals,J,PHE 118,CE1,K,ALA 147,C,4.06
+Van der Waals,J,PHE 118,CE1,K,ALA 147,O,3.45
+Van der Waals,J,PHE 118,CE2,K,ALA 147,C,4.7
+Van der Waals,J,PHE 118,CE2,K,ALA 147,CB,4.6
+Van der Waals,J,PHE 118,CZ,K,ALA 147,CA,4.46
+Van der Waals,J,PHE 118,CZ,K,ALA 147,C,3.56
+Van der Waals,J,PHE 118,CZ,K,ALA 147,O,3.31
+Van der Waals,J,PHE 118,CZ,K,ALA 147,CB,4.06
+Van der Waals,J,PHE 118,CE1,K,LEU 148,N,4.26
+Van der Waals,J,PHE 118,CE1,K,LEU 148,CA,3.88
+Van der Waals,J,PHE 118,CE1,K,LEU 148,C,4.32
+Van der Waals,J,PHE 118,CZ,K,LEU 148,N,3.75
+Van der Waals,J,PHE 118,CZ,K,LEU 148,CA,3.74
+Van der Waals,J,PHE 118,CZ,K,LEU 148,C,3.98
+Van der Waals,J,PHE 118,CZ,K,LEU 148,O,4.23
+Van der Waals,J,SER 121,CB,K,PHE 132,CB,4.44
+Van der Waals,J,SER 121,OG,K,PHE 132,CA,4.36
+Van der Waals,J,SER 121,OG,K,PHE 132,CB,3.55
+Van der Waals,J,SER 121,OG,K,PHE 132,CG,3.86
+Van der Waals,J,SER 121,OG,K,PHE 132,CD1,3.82
+Van der Waals,J,SER 121,CB,K,PRO 133,O,4.31
+Van der Waals,J,SER 121,CB,K,PRO 133,CD,4.74
+Van der Waals,J,GLU 123,C,K,PHE 132,CD1,4.54
+Van der Waals,J,GLU 123,C,K,PHE 132,CE1,4.34
+Van der Waals,J,GLU 123,CB,K,PHE 132,CD1,4.44
+Van der Waals,J,GLU 123,CB,K,PHE 132,CE1,4.73
+Van der Waals,J,GLU 123,CD,K,PHE 132,CD1,4.53
+Van der Waals,J,GLU 123,CD,K,PHE 132,CE1,4.16
+Van der Waals,J,GLU 123,OE1,K,PHE 132,CD1,3.5
+Van der Waals,J,GLU 123,OE1,K,PHE 132,CE1,3.0
+Van der Waals,J,GLU 123,OE1,K,PHE 132,CZ,4.18
+Van der Waals,J,GLN 124,N,K,PHE 132,CD1,3.91
+Van der Waals,J,GLN 124,N,K,PHE 132,CE1,3.9
+Van der Waals,J,GLN 124,CA,K,PHE 132,CG,4.53
+Van der Waals,J,GLN 124,CA,K,PHE 132,CD1,3.95
+Van der Waals,J,GLN 124,CA,K,PHE 132,CE1,3.65
+Van der Waals,J,GLN 124,CA,K,PHE 132,CE2,4.55
+Van der Waals,J,GLN 124,CA,K,PHE 132,CZ,3.98
+Van der Waals,J,GLN 124,CB,K,PHE 132,CB,4.59
+Van der Waals,J,GLN 124,CB,K,PHE 132,CG,3.86
+Van der Waals,J,GLN 124,CB,K,PHE 132,CD1,3.78
+Van der Waals,J,GLN 124,CB,K,PHE 132,CD2,3.96
+Van der Waals,J,GLN 124,CB,K,PHE 132,CE1,3.81
+Van der Waals,J,GLN 124,CB,K,PHE 132,CE2,3.99
+Van der Waals,J,GLN 124,CB,K,PHE 132,CZ,3.92
+Van der Waals,J,GLN 124,CG,K,PHE 132,CG,4.47
+Van der Waals,J,GLN 124,CG,K,PHE 132,CD1,4.62
+Van der Waals,J,GLN 124,CG,K,PHE 132,CD2,4.07
+Van der Waals,J,GLN 124,CG,K,PHE 132,CE1,4.41
+Van der Waals,J,GLN 124,CG,K,PHE 132,CE2,3.82
+Van der Waals,J,GLN 124,CG,K,PHE 132,CZ,4.01
+Van der Waals,J,GLN 124,CD,K,PHE 132,CD2,4.2
+Van der Waals,J,GLN 124,CD,K,PHE 132,CE2,4.26
+Van der Waals,J,GLN 124,NE2,K,PHE 132,CD2,4.44
+Van der Waals,J,GLN 124,NE2,K,PHE 132,CE2,4.33
+Van der Waals,J,GLN 124,NE2,K,LYS 153,CD,4.32
+Van der Waals,J,SER 131,CB,K,LEU 151,CD2,3.73
+Van der Waals,J,SER 131,OG,K,LEU 151,CD2,4.32
+Van der Waals,J,SER 131,CB,K,LYS 153,CD,4.32
+Van der Waals,J,SER 131,OG,K,LYS 153,CD,3.58
+Van der Waals,J,SER 131,OG,K,LYS 153,CE,4.09
+Van der Waals,J,SER 131,OG,K,LYS 153,NZ,3.46
+Van der Waals,J,VAL 133,CB,K,LEU 134,CD2,4.46
+Van der Waals,J,VAL 133,CG2,K,LEU 134,CD2,3.86
+Van der Waals,J,VAL 133,CG2,K,LEU 151,CD1,4.4
+Van der Waals,J,VAL 133,CG2,K,LEU 151,CD2,4.51
+Van der Waals,J,LEU 135,CD2,K,ALA 147,CB,4.5
+Van der Waals,J,LEU 135,CG,K,VAL 191,CG1,4.6
+Van der Waals,J,LEU 135,CG,K,VAL 191,CG2,4.6
+Van der Waals,J,LEU 135,CD1,K,VAL 191,CB,4.67
+Van der Waals,J,LEU 135,CD1,K,VAL 191,CG1,4.58
+Van der Waals,J,LEU 135,CD1,K,VAL 191,CG2,4.34
+Van der Waals,J,LEU 135,CD2,K,VAL 191,CB,4.21
+Van der Waals,J,LEU 135,CD2,K,VAL 191,CG1,3.43
+Van der Waals,J,LEU 135,CD2,K,VAL 191,CG2,3.99
+Van der Waals,J,ASN 137,CG,K,HIS 174,CD2,3.87
+Van der Waals,J,ASN 137,CG,K,HIS 174,NE2,3.98
+Van der Waals,J,ASN 137,OD1,K,HIS 174,CG,4.03
+Van der Waals,J,ASN 137,OD1,K,HIS 174,CD2,3.02
+Van der Waals,J,ASN 137,OD1,K,HIS 174,CE1,4.5
+Van der Waals,J,ASN 137,OD1,K,HIS 174,NE2,3.42
+Van der Waals,J,ASN 137,ND2,K,HIS 174,CD2,3.99
+Van der Waals,J,ASN 137,ND2,K,HIS 174,NE2,3.89
+Van der Waals,J,ASN 137,OD1,K,VAL 191,CG1,4.49
+Van der Waals,J,ASN 137,CG,K,THR 193,CG2,4.37
+Van der Waals,J,ASN 137,ND2,K,THR 193,CG2,3.95
+Van der Waals,J,ASN 138,CG,K,HIS 174,NE2,4.32
+Van der Waals,J,ASN 138,OD1,K,HIS 174,CD2,4.42
+Van der Waals,J,ASN 138,OD1,K,HIS 174,CE1,3.79
+Van der Waals,J,ASN 138,OD1,K,HIS 174,NE2,3.24
+Van der Waals,J,GLN 160,CB,K,VAL 179,CG1,4.63
+Van der Waals,J,GLN 160,CB,K,VAL 179,CG2,4.2
+Van der Waals,J,GLN 160,CG,K,VAL 179,CG2,4.45
+Van der Waals,J,GLN 160,CD,K,VAL 179,CG1,4.44
+Van der Waals,J,GLN 160,CD,K,VAL 179,CG2,3.92
+Van der Waals,J,GLN 160,OE1,K,VAL 179,CG2,4.21
+Van der Waals,J,GLN 160,NE2,K,VAL 179,CB,4.31
+Van der Waals,J,GLN 160,NE2,K,VAL 179,CG1,3.55
+Van der Waals,J,GLN 160,NE2,K,VAL 179,CG2,3.81
+Van der Waals,J,GLN 160,OE1,K,LEU 180,C,4.4
+Van der Waals,J,GLN 160,OE1,K,LEU 180,O,3.74
+Van der Waals,J,GLN 160,CD,K,GLN 181,CA,4.52
+Van der Waals,J,GLN 160,OE1,K,GLN 181,CA,3.94
+Van der Waals,J,GLN 160,OE1,K,GLN 181,C,4.42
+Van der Waals,J,GLN 160,NE2,K,GLN 181,CA,4.21
+Van der Waals,J,GLN 160,NE2,K,GLN 181,CG,4.17
+Van der Waals,J,GLN 160,OE1,K,SER 182,N,4.23
+Van der Waals,J,SER 162,C,K,PHE 176,CD1,4.06
+Van der Waals,J,SER 162,C,K,PHE 176,CE1,4.62
+Van der Waals,J,SER 162,O,K,PHE 176,CG,4.19
+Van der Waals,J,SER 162,O,K,PHE 176,CD1,3.23
+Van der Waals,J,SER 162,O,K,PHE 176,CE1,3.58
+Van der Waals,J,SER 162,CB,K,PHE 176,CB,4.0
+Van der Waals,J,SER 162,CB,K,PHE 176,CG,4.48
+Van der Waals,J,SER 162,CB,K,PHE 176,CD1,4.32
+Van der Waals,J,SER 162,CB,K,PRO 177,O,3.76
+Van der Waals,J,SER 162,CB,K,PRO 177,CD,4.26
+Van der Waals,J,SER 162,OG,K,PRO 177,C,4.3
+Van der Waals,J,SER 162,OG,K,PRO 177,O,3.13
+Van der Waals,J,SER 162,OG,K,VAL 179,CB,3.73
+Van der Waals,J,SER 162,OG,K,VAL 179,CG1,4.14
+Van der Waals,J,VAL 163,C,K,PHE 176,CD1,4.41
+Van der Waals,J,VAL 163,C,K,PHE 176,CE1,4.65
+Van der Waals,J,VAL 163,C,K,PRO 177,CG,4.57
+Van der Waals,J,VAL 163,C,K,PRO 177,CD,4.35
+Van der Waals,J,VAL 163,O,K,PRO 177,CG,3.48
+Van der Waals,J,VAL 163,O,K,PRO 177,CD,3.54
+Van der Waals,J,THR 164,OG1,K,HIS 174,ND1,4.16
+Van der Waals,J,THR 164,CG2,K,HIS 174,CE1,4.73
+Van der Waals,J,THR 164,N,K,PHE 176,CD1,4.29
+Van der Waals,J,THR 164,N,K,PHE 176,CE1,4.2
+Van der Waals,J,THR 164,CA,K,PHE 176,CD1,4.6
+Van der Waals,J,THR 164,CA,K,PHE 176,CE1,4.54
+Van der Waals,J,THR 164,CB,K,PHE 176,CD1,4.36
+Van der Waals,J,THR 164,CB,K,PHE 176,CE1,3.95
+Van der Waals,J,THR 164,OG1,K,PHE 176,CD1,4.04
+Van der Waals,J,THR 164,OG1,K,PHE 176,CE1,3.84
+Van der Waals,J,SER 174,CB,K,HIS 174,CG,4.26
+Van der Waals,J,SER 174,CB,K,HIS 174,ND1,3.9
+Van der Waals,J,SER 174,CB,K,HIS 174,CD2,4.41
+Van der Waals,J,SER 174,CB,K,HIS 174,CE1,3.84
+Van der Waals,J,SER 174,CB,K,HIS 174,NE2,4.15
+Van der Waals,J,SER 174,OG,K,HIS 174,CG,3.86
+Van der Waals,J,SER 174,OG,K,HIS 174,ND1,3.61
+Van der Waals,J,SER 174,OG,K,HIS 174,CD2,3.59
+Van der Waals,J,SER 174,OG,K,HIS 174,CE1,3.18
+Van der Waals,J,SER 174,OG,K,HIS 174,NE2,3.14
+Van der Waals,J,SER 174,CA,K,PHE 176,CE1,4.37
+Van der Waals,J,SER 174,CA,K,PHE 176,CZ,4.57
+Van der Waals,J,SER 174,C,K,PHE 176,CE1,3.67
+Van der Waals,J,SER 174,C,K,PHE 176,CZ,4.17
+Van der Waals,J,SER 174,O,K,PHE 176,CE1,3.7
+Van der Waals,J,SER 174,CB,K,PHE 176,CE1,3.77
+Van der Waals,J,SER 174,CB,K,PHE 176,CZ,3.67
+Van der Waals,J,LEU 175,N,K,PHE 176,CE1,3.79
+Van der Waals,J,LEU 175,N,K,PHE 176,CZ,4.08
+Van der Waals,J,LEU 175,CA,K,PHE 176,CE1,3.92
+Van der Waals,J,LEU 175,CA,K,PHE 176,CZ,4.41
+Van der Waals,J,LEU 175,C,K,PHE 176,CD1,4.65
+Van der Waals,J,LEU 175,C,K,PHE 176,CE1,3.89
+Van der Waals,J,LEU 175,C,K,PHE 176,CZ,4.08
+Van der Waals,J,LEU 175,O,K,PHE 176,CE1,4.45
+Van der Waals,J,LEU 175,O,K,PHE 176,CZ,4.25
+Van der Waals,J,SER 176,N,K,PHE 176,CD1,4.18
+Van der Waals,J,SER 176,N,K,PHE 176,CE1,3.82
+Van der Waals,J,SER 176,N,K,PHE 176,CZ,4.18
+Van der Waals,J,SER 176,CA,K,PHE 176,CD1,4.69
+Van der Waals,J,SER 176,CA,K,PHE 176,CE1,4.52
+Van der Waals,J,SER 176,CA,K,PHE 176,CZ,4.62
+Van der Waals,J,SER 176,CB,K,PHE 176,CB,4.45
+Van der Waals,J,SER 176,CB,K,PHE 176,CG,3.79
+Van der Waals,J,SER 176,CB,K,PHE 176,CD1,3.9
+Van der Waals,J,SER 176,CB,K,PHE 176,CD2,3.87
+Van der Waals,J,SER 176,CB,K,PHE 176,CE1,4.09
+Van der Waals,J,SER 176,CB,K,PHE 176,CE2,4.06
+Van der Waals,J,SER 176,CB,K,PHE 176,CZ,4.17
+Van der Waals,J,SER 176,OG,K,PHE 176,CB,3.78
+Van der Waals,J,SER 176,OG,K,PHE 176,CG,3.48
+Van der Waals,J,SER 176,OG,K,PHE 176,CD1,3.52
+Van der Waals,J,SER 176,OG,K,PHE 176,CD2,4.03
+Van der Waals,J,SER 176,OG,K,PHE 176,CE1,4.11
+Amide-amide,L,ASN 34,ND2,H,TRP 108,O,3.42
+Amide-amide,L,GLN 38,NE2,H,GLN 39,OE1,3.03
+Amide-amide,H,GLN 39,NE2,L,GLN 38,OE1,2.96
+Amide-amide,L,GLN 89,NE2,H,TRP 108,O,3.08
+Amide-amide,L,GLN 160,NE2,H,LEU 180,O,3.95
+Amide-amide,W,GLN 87,NE2,L,SER 92,O,4.21
+Amide-amide,W,HIS 90,N,H,ASN 31,O,4.06
+Amide-amide,W,ILE 91,N,H,ASN 31,O,3.23
+Amide-amide,H,TYR 32,N,W,GLN 89,OE1,3.85
+Amide-amide,W,GLN 89,NE2,H,TYR 32,O,4.17
+Amide-amide,H,GLY 33,N,W,GLN 89,OE1,4.21
+Amide-amide,H,GLY 33,N,W,GLN 89,O,2.9
+Amide-amide,W,GLN 89,NE2,H,ILE 51,O,4.19
+Amide-amide,W,GLN 89,NE2,H,ASN 52,OD1,3.2
+Amide-amide,H,THR 53,N,W,GLN 89,OE1,4.11
+Amide-amide,H,TYR 54,N,W,GLN 89,OE1,3.83
+Amide-amide,H,TYR 102,N,W,ILE 91,O,3.4
+Amide-amide,W,GLU 93,N,H,TYR 102,O,3.07
+Amide-amide,H,GLY 104,N,W,GLU 93,O,3.13
+Amide-amide,V,VAL 14,N,W,THR 77,O,4.07
+Amide-amide,V,VAL 15,N,W,THR 77,O,3.06
+Amide-amide,W,GLN 79,N,V,VAL 15,O,3.04
+Amide-amide,V,PHE 17,N,W,GLN 79,OE1,3.15
+Amide-amide,V,PHE 17,N,W,GLN 79,O,4.24
+Amide-amide,V,SER 50,N,W,ASN 62,OD1,2.86
+Amide-amide,W,SER 50,N,V,ASN 62,OD1,2.91
+Amide-amide,W,VAL 14,N,V,THR 77,O,3.89
+Amide-amide,W,VAL 15,N,V,THR 77,O,2.94
+Amide-amide,V,GLN 79,N,W,VAL 15,O,2.87
+Amide-amide,W,PHE 17,N,V,GLN 79,OE1,3.17
+Amide-amide,W,PHE 17,N,V,GLN 79,O,3.96
+Amide-amide,V,GLN 87,NE2,J,SER 92,O,4.18
+Amide-amide,K,ASN 31,N,V,GLN 89,OE1,4.41
+Amide-amide,V,GLN 89,NE2,K,TYR 32,O,4.24
+Amide-amide,K,TYR 32,N,V,GLN 89,OE1,3.82
+Amide-amide,K,GLY 33,N,V,GLN 89,OE1,4.14
+Amide-amide,K,GLY 33,N,V,GLN 89,O,2.92
+Amide-amide,V,GLN 89,NE2,K,ILE 51,O,4.19
+Amide-amide,V,GLN 89,NE2,K,ASN 52,OD1,3.21
+Amide-amide,K,THR 53,N,V,GLN 89,OE1,3.94
+Amide-amide,K,TYR 54,N,V,GLN 89,OE1,3.64
+Amide-amide,V,HIS 90,N,K,ASN 31,O,4.07
+Amide-amide,V,ILE 91,N,K,ASN 31,O,3.3
+Amide-amide,K,HIS 101,N,V,ILE 91,O,4.38
+Amide-amide,K,TYR 102,N,V,ILE 91,O,3.46
+Amide-amide,V,GLU 93,N,K,TYR 102,O,3.05
+Amide-amide,K,GLY 104,N,V,GLU 93,O,2.76
+Amide-amide,J,ASN 34,ND2,K,TRP 108,O,3.49
+Amide-amide,J,GLN 38,NE2,K,GLN 39,OE1,3.04
+Amide-amide,K,GLN 39,NE2,J,GLN 38,OE1,3.09
+Amide-amide,J,GLN 89,NE2,K,TRP 108,O,3.17
+Amide-amide,K,TRP 47,N,J,TRP 96,O,4.47
+Amide-amide,K,GLN 181,N,J,GLN 160,OE1,4.5
+Amide-amide,K,SER 182,N,J,GLN 160,OE1,4.23

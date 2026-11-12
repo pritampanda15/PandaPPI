@@ -1,0 +1,61 @@
+======================================================================
+PandaPPI interaction report
+======================================================================
+Structure          : 4kpy.pdb
+Total interactions : 3938
+Residues involved  : 312
+
+Interactions by type (count, distance in Å)
+----------------------------------------------------------------------
+                     size  mean   min   max
+Interaction_Type                           
+Van der Waals        3471  4.03  2.28  4.90
+Hydrogen bond         243  3.07  2.28  3.50
+Water-mediated        134   NaN   NaN   NaN
+Salt bridge / ionic    50  3.52  2.37  4.42
+Hydrophobic            22  4.05  3.62  4.47
+CH-pi                   9  3.95  3.52  4.50
+Cation-pi               6  3.96  3.58  4.43
+Amide-aromatic          2  4.31  4.30  4.33
+Amide-amide             1  4.40  4.40  4.40
+
+Interactions by chain pair
+----------------------------------------------------------------------
+Interaction_Type  Amide-amide  Amide-aromatic  CH-pi  Cation-pi  Hydrogen bond  Hydrophobic  Salt bridge / ionic  Van der Waals  Water-mediated  Total
+row_0                                                                                                                                                 
+B-E                         0               0      0          0             50            0                    0            789              32    871
+A-C                         0               0      0          0             53            0                    0            774              27    854
+A-B                         1               2      9          6             41           22                   50            646              15    792
+B-F                         0               0      0          0             15            0                    0            360              34    409
+A-D                         0               0      0          0             15            0                    0            347              24    386
+C-D                         0               0      0          0             33            0                    0            284               2    319
+E-F                         0               0      0          0             36            0                    0            271               0    307
+
+Top hotspot residues
+----------------------------------------------------------------------
+Chain Residue  Total
+    E    DT 1    187
+    C    DT 1    186
+    F   DG 19    155
+    D   DG 19    154
+    C    DG 2    143
+    E    DG 2    142
+    C    DA 7    137
+    E    DA 7    132
+    C    DT 6    110
+    F   DT 10     96
+    F   DA 14     96
+    E    DT 6     96
+    E    DG 4     94
+    D   DT 10     92
+    D   DA 11     92
+    C    DG 4     91
+    C    DG 5     91
+    C   DA 10     87
+    F   DA 11     86
+    D   DC 18     84
+    E    DG 5     82
+    E   DA 10     82
+    C    DG 8     81
+    D   DA 14     80
+    E    DG 8     79

@@ -568,7 +568,9 @@ class PandaPPI:
                 output_png = f"{output_file}.png"
                 
             # Save the figure and immediately close it
-            fig.savefig(output_png, dpi=300, bbox_inches='tight')
+            with plt.rc_context(interaction_map.NATURE_RC):  # fonts resolve at render time
+                fig.savefig(output_png, dpi=300, facecolor='white')
+                fig.savefig(os.path.splitext(output_png)[0] + '.pdf', facecolor='white')
             plt.close(fig)  # CRITICAL: Clean up matplotlib's state
             logger.info(f"Network visualization saved to {output_png}")
         

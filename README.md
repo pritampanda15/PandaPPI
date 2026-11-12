@@ -65,6 +65,14 @@ The whole structure at a glance: contacts by type, which chains touch, distance 
   <img src="test/antigen_antibody/antigen_antibody_dashboard.png" alt="Dashboard: interaction counts by type, chain contact matrix, distance distributions and hotspot residues" width="820">
 </p>
 
+### Publication-ready figures
+
+Every figure follows Nature figure conventions, so it can go into a manuscript without redrawing:
+
+- 183 mm wide (double column), with 5-7 pt Arial/Helvetica text and 8 pt bold lowercase panel letters.
+- The NPG colour palette, with colour meaning the same thing in every panel: teal for polar contacts, red for charged, navy for aromatic, charcoal for apolar. Line style and the badge letter separate the types within a colour.
+- Each figure is written twice: a 300 dpi PNG and a vector PDF with editable text, under the same name.
+
 ## Install
 
 PandaPPI needs Python 3.8 or newer. Install it from GitHub:
@@ -109,7 +117,7 @@ The input files for these examples, and every output they produce, are in [`test
 
 ## Outputs
 
-`<prefix>` is whatever you pass to `-o` (default `pandappi`).
+`<prefix>` is whatever you pass to `-o` (default `pandappi`). Each `.png` figure below also comes as a vector `.pdf` with the same name.
 
 | Flag | What it writes | File |
 |------|----------------|------|

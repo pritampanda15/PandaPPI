@@ -56,7 +56,7 @@ def main():
     out.add_argument('--network', action='store_true', help='Residue interaction network (PNG + GML)')
     out.add_argument('--3d-plot', action='store_true', dest='plot_3d', help='Interactive 3D visualization (HTML)')
     out.add_argument('--export-vis', action='store_true',
-                     help='Export visualization files for PyMOL, Chimera, VMD, and Molstar')
+                     help='Export scripts for PyMOL (.pml), ChimeraX (.cxc), Chimera (.cmd), VMD (.tcl) and Mol* (.molj)')
 
     parser.add_argument('--distance-cutoff', type=float, default=4.5,
                         help='Distance cutoff for interaction detection (default: 4.5Å)')

@@ -1,25 +1,34 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "pandappi"
-version = "2.0.0"
-description = "A tool for mapping protein-protein, protein-nucleic acid, and antigen-antibody interactions"
+dynamic = ["version"]
+description = "Map and visualize every contact at protein-protein, protein-peptide, antibody-antigen and protein-nucleic acid interfaces"
 readme = "README.md"
-requires-python = ">=3.8"
-license = { text = "MIT" }
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [
-        {name = "Dr. Pritam Kumar Panda", email = "pritam@stanford.edu"}
+    {name = "Dr. Pritam Kumar Panda", email = "pritam@stanford.edu"}
 ]
-keywords = ["bioinformatics", "protein interactions", "nucleic acids", "antibodies"]
+keywords = ["bioinformatics", "structural biology", "protein-protein interactions", "interface",
+            "peptide", "antibody", "nucleic acids", "PDB"]
 classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Operating System :: OS Independent",
     "Topic :: Scientific/Engineering :: Bio-Informatics",
-    "Topic :: Scientific/Engineering :: Chemistry"
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Visualization",
 ]
-
 dependencies = [
     "biopython>=1.79",
     "numpy>=1.20.0",
@@ -27,21 +36,24 @@ dependencies = [
     "matplotlib>=3.5.0",
     "py3Dmol>=0.9.0",
     "networkx>=2.6.0",
-    "scikit-learn>=0.24.0",
-    "scipy>=1.7.0"
 ]
+
+[project.optional-dependencies]
+test = ["pytest"]
 
 [project.scripts]
 pandappi = "pandappi.main:main"
 
 [project.urls]
-"Homepage" = "https://github.com/pritampanda15/PandaPPI"
-"Bug Tracker" = "https://github.com/pritampanda15/PandaPPI/issues"
+Homepage = "https://github.com/pritampanda15/PandaPPI"
+Documentation = "https://github.com/pritampanda15/PandaPPI#readme"
+Issues = "https://github.com/pritampanda15/PandaPPI/issues"
 
-
-[tool.long_description]
-long-description = "file:README.md"
-long-description-content-type = "text/markdown"
+[tool.setuptools.dynamic]
+version = {attr = "pandappi.__version__"}
 
 [tool.setuptools.packages.find]
 include = ["pandappi*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

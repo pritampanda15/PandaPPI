@@ -106,22 +106,81 @@ def interface_pairs(df: pd.DataFrame) -> pd.DataFrame:
         Total=lambda t: t.sum(axis=1)).sort_values('Total', ascending=False)
 
 
-def write_text_report(df: pd.DataFrame, summary: pd.DataFrame, pdb_file: str, output_file: str) -> None:
-    """Plain-text report: totals, per-type stats, chain pairs, hotspot residues."""
-    by_type = df.groupby('Interaction_Type')['Distance_Å'].agg(['size', 'mean', 'min', 'max']).sort_values(
-        'size', ascending=False).round(2)
-    hot = summary[['Chain', 'Residue', 'Total']].head(25)
-    with open(output_file, 'w') as f:
-        f.write("=" * 70 + "\nPandaPPI interaction report\n" + "=" * 70 + "\n")
-        f.write(f"Structure          : {os.path.basename(pdb_file)}\n")
-        f.write(f"Total interactions : {len(df)}\n")
-        f.write(f"Residues involved  : {len(summary)}\n\n")
-        f.write("Interactions by type (count, distance in Å)\n" + "-" * 70 + "\n")
-        f.write(by_type.to_string() + "\n\n")
-        f.write("Interactions by chain pair\n" + "-" * 70 + "\n")
-        f.write(interface_pairs(df).to_string() + "\n\n")
-        f.write("Top hotspot residues\n" + "-" * 70 + "\n")
-        f.write(hot.to_string(index=False) + "\n")
+def _table(headers: list, rows: list, left: int = 1) -> str:
+    """Aligned text table; the first `left` columns are left-aligned, the rest right-aligned."""
+    rows = [[str(v) for v in r] for r in rows]
+    widths = [max(len(v) for v in col) for col in zip(headers, *rows)]
+
+    def line(r):
+        return '  '.join(v.ljust(w) if i < left else v.rjust(w) for i, (v, w) in enumerate(zip(r, widths))).rstrip()
+    return '\n'.join(['  ' + line(headers), '  ' + '  '.join('─' * w for w in widths)] + ['  ' + line(r) for r in rows])
+
+
+def write_text_report(df: pd.DataFrame, summary: pd.DataFrame, pdb_file: str, output_file: str,
+                      buried: Optional[Dict[str, float]] = None) -> None:
+    """Plain-text report: summary, types, interfaces, closest contacts, hotspot residues.
+
+    buried: optional {'A-B': Å² buried at that interface}.
+    """
+    from .. import __version__
+    vdw = df['Interaction_Type'] == 'Van der Waals'
+    spec = df[~vdw]
+    pairs = interface_pairs(df)
+    chains = sorted(set(df['Chain1']) | set(df['Chain2']))
+
+    def section(title):
+        return f"\n\n{title}\n{'━' * 72}\n"
+
+    out = [f"PandaPPI {__version__}  ·  interaction report", '━' * 72,
+           f"  Structure    {os.path.basename(pdb_file)}",
+           f"  Chains       {', '.join(chains)}",
+           f"  Contacts     {len(spec):,} specific  +  {int(vdw.sum()):,} van der Waals",
+           f"  Residues     {len(summary):,} at an interface",
+           f"  Interfaces   {len(pairs)} chain pairs"]
+    if buried:
+        out.append(f"  Buried area  {sum(buried.values()):,.0f} Å² in total")
+
+    stats = df.groupby('Interaction_Type')['Distance_Å'].agg(['size', 'mean', 'min', 'max']).sort_values(
+        'size', ascending=False)
+    top = max(int(stats.loc[stats.index != 'Van der Waals', 'size'].max()) if len(spec) else 1, 1)
+    rows = []
+    for name, r in stats.iterrows():
+        is_vdw = name == 'Van der Waals'
+        num = ['–' if pd.isna(v) else f'{v:.2f}' for v in (r['mean'], r['min'], r['max'])]
+        rows.append([name, f"{int(r['size']):,}", '–' if is_vdw else f"{100 * r['size'] / len(spec):.1f}%", *num,
+                     ('' if is_vdw else '█' * max(1, round(20 * r['size'] / top))).ljust(20)])
+    out.append(section('INTERACTIONS BY TYPE') + _table(
+        ['Type', 'Count', 'Share', 'Mean Å', 'Min Å', 'Max Å', ''], rows)
+        + "\n\n  Share is of specific contacts. Each contact is counted once.")
+
+    def count(pair, col):
+        return int(pairs.loc[pair, col]) if col in pairs.columns else 0
+    rows = [[p, count(p, 'Total') - count(p, 'Van der Waals'), count(p, 'Hydrogen bond'),
+             count(p, 'Salt bridge / ionic'), f"{count(p, 'Van der Waals'):,}",
+             f"{buried[p]:,.0f}" if buried and p in buried else '–'] for p in pairs.index]
+    out.append(section('INTERFACES') + _table(
+        ['Chains', 'Specific', 'H-bonds', 'Salt bridges', 'van der Waals', 'Buried Å²'], rows))
+
+    close = spec[spec['Interaction_Type'].isin(['Hydrogen bond', 'Salt bridge / ionic', 'Disulfide'])].nsmallest(
+        12, 'Distance_Å')
+    if len(close):
+        rows = [[r.Interaction_Type, f"{r.Chain1}:{r.Residue1}", r.Atom1, f"{r.Chain2}:{r.Residue2}", r.Atom2,
+                 f"{r[7]:.2f}"] for r in close.itertuples(index=False)]
+        out.append(section('CLOSEST POLAR CONTACTS') + _table(
+            ['Type', 'Residue 1', 'Atom', 'Residue 2', 'Atom', 'Å'], rows, left=5))
+
+    hot = summary.copy()
+    for col in ('Van der Waals', 'Hydrogen bond'):
+        if col not in hot:
+            hot[col] = 0
+    hot['Specific'] = hot['Total'] - hot['Van der Waals']
+    hot = hot.sort_values(['Specific', 'Total'], ascending=False).head(15)
+    rows = [[f"{r['Chain']}:{r['Residue']}", r['Specific'], r['Hydrogen bond'], r['Van der Waals']]
+            for _, r in hot.iterrows()]
+    out.append(section('HOTSPOT RESIDUES') + _table(['Residue', 'Specific', 'H-bonds', 'van der Waals'], rows))
+
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(out) + '\n')
     print(f"Text report saved to {output_file}")
 
 
@@ -166,7 +225,7 @@ def write_html_report(df: pd.DataFrame, summary: pd.DataFrame, pdb_file: str,
     detail = df[df['Interaction_Type'] != 'Van der Waals']
     parts.append('<section><h2>All specific interactions (van der Waals in CSV)</h2>'
                  + table(detail, index=False) + '</section></main></body></html>')
-    with open(output_file, 'w') as f:
+    with open(output_file, 'w', encoding='utf-8') as f:
         f.write(''.join(parts))
     print(f"HTML report saved to {output_file}")
 

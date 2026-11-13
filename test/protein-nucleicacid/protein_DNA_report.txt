@@ -1,54 +1,70 @@
-======================================================================
-PandaPPI interaction report
-======================================================================
-Structure          : 3l1p.pdb
-Total interactions : 1844
-Residues involved  : 123
+PandaPPI 2.0.0  ·  interaction report
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Structure    3l1p.pdb
+  Chains       A, B, M, N
+  Contacts     193 specific  +  1,651 van der Waals
+  Residues     123 at an interface
+  Interfaces   6 chain pairs
+  Buried area  8,720 Å² in total
 
-Interactions by type (count, distance in Å)
-----------------------------------------------------------------------
-                  size  mean   min   max
-Interaction_Type                        
-Van der Waals     1651  3.91  2.15  4.86
-Hydrogen bond      190  3.04  2.15  3.50
-Amide-amide          3  4.46  4.43  4.49
 
-Interactions by chain pair
-----------------------------------------------------------------------
-Interaction_Type  Amide-amide  Hydrogen bond  Van der Waals  Total
-row_0                                                             
-M-N                         0            117            745    862
-B-M                         0             18            251    269
-A-N                         0             22            231    253
-A-M                         0             15            203    218
-B-N                         0             18            195    213
-A-B                         3              0             26     29
+INTERACTIONS BY TYPE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Type           Count  Share  Mean Å  Min Å  Max Å
+  ─────────────  ─────  ─────  ──────  ─────  ─────  ────────────────────
+  Van der Waals  1,651      –    3.91   2.15   4.86
+  Hydrogen bond    190  98.4%    3.04   2.15   3.50  ████████████████████
+  Amide-amide        3   1.6%    4.46   4.43   4.49  █
 
-Top hotspot residues
-----------------------------------------------------------------------
-Chain Residue  Total
-    M    DG 9    163
-    N   DG 10    144
-    B  ARG 97     96
-    N   DA 18     92
-    M   DC 11     89
-    M   DA 18     86
-    M   DA 17     84
-    N    DA 4     82
-    N   DA 19     81
-    N   DA 12     81
-    M    DA 5     79
-    N    DA 6     79
-    M   DG 20     75
-    A  ARG 97     71
-    M   DT 12     71
-    M    DT 8     69
-    N   DG 15     68
-    N   DA 17     67
-    N   DG 21     66
-    N    DT 8     66
-    N    DT 9     65
-    M    DT 7     63
-    M   DC 10     61
-    N   DA 13     59
-    M   DT 13     59
+  Share is of specific contacts. Each contact is counted once.
+
+
+INTERFACES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Chains  Specific  H-bonds  Salt bridges  van der Waals  Buried Å²
+  ──────  ────────  ───────  ────────────  ─────────────  ─────────
+  M-N          117      117             0            745      2,054
+  B-M           18       18             0            251      1,712
+  A-N           22       22             0            231      1,580
+  A-M           15       15             0            203      1,366
+  B-N           18       18             0            195      1,328
+  A-B            3        0             0             26        681
+
+
+CLOSEST POLAR CONTACTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Type           Residue 1  Atom  Residue 2  Atom     Å
+  ─────────────  ─────────  ────  ─────────  ────  ────
+  Hydrogen bond  A:ARG 49   NH2   N:DG 10    O6    2.15
+  Hydrogen bond  A:THR 45   OG1   M:DT 13    O4    2.29
+  Hydrogen bond  B:THR 46   OG1   M:DG 9     OP2   2.39
+  Hydrogen bond  A:THR 46   OG1   N:DG 10    OP2   2.40
+  Hydrogen bond  N:DA 13    N1    M:DT 12    N3    2.40
+  Hydrogen bond  N:DG 14    N2    M:DC 11    O2    2.42
+  Hydrogen bond  N:DG 21    N2    M:DC 4     O2    2.42
+  Hydrogen bond  B:SER 48   OG    N:DA 13    OP2   2.43
+  Hydrogen bond  B:ARG 49   NH2   M:DG 9     O6    2.49
+  Hydrogen bond  N:DC 16    N4    M:DG 9     O6    2.50
+  Hydrogen bond  N:DA 12    N1    M:DT 13    N3    2.51
+  Hydrogen bond  N:DG 14    N1    M:DC 11    N3    2.51
+
+
+HOTSPOT RESIDUES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Residue  Specific  H-bonds  van der Waals
+  ───────  ────────  ───────  ─────────────
+  M:DG 9         18       18            145
+  N:DG 10        15       15            129
+  M:DC 11        11       11             78
+  N:DG 15        11       11             57
+  M:DA 18        10       10             76
+  N:DA 4         10       10             72
+  N:DA 12        10       10             71
+  M:DT 12        10       10             61
+  N:DT 8          9        9             57
+  N:DA 13         9        9             50
+  N:DA 19         8        8             73
+  M:DA 5          8        8             71
+  N:DA 6          8        8             71
+  M:DG 20         8        8             67
+  N:DA 17         8        8             59

@@ -43,9 +43,8 @@ from .interactions import (
     van_der_waals,
     amide_amide
 )
-from .visualization import plot3d, network, interaction_map
+from .visualization import plot3d, network, interaction_map, viewer_scripts
 from .reports import generator
-#from pandappi.visualization.export_vis import export_visualization_scripts
 
 
 class PandaPPI:
@@ -445,8 +444,12 @@ class PandaPPI:
             if cid not in self._sasa_alone:
                 self._sasa_alone[cid] = self._sasa([cid])
         alone = {**self._sasa_alone[chain_a], **self._sasa_alone[chain_b]}
-        bound = self._sasa([chain_a, chain_b])
-        return {k: alone[k] - v for k, v in bound.items() if alone[k] - v > 1.0}
+        if not hasattr(self, '_buried'):
+            self._buried = {}
+        if (chain_a, chain_b) not in self._buried:
+            bound = self._sasa([chain_a, chain_b])
+            self._buried[(chain_a, chain_b)] = {k: alone[k] - v for k, v in bound.items() if alone[k] - v > 1.0}
+        return self._buried[(chain_a, chain_b)]
 
     def create_interface_reports(self, output_prefix: str = "pandappi", max_pairs: int = 12):
         """One multi-panel report figure per chain pair. Returns {'A-B': file}."""
@@ -510,7 +513,9 @@ class PandaPPI:
         }
         df.to_csv(files['interactions_csv'], index=False)
         summary.to_csv(files['residues_csv'], index=False)
-        generator.write_text_report(df, summary, self.pdb_file, files['text'])
+        buried = {f"{a}-{b}": sum(self.buried_surface(a, b).values())
+                  for a, b in interaction_map.chain_pairs(df) if a != b}
+        generator.write_text_report(df, summary, self.pdb_file, files['text'], buried)
         interaction_map.draw_dashboard(
             df, files['dashboard'], f"PandaPPI interaction summary - {os.path.basename(self.pdb_file)}")
         maps = self.create_interface_reports(output_prefix)
@@ -593,498 +598,35 @@ class PandaPPI:
         return network_graph
 
     # In your analyzer class in core.py
-    def export_visualization_scripts(self, output_prefix: str, 
-                              interaction_types: Optional[List[str]] = None):
+    def export_visualization_scripts(self, output_prefix: str,
+                                     interaction_types: Optional[List[str]] = None):
         """
-        Export interaction visualization scripts for various molecular viewers.
-        
-        Args:
-            output_prefix: Prefix for output files (without extension)
-            interaction_types: Types of interactions to include in visualizations
-        
+        Export scripts that show the interactions in PyMOL, ChimeraX, Chimera, VMD and Mol*.
+
         Returns:
             Dictionary mapping program names to generated filenames
         """
-        import os
-        from Bio.PDB import PDBIO
-        
         if not self.structure or not self.interactions:
             print("No structure or interactions to visualize. Run map_interactions() first.")
             return {}
-        
-        # Filter interactions if needed
+        filtered = self.interactions
         if interaction_types:
-            filtered_interactions = {
-                k: v for k, v in self.interactions.items() if k in interaction_types
-            }
-        else:
-            filtered_interactions = self.interactions
-        
-        # Define output files
-        output_files = {}
-        
-        # Create PDB file for reference (needed by all visualization programs)
+            filtered = {k: v for k, v in self.interactions.items() if k in interaction_types}
+        df = generator.create_interaction_report(filtered)
+        if df is None:
+            return {}
+
+        # the scripts load this copy of the structure, which sits next to them
         pdb_file = f"{output_prefix}.pdb"
-        
-        # Export PDB if needed
         if not os.path.exists(pdb_file):
             io = PDBIO()
             io.set_structure(self.structure)
             io.save(pdb_file)
-            logger.info(f"Saved structure to {pdb_file}")
-        
-        # Export PyMOL script
-        pymol_file = f"{output_prefix}.pml"
-        self._export_pymol_script(pymol_file, pdb_file, filtered_interactions)
-        output_files["PyMOL"] = pymol_file
-        
-        # Export Chimera script
-        chimera_file = f"{output_prefix}.cmd"
-        self._export_chimera_script(chimera_file, pdb_file, filtered_interactions)
-        output_files["Chimera"] = chimera_file
-        
-        # Export VMD script
-        vmd_file = f"{output_prefix}.tcl"
-        self._export_vmd_script(vmd_file, pdb_file, filtered_interactions)
-        output_files["VMD"] = vmd_file
-        
-        # Export Molstar state file
+        output_files = viewer_scripts.write_all(df, pdb_file, output_prefix)
         molstar_file = f"{output_prefix}.molj"
-        self._export_molstar_state(molstar_file, pdb_file, filtered_interactions)
+        self._export_molstar_state(molstar_file, pdb_file, filtered)
         output_files["Molstar"] = molstar_file
-        
-        logger.info(f"Exported visualization scripts: {', '.join(output_files.values())}")
         return output_files
-
-    def _export_pymol_script(self, output_file: str, pdb_file: str, 
-                        interactions: Dict[str, List[Dict]]):
-        """Generate PyMOL script (.pml) to visualize interactions."""
-        # Define colors for different interaction types
-        interaction_colors = {
-            'hydrogen_bonds': 'blue',
-            'ionic_interactions': 'red',
-            'salt_bridges': 'yellow',
-            'hydrophobic_interactions': 'orange',
-            'pi_stacking': 'purple',
-            'pi_cation': 'green',
-            'disulfide': 'gold'
-        }
-        
-        with open(output_file, 'w') as f:
-            # Header and load structure
-            f.write(f"# PyMOL script for visualizing protein interactions\n")
-            f.write(f"# Generated by PandaPPI\n\n")
-            
-            # Load the PDB structure
-            rel_path = os.path.relpath(pdb_file, os.path.dirname(output_file))
-            f.write(f"load {rel_path}, protein\n")
-            
-            # Set up initial view
-            f.write("hide everything\n")
-            f.write("show cartoon\n")
-            f.write("color gray80, protein\n")
-            f.write("set cartoon_transparency, 0.5\n\n")
-            
-            # Setup groups for organization
-            f.write("group Interactions\n")
-            
-            # Process each interaction type
-            for interaction_type, interactions_list in interactions.items():
-                if not interactions_list:
-                    continue
-                    
-                color = interaction_colors.get(interaction_type, "gray50")
-                pymol_name = interaction_type.replace("_", "")
-                
-                # Create a group for this interaction type
-                f.write(f"group {pymol_name}, {pymol_name}_*\n")
-                
-                # Process each interaction
-                for i, interaction in enumerate(interactions_list, 1):
-                    try:
-                        # Extract residue info based on interaction type
-                        if interaction_type == 'hydrogen_bonds':
-                            chain1 = interaction.get('donor_chain')
-                            res1 = interaction.get('donor_residue', '').split()[-1] if ' ' in interaction.get('donor_residue', '') else interaction.get('donor_residue', '')
-                            atom1 = interaction.get('donor_atom')
-                            
-                            chain2 = interaction.get('acceptor_chain')
-                            res2 = interaction.get('acceptor_residue', '').split()[-1] if ' ' in interaction.get('acceptor_residue', '') else interaction.get('acceptor_residue', '')
-                            atom2 = interaction.get('acceptor_atom')
-                            
-                            # Skip if missing data
-                            if not all([chain1, res1, atom1, chain2, res2, atom2]):
-                                continue
-                                
-                            sel1 = f"chain {chain1} and resi {res1} and name {atom1}"
-                            sel2 = f"chain {chain2} and resi {res2} and name {atom2}"
-                            
-                        elif interaction_type in ['ionic_interactions', 'salt_bridges']:
-                            if all(k in interaction for k in ['positive_residue', 'positive_chain']):
-                                chain1 = interaction.get('positive_chain')
-                                res1 = interaction.get('positive_residue', '').split()[-1] if ' ' in interaction.get('positive_residue', '') else interaction.get('positive_residue', '')
-                                atom1 = interaction.get('positive_atom', '*')
-                                
-                                chain2 = interaction.get('negative_chain')
-                                res2 = interaction.get('negative_residue', '').split()[-1] if ' ' in interaction.get('negative_residue', '') else interaction.get('negative_residue', '')
-                                atom2 = interaction.get('negative_atom', '*')
-                            else:
-                                # Fallback to generic naming
-                                chain1 = interaction.get('chain1')
-                                res1 = interaction.get('residue1', '').split()[-1] if ' ' in interaction.get('residue1', '') else interaction.get('residue1', '')
-                                atom1 = interaction.get('atom1', '*')
-                                
-                                chain2 = interaction.get('chain2')
-                                res2 = interaction.get('residue2', '').split()[-1] if ' ' in interaction.get('residue2', '') else interaction.get('residue2', '')
-                                atom2 = interaction.get('atom2', '*')
-                                
-                            # Skip if missing data
-                            if not all([chain1, res1, chain2, res2]):
-                                continue
-                                
-                            sel1 = f"chain {chain1} and resi {res1}"
-                            if atom1 != '*':
-                                sel1 += f" and name {atom1}"
-                                
-                            sel2 = f"chain {chain2} and resi {res2}"
-                            if atom2 != '*':
-                                sel2 += f" and name {atom2}"
-                        
-                        else:
-                            # Generic handling for other interaction types
-                            chain1 = interaction.get('chain1', interaction.get('residue1_chain'))
-                            res1 = interaction.get('residue1', '').split()[-1] if ' ' in interaction.get('residue1', '') else interaction.get('residue1', '')
-                            
-                            chain2 = interaction.get('chain2', interaction.get('residue2_chain'))
-                            res2 = interaction.get('residue2', '').split()[-1] if ' ' in interaction.get('residue2', '') else interaction.get('residue2', '')
-                            
-                            # Skip if missing data
-                            if not all([chain1, res1, chain2, res2]):
-                                continue
-                                
-                            sel1 = f"chain {chain1} and resi {res1}"
-                            sel2 = f"chain {chain2} and resi {res2}"
-                        
-                        # Create a unique object name for this interaction
-                        obj_name = f"{pymol_name}_{i:03d}"
-                        
-                        # Create PyMOL distance object
-                        f.write(f"distance {obj_name}, ({sel1}), ({sel2})\n")
-                        f.write(f"color {color}, {obj_name}\n")
-                        
-                        # Show relevant residues
-                        f.write(f"show sticks, ({sel1}) or ({sel2})\n")
-                    
-                    except Exception as e:
-                        logger.warning(f"Error processing interaction for PyMOL: {e}")
-                        continue
-                
-                # Set properties for this interaction type
-                f.write(f"set dash_gap, 0.3, {pymol_name}_*\n")
-                f.write(f"set dash_width, 2.0, {pymol_name}_*\n")
-                f.write(f"set dash_radius, 0.1, {pymol_name}_*\n\n")
-            
-            # Final view settings
-            f.write("# Final view settings\n")
-            f.write("zoom\n")
-            f.write("set ray_shadows, 0\n")
-            f.write("set depth_cue, 1\n")
-            f.write("set valence, 0\n")
-            f.write("bg_color white\n\n")
-            
-            # Add a legend
-            f.write("# Create legend\n")
-            f.write("set label_color, black\n")
-            y_pos = 0
-            for interaction_type, color in interaction_colors.items():
-                if interaction_type in interactions and interactions[interaction_type]:
-                    nice_name = interaction_type.replace('_', ' ').title()
-                    f.write(f"pseudoatom leg_{interaction_type}, pos=[10, {y_pos}, 0]\n")
-                    f.write(f"color {color}, leg_{interaction_type}\n")
-                    f.write(f"label leg_{interaction_type}, \"{nice_name}\"\n")
-                    y_pos -= 2
-            
-            logger.info(f"Saved PyMOL script to {output_file}")
-
-    def _export_chimera_script(self, output_file: str, pdb_file: str, 
-                            interactions: Dict[str, List[Dict]]):
-        """Generate UCSF Chimera script (.cmd) to visualize interactions."""
-        # Define colors for different interaction types
-        interaction_colors = {
-            'hydrogen_bonds': '0,0,255',  # blue
-            'ionic_interactions': '255,0,0',  # red
-            'salt_bridges': '255,255,0',  # yellow
-            'hydrophobic_interactions': '255,165,0',  # orange
-            'pi_stacking': '128,0,128',  # purple
-            'pi_cation': '0,128,0',  # green
-            'disulfide': '218,165,32'  # gold
-        }
-        
-        with open(output_file, 'w') as f:
-            # Header
-            f.write("# UCSF Chimera script for visualizing protein interactions\n")
-            f.write("# Generated by PandaPPI\n\n")
-            
-            # Open the PDB file
-            rel_path = os.path.relpath(pdb_file, os.path.dirname(output_file))
-            f.write(f"open {rel_path}\n")
-            
-            # Initial display settings
-            f.write("~display\n")  # hide everything
-            f.write("cartoon\n")   # show cartoons
-            f.write("color gray cartoon\n")  # color cartoons gray
-            f.write("transparency 50 cartoon\n\n")  # make cartoons transparent
-            
-            # Process each interaction
-            for interaction_type, interactions_list in interactions.items():
-                if not interactions_list:
-                    continue
-                    
-                color = interaction_colors.get(interaction_type, "128,128,128")  # default gray
-                
-                f.write(f"# {interaction_type.replace('_', ' ').title()}\n")
-                
-                for i, interaction in enumerate(interactions_list):
-                    try:
-                        # Extract residue info based on interaction type
-                        if interaction_type == 'hydrogen_bonds':
-                            chain1 = interaction.get('donor_chain')
-                            res1 = interaction.get('donor_residue', '').split()[-1] if ' ' in interaction.get('donor_residue', '') else interaction.get('donor_residue', '')
-                            atom1 = interaction.get('donor_atom')
-                            
-                            chain2 = interaction.get('acceptor_chain')
-                            res2 = interaction.get('acceptor_residue', '').split()[-1] if ' ' in interaction.get('acceptor_residue', '') else interaction.get('acceptor_residue', '')
-                            atom2 = interaction.get('acceptor_atom')
-                            
-                            # Skip if missing data
-                            if not all([chain1, res1, atom1, chain2, res2, atom2]):
-                                continue
-                                
-                            sel1 = f"#{chain1}:{res1}@{atom1}"
-                            sel2 = f"#{chain2}:{res2}@{atom2}"
-                            
-                        elif interaction_type in ['ionic_interactions', 'salt_bridges']:
-                            if all(k in interaction for k in ['positive_residue', 'positive_chain']):
-                                chain1 = interaction.get('positive_chain')
-                                res1 = interaction.get('positive_residue', '').split()[-1] if ' ' in interaction.get('positive_residue', '') else interaction.get('positive_residue', '')
-                                atom1 = interaction.get('positive_atom', '')
-                                
-                                chain2 = interaction.get('negative_chain')
-                                res2 = interaction.get('negative_residue', '').split()[-1] if ' ' in interaction.get('negative_residue', '') else interaction.get('negative_residue', '')
-                                atom2 = interaction.get('negative_atom', '')
-                            else:
-                                # Fallback to generic naming
-                                chain1 = interaction.get('chain1')
-                                res1 = interaction.get('residue1', '').split()[-1] if ' ' in interaction.get('residue1', '') else interaction.get('residue1', '')
-                                atom1 = interaction.get('atom1', '')
-                                
-                                chain2 = interaction.get('chain2')
-                                res2 = interaction.get('residue2', '').split()[-1] if ' ' in interaction.get('residue2', '') else interaction.get('residue2', '')
-                                atom2 = interaction.get('atom2', '')
-                                
-                            # Skip if missing data
-                            if not all([chain1, res1, chain2, res2]):
-                                continue
-                                
-                            sel1 = f"#{chain1}:{res1}"
-                            if atom1:
-                                sel1 += f"@{atom1}"
-                                
-                            sel2 = f"#{chain2}:{res2}"
-                            if atom2:
-                                sel2 += f"@{atom2}"
-                        
-                        else:
-                            # Generic handling for other interaction types
-                            chain1 = interaction.get('chain1', interaction.get('residue1_chain'))
-                            res1 = interaction.get('residue1', '').split()[-1] if ' ' in interaction.get('residue1', '') else interaction.get('residue1', '')
-                            
-                            chain2 = interaction.get('chain2', interaction.get('residue2_chain'))
-                            res2 = interaction.get('residue2', '').split()[-1] if ' ' in interaction.get('residue2', '') else interaction.get('residue2', '')
-                            
-                            # Skip if missing data
-                            if not all([chain1, res1, chain2, res2]):
-                                continue
-                                
-                            sel1 = f"#{chain1}:{res1}"
-                            sel2 = f"#{chain2}:{res2}"
-                        
-                        # Display the interacting residues as sticks
-                        f.write(f"display {sel1},{sel2}\n")
-                        f.write(f"show {sel1},{sel2}\n")
-                        
-                        # Add a distance monitor between them
-                        f.write(f"distance {sel1} {sel2}\n")
-                        
-                    except Exception as e:
-                        logger.warning(f"Error processing interaction for Chimera: {e}")
-                        continue
-                
-                # Set color for all distance monitors of this type
-                f.write(f"color {color} pseudobonds\n\n")
-            
-            # Final settings
-            f.write("# Final view settings\n")
-            f.write("focus\n")
-            f.write("set bg_color white\n")
-            
-            logger.info(f"Saved Chimera script to {output_file}")
-
-    def _export_vmd_script(self, output_file: str, pdb_file: str, 
-                        interactions: Dict[str, List[Dict]]):
-        """Generate VMD script (.tcl) to visualize interactions."""
-        # Define colors for different interaction types (VMD RGB: 0-1 range)
-        interaction_colors = {
-            'hydrogen_bonds': '0.0 0.0 1.0',  # blue
-            'ionic_interactions': '1.0 0.0 0.0',  # red
-            'salt_bridges': '1.0 1.0 0.0',  # yellow
-            'hydrophobic_interactions': '1.0 0.65 0.0',  # orange
-            'pi_stacking': '0.5 0.0 0.5',  # purple
-            'pi_cation': '0.0 0.5 0.0',  # green
-            'disulfide': '0.85 0.65 0.13'  # gold
-        }
-        
-        with open(output_file, 'w') as f:
-            # Header
-            f.write("# VMD script for visualizing protein interactions\n")
-            f.write("# Generated by PandaPPI\n\n")
-            
-            # Open the PDB file
-            rel_path = os.path.relpath(pdb_file, os.path.dirname(output_file))
-            f.write(f"mol new {rel_path}\n")
-            
-            # Initial display settings
-            f.write("mol delrep 0 top\n")  # delete default representation
-            f.write("mol representation NewCartoon\n")
-            f.write("mol color ColorID 8\n")  # gray
-            f.write("mol selection \"all\"\n")
-            f.write("mol material Transparent\n")
-            f.write("mol addrep top\n\n")
-            
-            # Setup graphics object for labels
-            f.write("# Create a graphics object for labels\n")
-            f.write("draw color black\n")
-            f.write("draw materials off\n")
-            
-            # Handle each interaction type
-            interaction_count = 0
-            
-            for interaction_type, interactions_list in interactions.items():
-                if not interactions_list:
-                    continue
-                    
-                color = interaction_colors.get(interaction_type, "0.5 0.5 0.5")  # default gray
-                nice_name = interaction_type.replace('_', ' ').title()
-                
-                f.write(f"# {nice_name}\n")
-                
-                # Draw a legend item
-                f.write(f"draw color {color}\n")
-                f.write(f"draw text {{30 {interaction_count * 1.2 + 2} 0}} \"{nice_name}\"\n")
-                interaction_count += 1
-                
-                for i, interaction in enumerate(interactions_list):
-                    try:
-                        # Extract residue info based on interaction type
-                        if interaction_type == 'hydrogen_bonds':
-                            chain1 = interaction.get('donor_chain')
-                            res1 = interaction.get('donor_residue', '').split()[-1] if ' ' in interaction.get('donor_residue', '') else interaction.get('donor_residue', '')
-                            atom1 = interaction.get('donor_atom')
-                            
-                            chain2 = interaction.get('acceptor_chain')
-                            res2 = interaction.get('acceptor_residue', '').split()[-1] if ' ' in interaction.get('acceptor_residue', '') else interaction.get('acceptor_residue', '')
-                            atom2 = interaction.get('acceptor_atom')
-                            
-                            # Skip if missing data
-                            if not all([chain1, res1, atom1, chain2, res2, atom2]):
-                                continue
-                                
-                            sel1 = f"chain {chain1} and resid {res1} and name {atom1}"
-                            sel2 = f"chain {chain2} and resid {res2} and name {atom2}"
-                            
-                        elif interaction_type in ['ionic_interactions', 'salt_bridges']:
-                            if all(k in interaction for k in ['positive_residue', 'positive_chain']):
-                                chain1 = interaction.get('positive_chain')
-                                res1 = interaction.get('positive_residue', '').split()[-1] if ' ' in interaction.get('positive_residue', '') else interaction.get('positive_residue', '')
-                                atom1 = interaction.get('positive_atom')
-                                
-                                chain2 = interaction.get('negative_chain')
-                                res2 = interaction.get('negative_residue', '').split()[-1] if ' ' in interaction.get('negative_residue', '') else interaction.get('negative_residue', '')
-                                atom2 = interaction.get('negative_atom')
-                            else:
-                                # Fallback to generic naming
-                                chain1 = interaction.get('chain1')
-                                res1 = interaction.get('residue1', '').split()[-1] if ' ' in interaction.get('residue1', '') else interaction.get('residue1', '')
-                                atom1 = interaction.get('atom1')
-                                
-                                chain2 = interaction.get('chain2')
-                                res2 = interaction.get('residue2', '').split()[-1] if ' ' in interaction.get('residue2', '') else interaction.get('residue2', '')
-                                atom2 = interaction.get('atom2')
-                                
-                            # Skip if missing data
-                            if not all([chain1, res1, chain2, res2]):
-                                continue
-                            
-                            # Use all atoms if specific atoms not provided
-                            if not atom1:
-                                sel1 = f"chain {chain1} and resid {res1}"
-                            else:
-                                sel1 = f"chain {chain1} and resid {res1} and name {atom1}"
-                                
-                            if not atom2:
-                                sel2 = f"chain {chain2} and resid {res2}"
-                            else:
-                                sel2 = f"chain {chain2} and resid {res2} and name {atom2}"
-                        
-                        else:
-                            # Generic handling for other interaction types
-                            chain1 = interaction.get('chain1', interaction.get('residue1_chain'))
-                            res1 = interaction.get('residue1', '').split()[-1] if ' ' in interaction.get('residue1', '') else interaction.get('residue1', '')
-                            
-                            chain2 = interaction.get('chain2', interaction.get('residue2_chain'))
-                            res2 = interaction.get('residue2', '').split()[-1] if ' ' in interaction.get('residue2', '') else interaction.get('residue2', '')
-                            
-                            # Skip if missing data
-                            if not all([chain1, res1, chain2, res2]):
-                                continue
-                                
-                            sel1 = f"chain {chain1} and resid {res1}"
-                            sel2 = f"chain {chain2} and resid {res2}"
-                        
-                        # Show the interacting residues as sticks
-                        f.write(f"# Show residues involved in interaction {i+1}\n")
-                        f.write(f"mol representation Licorice 0.3 12.0 12.0\n")
-                        f.write(f"mol color Element\n")
-                        f.write(f"mol selection \"({sel1}) or ({sel2})\"\n")
-                        f.write(f"mol material Opaque\n")
-                        f.write(f"mol addrep top\n")
-                        
-                        # Create a dashed line for the interaction
-                        f.write(f"set sel1 [atomselect top \"{sel1}\"]\n")
-                        f.write(f"set sel2 [atomselect top \"{sel2}\"]\n")
-                        f.write(f"set coord1 [lindex [$sel1 get {{{atom1 if atom1 else 'x y z'}}}] 0]\n")
-                        f.write(f"set coord2 [lindex [$sel2 get {{{atom2 if atom2 else 'x y z'}}}] 0]\n")
-                        f.write(f"draw color {color}\n")
-                        f.write(f"draw line $coord1 $coord2 style dashed width 3\n")
-                        f.write(f"$sel1 delete\n")
-                        f.write(f"$sel2 delete\n\n")
-                        
-                    except Exception as e:
-                        logger.warning(f"Error processing interaction for VMD: {e}")
-                        continue
-            
-            # Final view settings
-            f.write("# Final view settings\n")
-            f.write("color Display Background white\n")
-            f.write("display projection Orthographic\n")
-            f.write("display depthcue off\n")
-            f.write("display nearclip set 0.01\n")
-            f.write("axes location Off\n")
-            f.write("stage location Off\n")
-            f.write("display resize 800 800\n")
-            f.write("display resetview\n")
-            
-            logger.info(f"Saved VMD script to {output_file}")
 
     def _export_molstar_state(self, output_file: str, pdb_file: str, 
                          interactions: Dict[str, List[Dict]]):

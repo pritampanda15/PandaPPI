@@ -1,61 +1,77 @@
-======================================================================
-PandaPPI interaction report
-======================================================================
-Structure          : 4kpy.pdb
-Total interactions : 3938
-Residues involved  : 312
+PandaPPI 2.0.0  ·  interaction report
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Structure    4kpy.pdb
+  Chains       A, B, C, D, E, F
+  Contacts     467 specific  +  3,471 van der Waals
+  Residues     312 at an interface
+  Interfaces   7 chain pairs
+  Buried area  16,883 Å² in total
 
-Interactions by type (count, distance in Å)
-----------------------------------------------------------------------
-                     size  mean   min   max
-Interaction_Type                           
-Van der Waals        3471  4.03  2.28  4.90
-Hydrogen bond         243  3.07  2.28  3.50
-Water-mediated        134   NaN   NaN   NaN
-Salt bridge / ionic    50  3.52  2.37  4.42
-Hydrophobic            22  4.05  3.62  4.47
-CH-pi                   9  3.95  3.52  4.50
-Cation-pi               6  3.96  3.58  4.43
-Amide-aromatic          2  4.31  4.30  4.33
-Amide-amide             1  4.40  4.40  4.40
 
-Interactions by chain pair
-----------------------------------------------------------------------
-Interaction_Type  Amide-amide  Amide-aromatic  CH-pi  Cation-pi  Hydrogen bond  Hydrophobic  Salt bridge / ionic  Van der Waals  Water-mediated  Total
-row_0                                                                                                                                                 
-B-E                         0               0      0          0             50            0                    0            789              32    871
-A-C                         0               0      0          0             53            0                    0            774              27    854
-A-B                         1               2      9          6             41           22                   50            646              15    792
-B-F                         0               0      0          0             15            0                    0            360              34    409
-A-D                         0               0      0          0             15            0                    0            347              24    386
-C-D                         0               0      0          0             33            0                    0            284               2    319
-E-F                         0               0      0          0             36            0                    0            271               0    307
+INTERACTIONS BY TYPE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Type                 Count  Share  Mean Å  Min Å  Max Å
+  ───────────────────  ─────  ─────  ──────  ─────  ─────  ────────────────────
+  Van der Waals        3,471      –    4.03   2.28   4.90
+  Hydrogen bond          243  52.0%    3.07   2.28   3.50  ████████████████████
+  Water-mediated         134  28.7%       –      –      –  ███████████
+  Salt bridge / ionic     50  10.7%    3.52   2.37   4.42  ████
+  Hydrophobic             22   4.7%    4.05   3.62   4.47  ██
+  CH-pi                    9   1.9%    3.95   3.52   4.50  █
+  Cation-pi                6   1.3%    3.96   3.58   4.43  █
+  Amide-aromatic           2   0.4%    4.31   4.30   4.33  █
+  Amide-amide              1   0.2%    4.40   4.40   4.40  █
 
-Top hotspot residues
-----------------------------------------------------------------------
-Chain Residue  Total
-    E    DT 1    187
-    C    DT 1    186
-    F   DG 19    155
-    D   DG 19    154
-    C    DG 2    143
-    E    DG 2    142
-    C    DA 7    137
-    E    DA 7    132
-    C    DT 6    110
-    F   DT 10     96
-    F   DA 14     96
-    E    DT 6     96
-    E    DG 4     94
-    D   DT 10     92
-    D   DA 11     92
-    C    DG 4     91
-    C    DG 5     91
-    C   DA 10     87
-    F   DA 11     86
-    D   DC 18     84
-    E    DG 5     82
-    E   DA 10     82
-    C    DG 8     81
-    D   DA 14     80
-    E    DG 8     79
+  Share is of specific contacts. Each contact is counted once.
+
+
+INTERFACES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Chains  Specific  H-bonds  Salt bridges  van der Waals  Buried Å²
+  ──────  ────────  ───────  ────────────  ─────────────  ─────────
+  B-E           82       50             0            789      3,369
+  A-C           80       53             0            774      3,351
+  A-B          146       41            50            646      4,694
+  B-F           49       15             0            360      1,885
+  A-D           39       15             0            347      1,855
+  C-D           35       33             0            284        874
+  E-F           36       36             0            271        854
+
+
+CLOSEST POLAR CONTACTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Type                 Residue 1  Atom  Residue 2  Atom     Å
+  ───────────────────  ─────────  ────  ─────────  ────  ────
+  Hydrogen bond        B:ASP 590  OD2   F:DG 19    N1    2.28
+  Hydrogen bond        A:ASP 590  OD2   D:DG 19    N1    2.33
+  Hydrogen bond        A:GLU 525  OE1   B:ARG 392  NH1   2.37
+  Salt bridge / ionic  B:ARG 392  NH1   A:GLU 525  OE1   2.37
+  Hydrogen bond        A:LYS 664  NZ    D:DA 11    OP2   2.54
+  Hydrogen bond        A:ARG 615  N     C:DT 6     OP1   2.55
+  Hydrogen bond        A:ARG 392  NH1   B:GLU 525  OE1   2.56
+  Salt bridge / ionic  A:ARG 392  NH1   B:GLU 525  OE1   2.56
+  Hydrogen bond        B:ARG 615  N     E:DT 6     OP1   2.61
+  Hydrogen bond        E:DG 8     N2    F:DC 12    O2    2.63
+  Hydrogen bond        A:THR 201  OG1   C:DG 11    OP1   2.64
+  Hydrogen bond        B:ARG 615  NH2   E:DT 6     OP2   2.64
+
+
+HOTSPOT RESIDUES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Residue    Specific  H-bonds  van der Waals
+  ─────────  ────────  ───────  ─────────────
+  E:DT 1           29       12            158
+  F:DT 10          29       10             67
+  C:DT 1           26       15            160
+  D:DT 10          20        6             72
+  F:DG 19          18        7            137
+  B:ARG 392        17        4             39
+  A:ARG 392        16        3             45
+  B:VAL 685        15        2              9
+  A:VAL 685        15        2              7
+  D:DG 19          14        8            140
+  C:DA 3           14        6             58
+  E:DA 3           13        5             54
+  E:DA 7           12       11            120
+  A:ARG 427        12        3             16
+  C:DG 2           11       10            132

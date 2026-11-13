@@ -1,64 +1,80 @@
-======================================================================
-PandaPPI interaction report
-======================================================================
-Structure          : 1BJ1.pdb
-Total interactions : 2862
-Residues involved  : 264
+PandaPPI 2.0.0  ·  interaction report
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Structure    1BJ1.pdb
+  Chains       H, J, K, L, V, W
+  Contacts     362 specific  +  2,500 van der Waals
+  Residues     264 at an interface
+  Interfaces   9 chain pairs
+  Buried area  12,511 Å² in total
 
-Interactions by type (count, distance in Å)
-----------------------------------------------------------------------
-                     size  mean   min   max
-Interaction_Type                           
-Van der Waals        2500  4.13  2.56  4.89
-Hydrophobic           101  3.93  3.43  4.50
-Hydrogen bond          85  3.12  2.56  3.49
-Amide-amide            54  3.59  2.76  4.50
-CH-pi                  49  4.01  3.27  4.50
-Water-mediated         42   NaN   NaN   NaN
-Amide-aromatic         14  4.17  3.91  4.50
-Cation-pi               9  4.10  3.91  4.47
-Salt bridge / ionic     6  3.46  2.69  4.24
-Sulfur-aromatic         2  4.34  4.31  4.36
 
-Interactions by chain pair
-----------------------------------------------------------------------
-Interaction_Type  Amide-amide  Amide-aromatic  CH-pi  Cation-pi  Hydrogen bond  Hydrophobic  Salt bridge / ionic  Sulfur-aromatic  Van der Waals  Water-mediated  Total
-row_0                                                                                                                                                                  
-H-L                         5               1     21          2             18           31                    2                0            535              20    635
-J-K                         7               1     23          2             15           35                    0                0            521               8    612
-V-W                        12               0      2          0             15           26                    4                0            518               3    580
-K-V                        15               6      0          3             20            5                    0                1            444               5    499
-H-W                        13               6      3          2             17            4                    0                1            431               0    477
-L-W                         1               0      0          0              0            0                    0                0             24               3     28
-J-V                         1               0      0          0              0            0                    0                0             18               2     21
-H-V                         0               0      0          0              0            0                    0                0              5               1      6
-K-W                         0               0      0          0              0            0                    0                0              4               0      4
+INTERACTIONS BY TYPE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Type                 Count  Share  Mean Å  Min Å  Max Å
+  ───────────────────  ─────  ─────  ──────  ─────  ─────  ────────────────────
+  Van der Waals        2,500      –    4.13   2.56   4.89
+  Hydrophobic            101  27.9%    3.93   3.43   4.50  ████████████████████
+  Hydrogen bond           85  23.5%    3.12   2.56   3.49  █████████████████
+  Amide-amide             54  14.9%    3.59   2.76   4.50  ███████████
+  CH-pi                   49  13.5%    4.01   3.27   4.50  ██████████
+  Water-mediated          42  11.6%       –      –      –  ████████
+  Amide-aromatic          14   3.9%    4.17   3.91   4.50  ███
+  Cation-pi                9   2.5%    4.10   3.91   4.47  ██
+  Salt bridge / ionic      6   1.7%    3.46   2.69   4.24  █
+  Sulfur-aromatic          2   0.6%    4.33   4.31   4.36  █
 
-Top hotspot residues
-----------------------------------------------------------------------
-Chain Residue  Total
-    K TYR 102    121
-    H TYR 102    117
-    V  GLN 89    102
-    W  GLN 89    101
-    H TRP 108    101
-    K TRP 108     97
-    V  ILE 91     74
-    L  TRP 96     70
-    W  ILE 91     70
-    J  TRP 96     68
-    V  HIS 90     68
-    W  HIS 90     67
-    V  GLN 79     65
-    W  PHE 17     65
-    K  TRP 47     62
-    H  TRP 47     60
-    V  PHE 17     58
-    H PHE 176     56
-    J PHE 118     56
-    W  GLN 79     56
-    K PHE 176     56
-    H HIS 107     54
-    K  TRP 50     54
-    L  TYR 91     53
-    W  GLN 87     53
+  Share is of specific contacts. Each contact is counted once.
+
+
+INTERFACES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Chains  Specific  H-bonds  Salt bridges  van der Waals  Buried Å²
+  ──────  ────────  ───────  ────────────  ─────────────  ─────────
+  H-L          100       18             2            535      3,227
+  J-K           91       15             0            521      3,049
+  V-W           62       15             4            518      2,591
+  K-V           55       20             0            444      1,540
+  H-W           46       17             0            431      1,564
+  L-W            4        0             0             24        202
+  J-V            3        0             0             18        194
+  H-V            1        0             0              5        145
+  K-W            0        0             0              4          –
+
+
+CLOSEST POLAR CONTACTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Type                 Residue 1  Atom  Residue 2  Atom     Å
+  ───────────────────  ─────────  ────  ─────────  ────  ────
+  Hydrogen bond        V:HIS 90   ND1   K:PRO 100  O     2.56
+  Hydrogen bond        L:TYR 91   OH    H:HIS 107  ND1   2.59
+  Hydrogen bond        H:TYR 99   OH    W:GLN 87   O     2.63
+  Hydrogen bond        H:SER 106  OG    W:HIS 90   NE2   2.63
+  Hydrogen bond        L:SER 162  OG    H:PRO 177  O     2.67
+  Hydrogen bond        J:TYR 91   OH    K:HIS 107  ND1   2.67
+  Hydrogen bond        H:PRO 100  O     W:HIS 90   ND1   2.68
+  Hydrogen bond        L:ASP 122  OD2   H:LYS 224  NZ    2.69
+  Salt bridge / ionic  H:LYS 224  NZ    L:ASP 122  OD2   2.69
+  Hydrogen bond        V:ARG 82   NH2   K:GLY 104  O     2.71
+  Hydrogen bond        V:GLU 93   O     K:GLY 104  N     2.76
+  Hydrogen bond        V:GLN 87   O     K:TYR 99   OH    2.79
+
+
+HOTSPOT RESIDUES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Residue    Specific  H-bonds  van der Waals
+  ─────────  ────────  ───────  ─────────────
+  V:GLN 89         16        7             86
+  W:GLN 89         14        6             87
+  K:TYR 102        12        4            109
+  H:TYR 102        12        4            105
+  J:TRP 96         12        1             56
+  K:TRP 47         12        0             50
+  H:TRP 108        10        2             91
+  K:TRP 108        10        2             87
+  L:TRP 96         10        1             60
+  V:ILE 91          9        2             65
+  H:TRP 47          9        0             51
+  H:LEU 45          9        0             40
+  W:ILE 91          8        2             62
+  W:PHE 17          8        1             57
+  K:LEU 45          8        0             39

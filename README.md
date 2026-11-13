@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="PandaPPI: map every contact at a protein interface" width="760">
+  <img src="https://raw.githubusercontent.com/pritampanda15/PandaPPI/main/docs/banner.svg" alt="PandaPPI: map every contact at a protein interface" width="760">
 </p>
 
 <p align="center">
-  <a href="pyproject.toml"><img src="https://img.shields.io/badge/version-2.0.0-12233f" alt="Version 2.0.0"></a>
-  <img src="https://img.shields.io/badge/python-3.8%2B-3776ab?logo=python&logoColor=white" alt="Python 3.8 or newer">
+  <a href="https://pypi.org/project/pandappi/"><img src="https://img.shields.io/pypi/v/pandappi" alt="PyPI version"></a>
+  <a href="https://github.com/pritampanda15/PandaPPI/actions/workflows/ci.yml"><img src="https://github.com/pritampanda15/PandaPPI/actions/workflows/ci.yml/badge.svg" alt="CI status"></a>
+  <img src="https://img.shields.io/badge/python-3.9%2B-3776ab?logo=python&logoColor=white" alt="Python 3.9 or newer">
   <a href="https://github.com/pritampanda15/PandaPPI/blob/main/LICENSE"><img src="https://img.shields.io/github/license/pritampanda15/PandaPPI" alt="MIT license"></a>
   <a href="https://github.com/pritampanda15/PandaPPI/commits/main"><img src="https://img.shields.io/github/last-commit/pritampanda15/PandaPPI" alt="Last commit"></a>
   <a href="https://github.com/pritampanda15/PandaPPI/issues"><img src="https://img.shields.io/github/issues/pritampanda15/PandaPPI" alt="Open issues"></a>
@@ -17,6 +18,11 @@
 ```bash
 pandappi complex.pdb --all-outputs -o results
 ```
+
+<p align="center">
+  <a href="https://github.com/pritampanda15/PandaPPI/blob/main/docs/pandappi_demo.mp4"><img src="https://raw.githubusercontent.com/pritampanda15/PandaPPI/main/docs/pandappi_demo.gif" alt="30-second demo: pandappi run on a peptide, a protein-DNA complex and an antibody-antigen complex, each command followed by the figures it writes" width="800"></a>
+</p>
+<p align="center"><sub>30-second demo. Click it for the <a href="https://github.com/pritampanda15/PandaPPI/blob/main/docs/pandappi_demo.mp4">full-resolution video with sound</a>.</sub></p>
 
 ## Contents
 
@@ -36,7 +42,7 @@ pandappi complex.pdb --all-outputs -o results
 One page per chain pair. Panel **a** is the residue contact map, with a badge on each line for the interaction type. Panels **b** and **c** count the contacts and show their distances. Panel **d** shows which residue makes which kind of contact, and panel **e** ranks residues by the surface they bury on binding. The header gives the buried surface area of the interface and its closest hydrogen bond.
 
 <p align="center">
-  <img src="test/antigen_antibody/antigen_antibody_interface_H-W.png" alt="Interface report for antibody heavy chain H and antigen chain W of 1BJ1: contact map, contacts by type, contact distances, residue profile and most buried residues" width="880">
+  <img src="https://raw.githubusercontent.com/pritampanda15/PandaPPI/main/test/antigen_antibody/antigen_antibody_interface_H-W.png" alt="Interface report for antibody heavy chain H and antigen chain W of 1BJ1: contact map, contacts by type, contact distances, residue profile and most buried residues" width="880">
 </p>
 
 ### 3D contacts view
@@ -44,7 +50,7 @@ One page per chain pair. Panel **a** is the residue contact map, with a badge on
 The same interface at atom level: side chains drawn from their real coordinates, the contacting atoms named, and each contact labelled with its true distance.
 
 <p align="center">
-  <img src="test/antigen_antibody/antigen_antibody_contacts3d_H-W.png" alt="Atom-level contacts between antibody heavy chain H and antigen chain W: side chains as sticks, contacting atoms as labelled dots, contact lines with distances" width="820">
+  <img src="https://raw.githubusercontent.com/pritampanda15/PandaPPI/main/test/antigen_antibody/antigen_antibody_contacts3d_H-W.png" alt="Atom-level contacts between antibody heavy chain H and antigen chain W: side chains as sticks, contacting atoms as labelled dots, contact lines with distances" width="820">
 </p>
 
 ### Peptides and oligonucleotides
@@ -52,17 +58,17 @@ The same interface at atom level: side chains drawn from their real coordinates,
 When one chain of a pair has 30 residues or fewer, the map switches to a radial layout: the short chain is drawn as a backbone in the centre, with its partner's residues around it.
 
 <p align="center">
-  <img src="docs/peptide_map_example.png" alt="Radial map of a 16-residue peptide in the centre with antibody heavy-chain residues around it" width="760">
+  <img src="https://raw.githubusercontent.com/pritampanda15/PandaPPI/main/docs/peptide_map_example.png" alt="Radial map of a 16-residue peptide in the centre with antibody heavy-chain residues around it" width="760">
 </p>
 
-<sub>Example: a 16-residue antigen loop cut from 1BJ1 and treated as a peptide. A DNA strand drawn the same way is in <a href="test/protein-nucleicacid/protein_DNA_interface_A-N.png">the 3L1P example</a>.</sub>
+<sub>Example: a 16-residue antigen loop cut from 1BJ1 and treated as a peptide. A DNA strand drawn the same way is in <a href="https://raw.githubusercontent.com/pritampanda15/PandaPPI/main/test/protein-nucleicacid/protein_DNA_interface_A-N.png">the 3L1P example</a>.</sub>
 
 ### Summary dashboard
 
 The whole structure at a glance: contacts by type, which chains touch, distance distributions and hotspot residues.
 
 <p align="center">
-  <img src="test/antigen_antibody/antigen_antibody_dashboard.png" alt="Dashboard: interaction counts by type, chain contact matrix, distance distributions and hotspot residues" width="820">
+  <img src="https://raw.githubusercontent.com/pritampanda15/PandaPPI/main/test/antigen_antibody/antigen_antibody_dashboard.png" alt="Dashboard: interaction counts by type, chain contact matrix, distance distributions and hotspot residues" width="820">
 </p>
 
 ### Publication-ready figures
@@ -75,20 +81,16 @@ Every figure follows Nature figure conventions, so it can go into a manuscript w
 
 ## Install
 
-PandaPPI needs Python 3.8 or newer. Install it from GitHub:
+PandaPPI needs Python 3.9 or newer.
+
+```bash
+pip install pandappi
+```
+
+For the development version, install from GitHub:
 
 ```bash
 pip install git+https://github.com/pritampanda15/PandaPPI.git
-```
-
-Or from a clone, if you want to edit the code:
-
-```bash
-git clone https://github.com/pritampanda15/PandaPPI.git
-```
-
-```bash
-pip install -e PandaPPI
 ```
 
 Dependencies (installed automatically): Biopython, NumPy, pandas, Matplotlib, NetworkX and py3Dmol.
@@ -113,7 +115,7 @@ Only hydrogen bonds and salt bridges, as a table:
 pandappi complex.pdb --hydrogen-bonds --salt-bridges --report -o polar
 ```
 
-The input files for these examples, and every output they produce, are in [`test/`](test/).
+The input files for these examples, and every output they produce, are in [`test/`](https://github.com/pritampanda15/PandaPPI/tree/main/test).
 
 ## Outputs
 
@@ -131,7 +133,7 @@ The input files for these examples, and every output they produce, are in [`test
 | `--statistics` | Totals and average distances | `<prefix>_stats.txt` |
 | `--network` | Residue interaction network | `<prefix>_network.png`, `<prefix>_network.gml` |
 | `--3d-plot` | Interactive 3D viewer | `<prefix>_3d.html` |
-| `--export-vis` | Scripts for PyMOL, Chimera, VMD and Mol* | `<prefix>.pml`, `.cmd`, `.tcl`, `.molj` |
+| `--export-vis` | Scripts that rebuild the interface in PyMOL, ChimeraX, Chimera, VMD and Mol* | `<prefix>.pml`, `.cxc`, `.cmd`, `.tcl`, `.molj` |
 | `--all-outputs` | All of the above | |
 
 The interaction table has one row per contact:
@@ -261,7 +263,8 @@ Outputs:
   --statistics          Print interaction statistics and save them as text
   --network             Residue interaction network (PNG + GML)
   --3d-plot             Interactive 3D visualization (HTML)
-  --export-vis          Export visualization files for PyMOL, Chimera, VMD, and Molstar
+  --export-vis          Export scripts for PyMOL (.pml), ChimeraX (.cxc), Chimera (.cmd), VMD
+                        (.tcl) and Mol* (.molj)
 
 Interaction Types (default: all):
   --all-interactions    Map all interaction types (default)
@@ -297,7 +300,7 @@ GitHub repository, https://github.com/pritampanda15/PandaPPI
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](https://github.com/pritampanda15/PandaPPI/blob/main/LICENSE).
 
 ## Contributing
 

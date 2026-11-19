@@ -4,6 +4,8 @@ Module for detecting hydrogen bonds in protein structures.
 
 from typing import Dict, List, Tuple, Set, Optional
 import math
+import warnings
+
 import numpy as np
 from Bio.PDB.Residue import Residue
 from Bio.PDB.Atom import Atom 
@@ -13,7 +15,7 @@ from . import utils
 
 def find_hydrogen_bonds(atoms_by_chain: Dict[str, List[Atom]], 
                        distance_cutoff: float = 3.5,
-                       angle_cutoff: float = 120,
+                       angle_cutoff: Optional[float] = None,
                        include_intrachain: bool = False) -> List[Dict]:
     """
     Find hydrogen bonds between atoms in different chains.
@@ -27,6 +29,13 @@ def find_hydrogen_bonds(atoms_by_chain: Dict[str, List[Atom]],
     Returns:
         List of dictionaries containing hydrogen bond information
     """
+    if angle_cutoff is not None:
+        warnings.warn(
+            "find_hydrogen_bonds: angle_cutoff is not applied -- detection is distance-based "
+            "because hydrogens are usually absent from PDB files. The value is ignored.",
+            UserWarning, stacklevel=2,
+        )
+
     h_bonds = []
     
     # Define donors and acceptors
@@ -44,23 +53,32 @@ def find_hydrogen_bonds(atoms_by_chain: Dict[str, List[Atom]],
         'S': ['sidechain']             # Some sulfur atoms
     }
     
-    # Process each pair of chains
+    # Process each UNORDERED pair of chains.
+    # Iterating both (A, B) and (B, A) reported the same physical contact twice: `donors` and
+    # `acceptors` both hold N, O and S, and only key membership is tested, so every heavy-atom
+    # pair qualified in each direction.
+    chain_ids = list(atoms_by_chain)
     chain_pairs = []
-    for chain1 in atoms_by_chain:
-        for chain2 in atoms_by_chain:
+    for i, chain1 in enumerate(chain_ids):
+        for chain2 in chain_ids[i:]:
             # Skip if same chain and not including intrachain interactions
             if chain1 == chain2 and not include_intrachain:
                 continue
-                
+
             chain_pairs.append((chain1, chain2))
     
     # Find hydrogen bonds
     for chain1, chain2 in chain_pairs:
-        for atom1 in atoms_by_chain[chain1]:
+        same_chain = chain1 == chain2
+        for index1, atom1 in enumerate(atoms_by_chain[chain1]):
             # Check if atom1 is a potential donor
             if atom1.element in donors:
+                # Within one chain, start past atom1: an atom is otherwise paired with itself
+                # (distance 0.0, always under the cutoff) and every pair is seen twice.
+                partners = (atoms_by_chain[chain2][index1 + 1:] if same_chain
+                            else atoms_by_chain[chain2])
                 # For each potential acceptor
-                for atom2 in atoms_by_chain[chain2]:
+                for atom2 in partners:
                     if atom2.element in acceptors:
                         # Calculate distance
                         dist = utils.calculate_distance(atom1, atom2)
